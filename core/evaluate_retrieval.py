@@ -1,56 +1,94 @@
+"""
+evaluate_retrieval.py — Run the 20 golden questions against the production LightRAG storage.
+
+Uses only_need_context=True so no LLM generation happens during retrieval.
+LightRAG still requires llm_model_func to be set, so we pass a stub that
+raises if called — serving as a safety net.
+
+Runs naive (pure vector) and hybrid (vector + graph) so you can compare
+whether the graph is earning its cost.
+
+Run:
+  cd /workspace && python evaluate_retrieval.py
+"""
+
+from __future__ import annotations
+
 import asyncio
+import logging
+import sys
+from typing import Any
+
 import pandas as pd
+
 from lightrag import LightRAG, QueryParam
-from lightrag.llm.ollama import ollama_model_complete, ollama_embed
-from lightrag.utils import EmbeddingFunc
+from lightrag.kg.shared_storage import initialize_pipeline_status
+from lightrag.utils import EmbeddingFunc, setup_logger
 
-# ── Configuration ─────────────────────────────────────────────────────────────
+from rag_config import (
+    EMBEDDING_DIM,
+    GOLDEN_SET_PATH,
+    LLM_MODEL,
+    WORKDIR,
+    embedding_func,
+    llm_model_func,
+)
 
-WORKING_DIR = "lightrag_storage"
-GOLDEN_SET_PATH = "tests/golden_set.xlsx"
-EMBEDDING_DIM = 1024
 PASS_GATE = 16
 
-# ── LightRAG setup ────────────────────────────────────────────────────────────
+# ------------------------------------------------------------------ #
+# Logging
+# ------------------------------------------------------------------ #
+
+setup_logger("lightrag", level="WARNING")
+log = logging.getLogger("eval")
+log.setLevel(logging.INFO)
+if not log.handlers:
+    h = logging.StreamHandler(sys.stdout)
+    h.setFormatter(logging.Formatter("%(asctime)s %(message)s", "%H:%M:%S"))
+    log.addHandler(h)
+
+
+# ------------------------------------------------------------------ #
+# RAG setup — loads existing storage, does not re-ingest
+# ------------------------------------------------------------------ #
 
 
 async def build_rag() -> LightRAG:
+    if not WORKDIR.exists():
+        log.error("%s does not exist — run ingest_prod.py first.", WORKDIR)
+        sys.exit(1)
+
     rag = LightRAG(
-        working_dir=WORKING_DIR,
-        llm_model_func=ollama_model_complete,
-        llm_model_name="qwen2.5:7b",
-        llm_model_kwargs={
-            "host": "http://localhost:11434",
-            "options": {"num_ctx": 4096},
-        },
+        working_dir=str(WORKDIR),
+        llm_model_func=llm_model_func,
+        llm_model_name=LLM_MODEL,
         embedding_func=EmbeddingFunc(
             embedding_dim=EMBEDDING_DIM,
             max_token_size=8192,
-            func=lambda texts: ollama_embed(
-                texts,
-                embed_model="bge-m3",
-                host="http://localhost:11434",
-            ),
+            func=embedding_func,
         ),
     )
     await rag.initialize_storages()
+    await initialize_pipeline_status()
     return rag
 
 
-# ── Evaluation ────────────────────────────────────────────────────────────────
+# ------------------------------------------------------------------ #
+# Evaluation
+# ------------------------------------------------------------------ #
 
 
-async def evaluate():
-    rag = await build_rag()
-
-    df = pd.read_excel(GOLDEN_SET_PATH)
-
+async def evaluate_mode(
+    rag: LightRAG, df: pd.DataFrame, mode: str
+) -> tuple[int, list[int]]:
     passed = 0
-    failed = []
+    failed: list[int] = []
 
-    print(f"{'─'*70}")
-    print(f"{'Q':>3}  {'Status':<6}  Question")
-    print(f"{'─'*70}")
+    print()
+    print("=" * 72)
+    print(f" Evaluating mode: {mode} ".center(72, "="))
+    print("=" * 72)
 
     for _, row in df.iterrows():
         qid = int(row["id"])
@@ -58,44 +96,68 @@ async def evaluate():
         expected_raw = str(row["expected_article"])
         qtype = row["question_type"]
 
-        # Out-of-scope question — retrieval is not meaningful to evaluate.
-        # The system should refuse, which we test in Phase 2 with the full
-        # pipeline. Mark as manual pass here.
+        # Out-of-scope: retrieval isn't meaningful. Manual pass.
         if qtype == "out_of_scope":
             passed += 1
-            print(f"{qid:>3}  {'✓':<6}  [out_of_scope — manual pass] {question[:45]}")
+            print(f"{qid:>3}  ✓  [out_of_scope — manual pass]")
             continue
 
-        # Handle multi-article questions — pass if at least one article found
-        expected_articles = [a.strip() for a in expected_raw.split("+")]
+        expected = [a.strip() for a in expected_raw.split("+")]
 
-        # Retrieve context only — no LLM answer generation
-        result = await rag.aquery(
-            question,
-            param=QueryParam(mode="naive", only_need_context=True),
-        )
+        try:
+            result = await rag.aquery(
+                question,
+                param=QueryParam(mode=mode, only_need_context=True),
+            )
+        except Exception as e:
+            failed.append(qid)
+            print(f"{qid:>3}  ✗  [ERROR] {type(e).__name__}: {e}")
+            continue
 
-        hit = any(article in result for article in expected_articles)
-
+        hit = any(a in result for a in expected)
         if hit:
             passed += 1
-            print(f"{qid:>3}  {'✓':<6}  {question[:55]}")
+            print(f"{qid:>3}  ✓  {question[:55]}")
         else:
             failed.append(qid)
-            print(f"{qid:>3}  {'✗':<6}  {question[:55]}")
-            # Show which article we expected vs what we got
-            print(f"     Expected : {expected_raw}")
-            print(f"     Context  : {result[:200]}\n")
+            print(f"{qid:>3}  ✗  {question[:55]}")
+            print(f"       expected: {expected_raw}")
 
-    print(f"{'─'*70}")
-    print(f"\nResult : {passed}/20")
-    print(f"Gate   : {PASS_GATE}/20")
-    print(f"Status : {'PASS ✓' if passed >= PASS_GATE else 'FAIL ✗'}")
+    print("-" * 72)
+    verdict = "PASS" if passed >= PASS_GATE else "FAIL"
+    print(f"  {mode}: {passed}/20  (gate: {PASS_GATE})  {verdict}")
     if failed:
-        print(f"Failed : {failed}")
+        print(f"  Failed IDs: {failed}")
+
+    return passed, failed
 
 
-# ── Entry point ───────────────────────────────────────────────────────────────
+async def main() -> None:
+    if not GOLDEN_SET_PATH.exists():
+        log.error("%s not found.", GOLDEN_SET_PATH)
+        sys.exit(1)
+
+    df = pd.read_excel(GOLDEN_SET_PATH)
+    log.info("Loaded %d golden questions.", len(df))
+
+    rag = await build_rag()
+    naive_pass, _ = await evaluate_mode(rag, df, mode="naive")
+    hybrid_pass, _ = await evaluate_mode(rag, df, mode="hybrid")
+
+    print()
+    print("=" * 72)
+    print(" SUMMARY ".center(72, "="))
+    print("=" * 72)
+    print(f"  naive:  {naive_pass}/20")
+    print(f"  hybrid: {hybrid_pass}/20")
+    delta = hybrid_pass - naive_pass
+    if delta > 0:
+        print(f"  → Hybrid beats naive by {delta}. Graph is earning its keep.")
+    elif delta == 0:
+        print(f"  → Hybrid and naive tied. Is the graph actually helping here?")
+    else:
+        print(f"  → Naive beats hybrid by {-delta}. Graph is hurting retrieval.")
+
 
 if __name__ == "__main__":
-    asyncio.run(evaluate())
+    asyncio.run(main())
