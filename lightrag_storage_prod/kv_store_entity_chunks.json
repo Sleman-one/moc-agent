@@ -1,0 +1,6290 @@
+{
+  "Consumer Protection System": {
+    "chunk_ids": [
+      "chunk-7a8154749b1feccbfe768628b4e18b60",
+      "chunk-5921e285b202ad77baf19401a767f275"
+    ],
+    "count": 2,
+    "update_time": 1776813794,
+    "_id": "Consumer Protection System"
+  },
+  "Executive Regulations": {
+    "chunk_ids": [
+      "chunk-7a8154749b1feccbfe768628b4e18b60"
+    ],
+    "count": 1,
+    "create_time": 1776813786,
+    "update_time": 1776813786,
+    "_id": "Executive Regulations"
+  },
+  "Competent Authority": {
+    "chunk_ids": [
+      "chunk-7a8154749b1feccbfe768628b4e18b60",
+      "chunk-19ba78abd7c521789ac7c4a38d25114e",
+      "chunk-9a6516eb7274d47a5878b05ae794d1f0",
+      "chunk-2228f5a1f65a7fcad0b31452f9941e5d",
+      "chunk-6d5f73112067d3017eacad446fe05c6c",
+      "chunk-5dc591f6a06f37fe2f1b3209ca356c15",
+      "chunk-e1c5c3874985bccf0474e63d7c12c51d",
+      "chunk-41f86c946795eb4b1b8e1172b283f83c",
+      "chunk-d72a2ff68ca9639d25fac0d200e648dd",
+      "chunk-60f77fe5478de7b3d8b2672afe5ee95d",
+      "chunk-8eba08bab139116de9ee95fe214a7f7e",
+      "chunk-da4dec7a272932b152bbbcd68d8fab88",
+      "chunk-db15b26408bc87ab744a17b5b0ea6317",
+      "chunk-f5661f438c3dca334dc944b7a2eeeb87"
+    ],
+    "count": 14,
+    "update_time": 1776814603,
+    "_id": "Competent Authority"
+  },
+  "Related Entities": {
+    "chunk_ids": [
+      "chunk-7a8154749b1feccbfe768628b4e18b60"
+    ],
+    "count": 1,
+    "create_time": 1776813786,
+    "update_time": 1776813786,
+    "_id": "Related Entities"
+  },
+  "Consumer": {
+    "chunk_ids": [
+      "chunk-7a8154749b1feccbfe768628b4e18b60",
+      "chunk-5921e285b202ad77baf19401a767f275",
+      "chunk-23f16ba22036bb88da1664b390f68ca1",
+      "chunk-dbb3cd60b4bd30c2e1383463af5924c9",
+      "chunk-bea1774b99d54deb70d6648484455df9",
+      "chunk-757265b902decbf8c55e1b070565644a",
+      "chunk-08494eb61cc41dcbd344a3b581092bcd",
+      "chunk-eba8035888adcd130040e9dbfd9a13d6",
+      "chunk-2d0188b6660d92e46d97b6aa5ddfa898",
+      "chunk-9acf77028a44df007ff93e9e4464a66e",
+      "chunk-c85a7dbe91de94e3f41746b161dffff2",
+      "chunk-811c2282e5faf0e8745c51115a8604e5",
+      "chunk-6fb2c83cde8c36de94f7057d58fb2869",
+      "chunk-c71f72d143d12f0695043e4deb70f183",
+      "chunk-ec82bc886475d035ec952d60da6a6e6c",
+      "chunk-05ecf93d1d9a52151af2a72301234ed7",
+      "chunk-1db2fdbafbec4cf6444dec6b72a0824e",
+      "chunk-10fae82f7c6a76b4dbf01080c7ed22eb",
+      "chunk-6e82925b2fc83bb4036c3b1f007ba923",
+      "chunk-dfe11211e281ef2abb48c30415b14f61",
+      "chunk-4a056e5bd9daa08695b5a665b53f6d3b",
+      "chunk-5d152ef32e10dd0dd90a99794e2ce09a",
+      "chunk-23ea8c91412652822b5737482cd0f932",
+      "chunk-294b2d78155c5479740e5f6e60fabd5b",
+      "chunk-93b8a69d3470d8fd4caae59080df0a54",
+      "chunk-9ee11e2f2efdecd0a6233d3dde78ac94",
+      "chunk-c47f120917e5636d314c4a5e75774c7a",
+      "chunk-301a4ffbdfd6fdb0a956239d0553872e",
+      "chunk-bc991839dd0cc98acaf12ea5bc58ecc8",
+      "chunk-019c5b0704e7195269616af2f7e331e2",
+      "chunk-a4d1807f1fc70cd86f3926044c5b150a",
+      "chunk-bbcbc9c6d4024ed107a3aed8073f87c9",
+      "chunk-70049c2c9beee67be467a0bc1e8e5319",
+      "chunk-5b3ef01cc61802e9c5898cf34fea5a1c",
+      "chunk-c81dd10f0ce67f495fcaa4afb41ade53",
+      "chunk-d15616980ad303389944137db1af4f22",
+      "chunk-bbdc0bdfb37532b71f5f2a12cb9f8fe0",
+      "chunk-7675218c2feb4f3d03df5d15f853c435",
+      "chunk-0bb91dbf0d0d74be15a1f23f7ef09d39",
+      "chunk-e1c5c3874985bccf0474e63d7c12c51d",
+      "chunk-e2e9d4353bb95f7bca809f541cd54320",
+      "chunk-e40f0555a179abb24172277f52bec711",
+      "chunk-b54adc716da8570bddd8c2bd41899a6f",
+      "chunk-8eba08bab139116de9ee95fe214a7f7e",
+      "chunk-51ea5244ed2d72532c1d4e4a8c7c8711",
+      "chunk-fc0c7efa3b63af90af17dc69c2eb4ab7",
+      "chunk-9b912e56726cb9e0d5237d61584a5fa6",
+      "chunk-ef5c3f67882b7588927d8bca42047269",
+      "chunk-30e605d9deb7e33ed48fcf51264fb16e",
+      "chunk-b0f30d8785ebf55f768a527b1ede688f",
+      "chunk-ed4385a57314892c443871db0108ea1b",
+      "chunk-7dce39ad69ab952b0a24c9573b89731d",
+      "chunk-98520f83d72a9bac06aacc6991d7d823",
+      "chunk-c0d47d22075e87911525f2b1b1a29585"
+    ],
+    "count": 54,
+    "update_time": 1776814578,
+    "_id": "Consumer"
+  },
+  "Economic Operator": {
+    "chunk_ids": [
+      "chunk-7a8154749b1feccbfe768628b4e18b60",
+      "chunk-5921e285b202ad77baf19401a767f275",
+      "chunk-23f16ba22036bb88da1664b390f68ca1",
+      "chunk-19ba78abd7c521789ac7c4a38d25114e",
+      "chunk-dbb3cd60b4bd30c2e1383463af5924c9",
+      "chunk-bea1774b99d54deb70d6648484455df9",
+      "chunk-757265b902decbf8c55e1b070565644a",
+      "chunk-eba8035888adcd130040e9dbfd9a13d6",
+      "chunk-929aeab810b6ef4b56bb0ac1266d349f",
+      "chunk-2d0188b6660d92e46d97b6aa5ddfa898",
+      "chunk-9acf77028a44df007ff93e9e4464a66e",
+      "chunk-c85a7dbe91de94e3f41746b161dffff2",
+      "chunk-811c2282e5faf0e8745c51115a8604e5",
+      "chunk-6fb2c83cde8c36de94f7057d58fb2869",
+      "chunk-a9356ec391f6d77e79bbb8d92e8e7958",
+      "chunk-c71f72d143d12f0695043e4deb70f183",
+      "chunk-ec82bc886475d035ec952d60da6a6e6c",
+      "chunk-9a6516eb7274d47a5878b05ae794d1f0",
+      "chunk-fb13f1b3abd5cc99dd565ac09795ffc6",
+      "chunk-05ecf93d1d9a52151af2a72301234ed7",
+      "chunk-10fae82f7c6a76b4dbf01080c7ed22eb",
+      "chunk-6e82925b2fc83bb4036c3b1f007ba923",
+      "chunk-dfe11211e281ef2abb48c30415b14f61",
+      "chunk-4a056e5bd9daa08695b5a665b53f6d3b",
+      "chunk-23ea8c91412652822b5737482cd0f932",
+      "chunk-294b2d78155c5479740e5f6e60fabd5b",
+      "chunk-93b8a69d3470d8fd4caae59080df0a54",
+      "chunk-9ee11e2f2efdecd0a6233d3dde78ac94",
+      "chunk-c47f120917e5636d314c4a5e75774c7a",
+      "chunk-301a4ffbdfd6fdb0a956239d0553872e",
+      "chunk-019c5b0704e7195269616af2f7e331e2",
+      "chunk-a4d1807f1fc70cd86f3926044c5b150a",
+      "chunk-c6572d1610f6bb7f6ec41fc6f8eb934f",
+      "chunk-6d5f73112067d3017eacad446fe05c6c",
+      "chunk-5086b6cf9bc02c27ea5fb4cb9ed609ed",
+      "chunk-70049c2c9beee67be467a0bc1e8e5319",
+      "chunk-5b3ef01cc61802e9c5898cf34fea5a1c",
+      "chunk-c81dd10f0ce67f495fcaa4afb41ade53",
+      "chunk-d15616980ad303389944137db1af4f22",
+      "chunk-4f2ea9e729aab0deda37682e004b3fc6",
+      "chunk-bbdc0bdfb37532b71f5f2a12cb9f8fe0",
+      "chunk-7675218c2feb4f3d03df5d15f853c435",
+      "chunk-0bb91dbf0d0d74be15a1f23f7ef09d39",
+      "chunk-e1c5c3874985bccf0474e63d7c12c51d",
+      "chunk-3180421cdd22a4773c6db6e08f304f90",
+      "chunk-1c88be299a43d67d9b9fc0d255ce74ea",
+      "chunk-4761261f928e9e2a04c5cf880b36af44",
+      "chunk-b6a6d5fd04ff86c2506f73df9e65d57b",
+      "chunk-e2e9d4353bb95f7bca809f541cd54320",
+      "chunk-e40f0555a179abb24172277f52bec711",
+      "chunk-b54adc716da8570bddd8c2bd41899a6f",
+      "chunk-51ea5244ed2d72532c1d4e4a8c7c8711",
+      "chunk-c473b635efc04ff40f299b6d7f6fc2db"
+    ],
+    "count": 53,
+    "update_time": 1776814426,
+    "_id": "Economic Operator"
+  },
+  "Service Provider": {
+    "chunk_ids": [
+      "chunk-7a8154749b1feccbfe768628b4e18b60",
+      "chunk-dbb3cd60b4bd30c2e1383463af5924c9",
+      "chunk-757265b902decbf8c55e1b070565644a",
+      "chunk-4f2ea9e729aab0deda37682e004b3fc6",
+      "chunk-fc0c7efa3b63af90af17dc69c2eb4ab7",
+      "chunk-7b813a98432e97bd821133a34c3ab82c",
+      "chunk-ef5c3f67882b7588927d8bca42047269",
+      "chunk-30e605d9deb7e33ed48fcf51264fb16e",
+      "chunk-a02c96de615b73a0b4a82ae7b14bc537",
+      "chunk-b0f30d8785ebf55f768a527b1ede688f",
+      "chunk-ed4385a57314892c443871db0108ea1b",
+      "chunk-17f12893b7ea3153ad9caac0b573a730",
+      "chunk-d54b07a7c7ab7c081f38bdd3d484ecc7",
+      "chunk-7dce39ad69ab952b0a24c9573b89731d",
+      "chunk-a679e1dd369b0584601fe4f3f1b24454",
+      "chunk-c0d47d22075e87911525f2b1b1a29585",
+      "chunk-db15b26408bc87ab744a17b5b0ea6317",
+      "chunk-bdd31cd82935851ed60fa97049b2dc09"
+    ],
+    "count": 18,
+    "update_time": 1776814611,
+    "_id": "Service Provider"
+  },
+  "Product": {
+    "chunk_ids": [
+      "chunk-7a8154749b1feccbfe768628b4e18b60",
+      "chunk-23f16ba22036bb88da1664b390f68ca1",
+      "chunk-bea1774b99d54deb70d6648484455df9",
+      "chunk-811c2282e5faf0e8745c51115a8604e5",
+      "chunk-6fb2c83cde8c36de94f7057d58fb2869",
+      "chunk-dfe11211e281ef2abb48c30415b14f61",
+      "chunk-4a056e5bd9daa08695b5a665b53f6d3b",
+      "chunk-294b2d78155c5479740e5f6e60fabd5b",
+      "chunk-93b8a69d3470d8fd4caae59080df0a54",
+      "chunk-bc991839dd0cc98acaf12ea5bc58ecc8",
+      "chunk-019c5b0704e7195269616af2f7e331e2",
+      "chunk-4f2ea9e729aab0deda37682e004b3fc6"
+    ],
+    "count": 12,
+    "update_time": 1776814201,
+    "_id": "Product"
+  },
+  "Service": {
+    "chunk_ids": [
+      "chunk-7a8154749b1feccbfe768628b4e18b60",
+      "chunk-23f16ba22036bb88da1664b390f68ca1",
+      "chunk-811c2282e5faf0e8745c51115a8604e5",
+      "chunk-6fb2c83cde8c36de94f7057d58fb2869",
+      "chunk-4f2ea9e729aab0deda37682e004b3fc6"
+    ],
+    "count": 5,
+    "update_time": 1776814202,
+    "_id": "Service"
+  },
+  "Establishment": {
+    "chunk_ids": [
+      "chunk-7a8154749b1feccbfe768628b4e18b60"
+    ],
+    "count": 1,
+    "create_time": 1776813786,
+    "update_time": 1776813786,
+    "_id": "Establishment"
+  },
+  "Address": {
+    "chunk_ids": [
+      "chunk-7a8154749b1feccbfe768628b4e18b60",
+      "chunk-2d0188b6660d92e46d97b6aa5ddfa898"
+    ],
+    "count": 2,
+    "update_time": 1776813889,
+    "_id": "Address"
+  },
+  "Price": {
+    "chunk_ids": [
+      "chunk-7a8154749b1feccbfe768628b4e18b60",
+      "chunk-dbb3cd60b4bd30c2e1383463af5924c9",
+      "chunk-2d0188b6660d92e46d97b6aa5ddfa898",
+      "chunk-6fb2c83cde8c36de94f7057d58fb2869"
+    ],
+    "count": 4,
+    "update_time": 1776813927,
+    "_id": "Price"
+  },
+  "Defect": {
+    "chunk_ids": [
+      "chunk-7a8154749b1feccbfe768628b4e18b60"
+    ],
+    "count": 1,
+    "create_time": 1776813786,
+    "update_time": 1776813786,
+    "_id": "Defect"
+  },
+  "Advertisement": {
+    "chunk_ids": [
+      "chunk-7a8154749b1feccbfe768628b4e18b60",
+      "chunk-c71f72d143d12f0695043e4deb70f183",
+      "chunk-51ea5244ed2d72532c1d4e4a8c7c8711"
+    ],
+    "count": 3,
+    "update_time": 1776814415,
+    "_id": "Advertisement"
+  },
+  "Discounts": {
+    "chunk_ids": [
+      "chunk-7a8154749b1feccbfe768628b4e18b60"
+    ],
+    "count": 1,
+    "create_time": 1776813786,
+    "update_time": 1776813786,
+    "_id": "Discounts"
+  },
+  "Competition": {
+    "chunk_ids": [
+      "chunk-7a8154749b1feccbfe768628b4e18b60"
+    ],
+    "count": 1,
+    "create_time": 1776813786,
+    "update_time": 1776813786,
+    "_id": "Competition"
+  },
+  "Corrective Measures": {
+    "chunk_ids": [
+      "chunk-7a8154749b1feccbfe768628b4e18b60",
+      "chunk-6d5f73112067d3017eacad446fe05c6c",
+      "chunk-8d3fef46affeb71273796cdeced53169",
+      "chunk-41f86c946795eb4b1b8e1172b283f83c",
+      "chunk-a77f891792f59dafbde31f28e906bdf0",
+      "chunk-51ea5244ed2d72532c1d4e4a8c7c8711",
+      "chunk-0f17c98aec4af855d06847e8dc54f39d"
+    ],
+    "count": 7,
+    "update_time": 1776814439,
+    "_id": "Corrective Measures"
+  },
+  "Kingdom": {
+    "chunk_ids": [
+      "chunk-7a8154749b1feccbfe768628b4e18b60",
+      "chunk-6e82925b2fc83bb4036c3b1f007ba923"
+    ],
+    "count": 2,
+    "update_time": 1776814017,
+    "_id": "Kingdom"
+  },
+  "Harmful Or Defective Products": {
+    "chunk_ids": [
+      "chunk-5921e285b202ad77baf19401a767f275"
+    ],
+    "count": 1,
+    "create_time": 1776813794,
+    "update_time": 1776813794,
+    "_id": "Harmful Or Defective Products"
+  },
+  "Unfair Practices": {
+    "chunk_ids": [
+      "chunk-5921e285b202ad77baf19401a767f275"
+    ],
+    "count": 1,
+    "create_time": 1776813794,
+    "update_time": 1776813794,
+    "_id": "Unfair Practices"
+  },
+  "Sustainable Consumption Culture": {
+    "chunk_ids": [
+      "chunk-5921e285b202ad77baf19401a767f275"
+    ],
+    "count": 1,
+    "create_time": 1776813794,
+    "update_time": 1776813794,
+    "_id": "Sustainable Consumption Culture"
+  },
+  "Market Surveillance Efficiency": {
+    "chunk_ids": [
+      "chunk-5921e285b202ad77baf19401a767f275"
+    ],
+    "count": 1,
+    "create_time": 1776813794,
+    "update_time": 1776813794,
+    "_id": "Market Surveillance Efficiency"
+  },
+  "Dispute Resolution": {
+    "chunk_ids": [
+      "chunk-5921e285b202ad77baf19401a767f275",
+      "chunk-60f77fe5478de7b3d8b2672afe5ee95d"
+    ],
+    "count": 2,
+    "update_time": 1776814351,
+    "_id": "Dispute Resolution"
+  },
+  "Stakeholder Participation": {
+    "chunk_ids": [
+      "chunk-5921e285b202ad77baf19401a767f275"
+    ],
+    "count": 1,
+    "create_time": 1776813794,
+    "update_time": 1776813794,
+    "_id": "Stakeholder Participation"
+  },
+  "Article Two": {
+    "chunk_ids": [
+      "chunk-5921e285b202ad77baf19401a767f275",
+      "chunk-9b912e56726cb9e0d5237d61584a5fa6"
+    ],
+    "count": 2,
+    "update_time": 1776814484,
+    "_id": "Article Two"
+  },
+  "Article 3 Application Scope": {
+    "chunk_ids": [
+      "chunk-23f16ba22036bb88da1664b390f68ca1"
+    ],
+    "count": 1,
+    "create_time": 1776813802,
+    "update_time": 1776813802,
+    "_id": "Article 3 Application Scope"
+  },
+  "The Kingdom": {
+    "chunk_ids": [
+      "chunk-23f16ba22036bb88da1664b390f68ca1",
+      "chunk-9b912e56726cb9e0d5237d61584a5fa6"
+    ],
+    "count": 2,
+    "update_time": 1776814484,
+    "_id": "The Kingdom"
+  },
+  "Remote Contract": {
+    "chunk_ids": [
+      "chunk-23f16ba22036bb88da1664b390f68ca1",
+      "chunk-301a4ffbdfd6fdb0a956239d0553872e",
+      "chunk-a4d1807f1fc70cd86f3926044c5b150a"
+    ],
+    "count": 3,
+    "update_time": 1776814127,
+    "_id": "Remote Contract"
+  },
+  "E-Commerce": {
+    "chunk_ids": [
+      "chunk-23f16ba22036bb88da1664b390f68ca1",
+      "chunk-4356d14be0458851058bcbfa4dd8eff9"
+    ],
+    "count": 2,
+    "update_time": 1776814638,
+    "_id": "E-Commerce"
+  },
+  "Contract Conclusion Location": {
+    "chunk_ids": [
+      "chunk-23f16ba22036bb88da1664b390f68ca1"
+    ],
+    "count": 1,
+    "create_time": 1776813802,
+    "update_time": 1776813802,
+    "_id": "Contract Conclusion Location"
+  },
+  "Article Four": {
+    "chunk_ids": [
+      "chunk-8b09a6ca3331da7c98b328eaa6c42830",
+      "chunk-ef5c3f67882b7588927d8bca42047269"
+    ],
+    "count": 2,
+    "update_time": 1776814500,
+    "_id": "Article Four"
+  },
+  "Consumer Rights": {
+    "chunk_ids": [
+      "chunk-8b09a6ca3331da7c98b328eaa6c42830",
+      "chunk-811c2282e5faf0e8745c51115a8604e5",
+      "chunk-4f2ea9e729aab0deda37682e004b3fc6"
+    ],
+    "count": 3,
+    "update_time": 1776814201,
+    "_id": "Consumer Rights"
+  },
+  "Essential Products And Services": {
+    "chunk_ids": [
+      "chunk-8b09a6ca3331da7c98b328eaa6c42830"
+    ],
+    "count": 1,
+    "create_time": 1776813811,
+    "update_time": 1776813811,
+    "_id": "Essential Products And Services"
+  },
+  "Life Health And Safety": {
+    "chunk_ids": [
+      "chunk-8b09a6ca3331da7c98b328eaa6c42830"
+    ],
+    "count": 1,
+    "create_time": 1776813811,
+    "update_time": 1776813811,
+    "_id": "Life Health And Safety"
+  },
+  "Correct Information": {
+    "chunk_ids": [
+      "chunk-8b09a6ca3331da7c98b328eaa6c42830"
+    ],
+    "count": 1,
+    "create_time": 1776813811,
+    "update_time": 1776813811,
+    "_id": "Correct Information"
+  },
+  "Economic Social And Environmental Impacts": {
+    "chunk_ids": [
+      "chunk-8b09a6ca3331da7c98b328eaa6c42830"
+    ],
+    "count": 1,
+    "create_time": 1776813811,
+    "update_time": 1776813811,
+    "_id": "Economic Social And Environmental Impacts"
+  },
+  "Personal Data Privacy": {
+    "chunk_ids": [
+      "chunk-8b09a6ca3331da7c98b328eaa6c42830"
+    ],
+    "count": 1,
+    "create_time": 1776813811,
+    "update_time": 1776813811,
+    "_id": "Personal Data Privacy"
+  },
+  "Religious Values Public Morals": {
+    "chunk_ids": [
+      "chunk-8b09a6ca3331da7c98b328eaa6c42830"
+    ],
+    "count": 1,
+    "create_time": 1776813811,
+    "update_time": 1776813811,
+    "_id": "Religious Values Public Morals"
+  },
+  "Dispute Resolution Mechanisms": {
+    "chunk_ids": [
+      "chunk-8b09a6ca3331da7c98b328eaa6c42830"
+    ],
+    "count": 1,
+    "create_time": 1776813812,
+    "update_time": 1776813812,
+    "_id": "Dispute Resolution Mechanisms"
+  },
+  "Fair Compensation": {
+    "chunk_ids": [
+      "chunk-8b09a6ca3331da7c98b328eaa6c42830"
+    ],
+    "count": 1,
+    "create_time": 1776813812,
+    "update_time": 1776813812,
+    "_id": "Fair Compensation"
+  },
+  "Collective Consumer Representation": {
+    "chunk_ids": [
+      "chunk-8b09a6ca3331da7c98b328eaa6c42830"
+    ],
+    "count": 1,
+    "create_time": 1776813812,
+    "update_time": 1776813812,
+    "_id": "Collective Consumer Representation"
+  },
+  "Consumer Associations": {
+    "chunk_ids": [
+      "chunk-8b09a6ca3331da7c98b328eaa6c42830",
+      "chunk-b6a6d5fd04ff86c2506f73df9e65d57b",
+      "chunk-da4dec7a272932b152bbbcd68d8fab88"
+    ],
+    "count": 3,
+    "update_time": 1776814379,
+    "_id": "Consumer Associations"
+  },
+  "Regulatory Systems And Bylaws": {
+    "chunk_ids": [
+      "chunk-8b09a6ca3331da7c98b328eaa6c42830"
+    ],
+    "count": 1,
+    "create_time": 1776813812,
+    "update_time": 1776813812,
+    "_id": "Regulatory Systems And Bylaws"
+  },
+  "Other Relevant Systems And Regulations": {
+    "chunk_ids": [
+      "chunk-8b09a6ca3331da7c98b328eaa6c42830"
+    ],
+    "count": 1,
+    "create_time": 1776813812,
+    "update_time": 1776813812,
+    "_id": "Other Relevant Systems And Regulations"
+  },
+  "Article Five": {
+    "chunk_ids": [
+      "chunk-19ba78abd7c521789ac7c4a38d25114e"
+    ],
+    "count": 1,
+    "create_time": 1776813820,
+    "update_time": 1776813820,
+    "_id": "Article Five"
+  },
+  "Relevant Entities": {
+    "chunk_ids": [
+      "chunk-19ba78abd7c521789ac7c4a38d25114e"
+    ],
+    "count": 1,
+    "create_time": 1776813820,
+    "update_time": 1776813820,
+    "_id": "Relevant Entities"
+  },
+  "Vulnerable Consumer": {
+    "chunk_ids": [
+      "chunk-19ba78abd7c521789ac7c4a38d25114e"
+    ],
+    "count": 1,
+    "create_time": 1776813820,
+    "update_time": 1776813820,
+    "_id": "Vulnerable Consumer"
+  },
+  "Consumer Protection Regulations": {
+    "chunk_ids": [
+      "chunk-19ba78abd7c521789ac7c4a38d25114e"
+    ],
+    "count": 1,
+    "create_time": 1776813820,
+    "update_time": 1776813820,
+    "_id": "Consumer Protection Regulations"
+  },
+  "Age": {
+    "chunk_ids": [
+      "chunk-19ba78abd7c521789ac7c4a38d25114e"
+    ],
+    "count": 1,
+    "create_time": 1776813820,
+    "update_time": 1776813820,
+    "_id": "Age"
+  },
+  "Disability": {
+    "chunk_ids": [
+      "chunk-19ba78abd7c521789ac7c4a38d25114e"
+    ],
+    "count": 1,
+    "create_time": 1776813820,
+    "update_time": 1776813820,
+    "_id": "Disability"
+  },
+  "Mental State": {
+    "chunk_ids": [
+      "chunk-19ba78abd7c521789ac7c4a38d25114e"
+    ],
+    "count": 1,
+    "create_time": 1776813820,
+    "update_time": 1776813820,
+    "_id": "Mental State"
+  },
+  "Psychological Condition": {
+    "chunk_ids": [
+      "chunk-19ba78abd7c521789ac7c4a38d25114e"
+    ],
+    "count": 1,
+    "create_time": 1776813820,
+    "update_time": 1776813820,
+    "_id": "Psychological Condition"
+  },
+  "Article Six": {
+    "chunk_ids": [
+      "chunk-dbb3cd60b4bd30c2e1383463af5924c9",
+      "chunk-a02c96de615b73a0b4a82ae7b14bc537"
+    ],
+    "count": 2,
+    "update_time": 1776814513,
+    "_id": "Article Six"
+  },
+  "Product Information": {
+    "chunk_ids": [
+      "chunk-dbb3cd60b4bd30c2e1383463af5924c9"
+    ],
+    "count": 1,
+    "create_time": 1776813835,
+    "update_time": 1776813835,
+    "_id": "Product Information"
+  },
+  "Brand Name": {
+    "chunk_ids": [
+      "chunk-dbb3cd60b4bd30c2e1383463af5924c9"
+    ],
+    "count": 1,
+    "create_time": 1776813835,
+    "update_time": 1776813835,
+    "_id": "Brand Name"
+  },
+  "Country Of Origin": {
+    "chunk_ids": [
+      "chunk-dbb3cd60b4bd30c2e1383463af5924c9"
+    ],
+    "count": 1,
+    "create_time": 1776813835,
+    "update_time": 1776813835,
+    "_id": "Country Of Origin"
+  },
+  "Manufacturer": {
+    "chunk_ids": [
+      "chunk-dbb3cd60b4bd30c2e1383463af5924c9"
+    ],
+    "count": 1,
+    "create_time": 1776813835,
+    "update_time": 1776813835,
+    "_id": "Manufacturer"
+  },
+  "Importer": {
+    "chunk_ids": [
+      "chunk-dbb3cd60b4bd30c2e1383463af5924c9"
+    ],
+    "count": 1,
+    "create_time": 1776813835,
+    "update_time": 1776813835,
+    "_id": "Importer"
+  },
+  "Distributor": {
+    "chunk_ids": [
+      "chunk-dbb3cd60b4bd30c2e1383463af5924c9"
+    ],
+    "count": 1,
+    "create_time": 1776813835,
+    "update_time": 1776813835,
+    "_id": "Distributor"
+  },
+  "Agent": {
+    "chunk_ids": [
+      "chunk-dbb3cd60b4bd30c2e1383463af5924c9"
+    ],
+    "count": 1,
+    "create_time": 1776813835,
+    "update_time": 1776813835,
+    "_id": "Agent"
+  },
+  "Manufacturing Certificate": {
+    "chunk_ids": [
+      "chunk-dbb3cd60b4bd30c2e1383463af5924c9"
+    ],
+    "count": 1,
+    "create_time": 1776813835,
+    "update_time": 1776813835,
+    "_id": "Manufacturing Certificate"
+  },
+  "Service License": {
+    "chunk_ids": [
+      "chunk-dbb3cd60b4bd30c2e1383463af5924c9"
+    ],
+    "count": 1,
+    "create_time": 1776813835,
+    "update_time": 1776813835,
+    "_id": "Service License"
+  },
+  "Regulation": {
+    "chunk_ids": [
+      "chunk-dbb3cd60b4bd30c2e1383463af5924c9",
+      "chunk-bea1774b99d54deb70d6648484455df9",
+      "chunk-05ecf93d1d9a52151af2a72301234ed7",
+      "chunk-294b2d78155c5479740e5f6e60fabd5b",
+      "chunk-0931bf17be9284d5fcf4f6332cd19598",
+      "chunk-bc991839dd0cc98acaf12ea5bc58ecc8",
+      "chunk-5086b6cf9bc02c27ea5fb4cb9ed609ed",
+      "chunk-4f2ea9e729aab0deda37682e004b3fc6",
+      "chunk-7675218c2feb4f3d03df5d15f853c435",
+      "chunk-1c88be299a43d67d9b9fc0d255ce74ea",
+      "chunk-b6a6d5fd04ff86c2506f73df9e65d57b",
+      "chunk-b54adc716da8570bddd8c2bd41899a6f",
+      "chunk-5d8a453039317884766c4bfb4e705a9a",
+      "chunk-396aa1e5ed51d610f5f6e15aaf6ec6b6",
+      "chunk-4fe0038af572654f7ea64ab35fd3849a",
+      "chunk-ef5c3f67882b7588927d8bca42047269",
+      "chunk-a02c96de615b73a0b4a82ae7b14bc537",
+      "chunk-b0f30d8785ebf55f768a527b1ede688f",
+      "chunk-ed4385a57314892c443871db0108ea1b",
+      "chunk-3323a5605fc02cf6b08e6daf15866451"
+    ],
+    "count": 20,
+    "update_time": 1776814642,
+    "_id": "Regulation"
+  },
+  "Sequential Number": {
+    "chunk_ids": [
+      "chunk-dbb3cd60b4bd30c2e1383463af5924c9"
+    ],
+    "count": 1,
+    "create_time": 1776813835,
+    "update_time": 1776813835,
+    "_id": "Sequential Number"
+  },
+  "Product Type": {
+    "chunk_ids": [
+      "chunk-dbb3cd60b4bd30c2e1383463af5924c9"
+    ],
+    "count": 1,
+    "create_time": 1776813835,
+    "update_time": 1776813835,
+    "_id": "Product Type"
+  },
+  "Quantity": {
+    "chunk_ids": [
+      "chunk-dbb3cd60b4bd30c2e1383463af5924c9"
+    ],
+    "count": 1,
+    "create_time": 1776813835,
+    "update_time": 1776813835,
+    "_id": "Quantity"
+  },
+  "Composition": {
+    "chunk_ids": [
+      "chunk-dbb3cd60b4bd30c2e1383463af5924c9"
+    ],
+    "count": 1,
+    "create_time": 1776813836,
+    "update_time": 1776813836,
+    "_id": "Composition"
+  },
+  "Weight": {
+    "chunk_ids": [
+      "chunk-dbb3cd60b4bd30c2e1383463af5924c9"
+    ],
+    "count": 1,
+    "create_time": 1776813836,
+    "update_time": 1776813836,
+    "_id": "Weight"
+  },
+  "Dimensions": {
+    "chunk_ids": [
+      "chunk-dbb3cd60b4bd30c2e1383463af5924c9"
+    ],
+    "count": 1,
+    "create_time": 1776813836,
+    "update_time": 1776813836,
+    "_id": "Dimensions"
+  },
+  "Business Identity Data": {
+    "chunk_ids": [
+      "chunk-dbb3cd60b4bd30c2e1383463af5924c9"
+    ],
+    "count": 1,
+    "create_time": 1776813836,
+    "update_time": 1776813836,
+    "_id": "Business Identity Data"
+  },
+  "Article Seven": {
+    "chunk_ids": [
+      "chunk-74786db2b2e6a66a13cddb4bf3ff343b",
+      "chunk-b0f30d8785ebf55f768a527b1ede688f"
+    ],
+    "count": 2,
+    "update_time": 1776814522,
+    "_id": "Article Seven"
+  },
+  "Consumers": {
+    "chunk_ids": [
+      "chunk-74786db2b2e6a66a13cddb4bf3ff343b",
+      "chunk-d72a2ff68ca9639d25fac0d200e648dd",
+      "chunk-60f77fe5478de7b3d8b2672afe5ee95d",
+      "chunk-da4dec7a272932b152bbbcd68d8fab88"
+    ],
+    "count": 4,
+    "update_time": 1776814379,
+    "_id": "Consumers"
+  },
+  "Clear Information": {
+    "chunk_ids": [
+      "chunk-74786db2b2e6a66a13cddb4bf3ff343b"
+    ],
+    "count": 1,
+    "create_time": 1776813841,
+    "update_time": 1776813841,
+    "_id": "Clear Information"
+  },
+  "Advertising Media": {
+    "chunk_ids": [
+      "chunk-74786db2b2e6a66a13cddb4bf3ff343b"
+    ],
+    "count": 1,
+    "create_time": 1776813841,
+    "update_time": 1776813841,
+    "_id": "Advertising Media"
+  },
+  "Electronic Medium": {
+    "chunk_ids": [
+      "chunk-74786db2b2e6a66a13cddb4bf3ff343b",
+      "chunk-1db2fdbafbec4cf6444dec6b72a0824e"
+    ],
+    "count": 2,
+    "update_time": 1776814000,
+    "_id": "Electronic Medium"
+  },
+  "Usage Instructions": {
+    "chunk_ids": [
+      "chunk-74786db2b2e6a66a13cddb4bf3ff343b"
+    ],
+    "count": 1,
+    "create_time": 1776813841,
+    "update_time": 1776813841,
+    "_id": "Usage Instructions"
+  },
+  "Article Eight": {
+    "chunk_ids": [
+      "chunk-979a3a6d1926f5c43b2191f74f9a3804",
+      "chunk-ed4385a57314892c443871db0108ea1b"
+    ],
+    "count": 2,
+    "update_time": 1776814533,
+    "_id": "Article Eight"
+  },
+  "Consumer Information": {
+    "chunk_ids": [
+      "chunk-979a3a6d1926f5c43b2191f74f9a3804"
+    ],
+    "count": 1,
+    "create_time": 1776813846,
+    "update_time": 1776813846,
+    "_id": "Consumer Information"
+  },
+  "Arabic Language": {
+    "chunk_ids": [
+      "chunk-979a3a6d1926f5c43b2191f74f9a3804"
+    ],
+    "count": 1,
+    "create_time": 1776813846,
+    "update_time": 1776813846,
+    "_id": "Arabic Language"
+  },
+  "Other Languages": {
+    "chunk_ids": [
+      "chunk-979a3a6d1926f5c43b2191f74f9a3804"
+    ],
+    "count": 1,
+    "create_time": 1776813846,
+    "update_time": 1776813846,
+    "_id": "Other Languages"
+  },
+  "Providing Methods": {
+    "chunk_ids": [
+      "chunk-979a3a6d1926f5c43b2191f74f9a3804"
+    ],
+    "count": 1,
+    "create_time": 1776813846,
+    "update_time": 1776813846,
+    "_id": "Providing Methods"
+  },
+  "Article Nine": {
+    "chunk_ids": [
+      "chunk-bea1774b99d54deb70d6648484455df9"
+    ],
+    "count": 1,
+    "create_time": 1776813851,
+    "update_time": 1776813851,
+    "_id": "Article Nine"
+  },
+  "Product Price": {
+    "chunk_ids": [
+      "chunk-bea1774b99d54deb70d6648484455df9"
+    ],
+    "count": 1,
+    "create_time": 1776813851,
+    "update_time": 1776813851,
+    "_id": "Product Price"
+  },
+  "Global Product Number": {
+    "chunk_ids": [
+      "chunk-bea1774b99d54deb70d6648484455df9"
+    ],
+    "count": 1,
+    "create_time": 1776813851,
+    "update_time": 1776813851,
+    "_id": "Global Product Number"
+  },
+  "Scanning Technology": {
+    "chunk_ids": [
+      "chunk-bea1774b99d54deb70d6648484455df9"
+    ],
+    "count": 1,
+    "create_time": 1776813851,
+    "update_time": 1776813851,
+    "_id": "Scanning Technology"
+  },
+  "Article Ten": {
+    "chunk_ids": [
+      "chunk-757265b902decbf8c55e1b070565644a"
+    ],
+    "count": 1,
+    "create_time": 1776813857,
+    "update_time": 1776813857,
+    "_id": "Article Ten"
+  },
+  "Price Offer": {
+    "chunk_ids": [
+      "chunk-757265b902decbf8c55e1b070565644a"
+    ],
+    "count": 1,
+    "create_time": 1776813857,
+    "update_time": 1776813857,
+    "_id": "Price Offer"
+  },
+  "Service And Maintenance Centers": {
+    "chunk_ids": [
+      "chunk-757265b902decbf8c55e1b070565644a",
+      "chunk-2d0188b6660d92e46d97b6aa5ddfa898"
+    ],
+    "count": 2,
+    "update_time": 1776813889,
+    "_id": "Service And Maintenance Centers"
+  },
+  "Maintenance Work": {
+    "chunk_ids": [
+      "chunk-757265b902decbf8c55e1b070565644a"
+    ],
+    "count": 1,
+    "create_time": 1776813857,
+    "update_time": 1776813857,
+    "_id": "Maintenance Work"
+  },
+  "Service Pricing Disclosure": {
+    "chunk_ids": [
+      "chunk-757265b902decbf8c55e1b070565644a"
+    ],
+    "count": 1,
+    "create_time": 1776813858,
+    "update_time": 1776813858,
+    "_id": "Service Pricing Disclosure"
+  },
+  "Explicit Consent": {
+    "chunk_ids": [
+      "chunk-757265b902decbf8c55e1b070565644a"
+    ],
+    "count": 1,
+    "create_time": 1776813858,
+    "update_time": 1776813858,
+    "_id": "Explicit Consent"
+  },
+  "Article Eleven": {
+    "chunk_ids": [
+      "chunk-08494eb61cc41dcbd344a3b581092bcd",
+      "chunk-7dce39ad69ab952b0a24c9573b89731d"
+    ],
+    "count": 2,
+    "update_time": 1776814549,
+    "_id": "Article Eleven"
+  },
+  "Saudi Riyal": {
+    "chunk_ids": [
+      "chunk-08494eb61cc41dcbd344a3b581092bcd"
+    ],
+    "count": 1,
+    "create_time": 1776813863,
+    "update_time": 1776813863,
+    "_id": "Saudi Riyal"
+  },
+  "Taxes And Fees": {
+    "chunk_ids": [
+      "chunk-08494eb61cc41dcbd344a3b581092bcd"
+    ],
+    "count": 1,
+    "create_time": 1776813863,
+    "update_time": 1776813863,
+    "_id": "Taxes And Fees"
+  },
+  "Operating Entity": {
+    "chunk_ids": [
+      "chunk-08494eb61cc41dcbd344a3b581092bcd"
+    ],
+    "count": 1,
+    "create_time": 1776813863,
+    "update_time": 1776813863,
+    "_id": "Operating Entity"
+  },
+  "Product Or Service": {
+    "chunk_ids": [
+      "chunk-08494eb61cc41dcbd344a3b581092bcd",
+      "chunk-929aeab810b6ef4b56bb0ac1266d349f",
+      "chunk-c6572d1610f6bb7f6ec41fc6f8eb934f",
+      "chunk-6d5f73112067d3017eacad446fe05c6c",
+      "chunk-d15616980ad303389944137db1af4f22",
+      "chunk-51ea5244ed2d72532c1d4e4a8c7c8711",
+      "chunk-c0d47d22075e87911525f2b1b1a29585"
+    ],
+    "count": 7,
+    "update_time": 1776814578,
+    "_id": "Product Or Service"
+  },
+  "Necessary Products And Services": {
+    "chunk_ids": [
+      "chunk-08494eb61cc41dcbd344a3b581092bcd"
+    ],
+    "count": 1,
+    "create_time": 1776813863,
+    "update_time": 1776813863,
+    "_id": "Necessary Products And Services"
+  },
+  "Article Twelve": {
+    "chunk_ids": [
+      "chunk-eba8035888adcd130040e9dbfd9a13d6"
+    ],
+    "count": 1,
+    "create_time": 1776813868,
+    "update_time": 1776813868,
+    "_id": "Article Twelve"
+  },
+  "Price Discrepancy": {
+    "chunk_ids": [
+      "chunk-eba8035888adcd130040e9dbfd9a13d6"
+    ],
+    "count": 1,
+    "create_time": 1776813868,
+    "update_time": 1776813868,
+    "_id": "Price Discrepancy"
+  },
+  "Unintentional Error": {
+    "chunk_ids": [
+      "chunk-eba8035888adcd130040e9dbfd9a13d6"
+    ],
+    "count": 1,
+    "create_time": 1776813868,
+    "update_time": 1776813868,
+    "_id": "Unintentional Error"
+  },
+  "Products Or Services": {
+    "chunk_ids": [
+      "chunk-eba8035888adcd130040e9dbfd9a13d6"
+    ],
+    "count": 1,
+    "create_time": 1776813868,
+    "update_time": 1776813868,
+    "_id": "Products Or Services"
+  },
+  "Article Thirteen": {
+    "chunk_ids": [
+      "chunk-929aeab810b6ef4b56bb0ac1266d349f"
+    ],
+    "count": 1,
+    "create_time": 1776813878,
+    "update_time": 1776813878,
+    "_id": "Article Thirteen"
+  },
+  "Reduced Price": {
+    "chunk_ids": [
+      "chunk-929aeab810b6ef4b56bb0ac1266d349f"
+    ],
+    "count": 1,
+    "create_time": 1776813878,
+    "update_time": 1776813878,
+    "_id": "Reduced Price"
+  },
+  "Minimum Price History": {
+    "chunk_ids": [
+      "chunk-929aeab810b6ef4b56bb0ac1266d349f"
+    ],
+    "count": 1,
+    "create_time": 1776813878,
+    "update_time": 1776813878,
+    "_id": "Minimum Price History"
+  },
+  "Thirty Day Period": {
+    "chunk_ids": [
+      "chunk-929aeab810b6ef4b56bb0ac1266d349f"
+    ],
+    "count": 1,
+    "create_time": 1776813878,
+    "update_time": 1776813878,
+    "_id": "Thirty Day Period"
+  },
+  "Price Reduction Campaigns": {
+    "chunk_ids": [
+      "chunk-929aeab810b6ef4b56bb0ac1266d349f"
+    ],
+    "count": 1,
+    "create_time": 1776813878,
+    "update_time": 1776813878,
+    "_id": "Price Reduction Campaigns"
+  },
+  "Spoilable Products": {
+    "chunk_ids": [
+      "chunk-929aeab810b6ef4b56bb0ac1266d349f"
+    ],
+    "count": 1,
+    "create_time": 1776813878,
+    "update_time": 1776813878,
+    "_id": "Spoilable Products"
+  },
+  "Short-Term Products": {
+    "chunk_ids": [
+      "chunk-929aeab810b6ef4b56bb0ac1266d349f"
+    ],
+    "count": 1,
+    "create_time": 1776813878,
+    "update_time": 1776813878,
+    "_id": "Short-Term Products"
+  },
+  "Subsidiary Regulation": {
+    "chunk_ids": [
+      "chunk-929aeab810b6ef4b56bb0ac1266d349f"
+    ],
+    "count": 1,
+    "create_time": 1776813878,
+    "update_time": 1776813878,
+    "_id": "Subsidiary Regulation"
+  },
+  "Regulatory Authority": {
+    "chunk_ids": [
+      "chunk-929aeab810b6ef4b56bb0ac1266d349f",
+      "chunk-c81dd10f0ce67f495fcaa4afb41ade53"
+    ],
+    "count": 2,
+    "update_time": 1776814184,
+    "_id": "Regulatory Authority"
+  },
+  "Article Fourteen": {
+    "chunk_ids": [
+      "chunk-2d0188b6660d92e46d97b6aa5ddfa898",
+      "chunk-c0d47d22075e87911525f2b1b1a29585"
+    ],
+    "count": 2,
+    "update_time": 1776814578,
+    "_id": "Article Fourteen"
+  },
+  "Invoice": {
+    "chunk_ids": [
+      "chunk-2d0188b6660d92e46d97b6aa5ddfa898",
+      "chunk-ed4385a57314892c443871db0108ea1b"
+    ],
+    "count": 2,
+    "update_time": 1776814532,
+    "_id": "Invoice"
+  },
+  "Commercial Name": {
+    "chunk_ids": [
+      "chunk-2d0188b6660d92e46d97b6aa5ddfa898"
+    ],
+    "count": 1,
+    "create_time": 1776813889,
+    "update_time": 1776813889,
+    "_id": "Commercial Name"
+  },
+  "Contact Means": {
+    "chunk_ids": [
+      "chunk-2d0188b6660d92e46d97b6aa5ddfa898",
+      "chunk-a02c96de615b73a0b4a82ae7b14bc537"
+    ],
+    "count": 2,
+    "update_time": 1776814513,
+    "_id": "Contact Means"
+  },
+  "Product Description": {
+    "chunk_ids": [
+      "chunk-2d0188b6660d92e46d97b6aa5ddfa898"
+    ],
+    "count": 1,
+    "create_time": 1776813889,
+    "update_time": 1776813889,
+    "_id": "Product Description"
+  },
+  "Contract Date": {
+    "chunk_ids": [
+      "chunk-2d0188b6660d92e46d97b6aa5ddfa898"
+    ],
+    "count": 1,
+    "create_time": 1776813889,
+    "update_time": 1776813889,
+    "_id": "Contract Date"
+  },
+  "Total Payable Price": {
+    "chunk_ids": [
+      "chunk-2d0188b6660d92e46d97b6aa5ddfa898"
+    ],
+    "count": 1,
+    "create_time": 1776813889,
+    "update_time": 1776813889,
+    "_id": "Total Payable Price"
+  },
+  "Tax Number": {
+    "chunk_ids": [
+      "chunk-2d0188b6660d92e46d97b6aa5ddfa898"
+    ],
+    "count": 1,
+    "create_time": 1776813889,
+    "update_time": 1776813889,
+    "_id": "Tax Number"
+  },
+  "Maintenance Works": {
+    "chunk_ids": [
+      "chunk-2d0188b6660d92e46d97b6aa5ddfa898"
+    ],
+    "count": 1,
+    "create_time": 1776813889,
+    "update_time": 1776813889,
+    "_id": "Maintenance Works"
+  },
+  "Replaced Parts": {
+    "chunk_ids": [
+      "chunk-2d0188b6660d92e46d97b6aa5ddfa898"
+    ],
+    "count": 1,
+    "create_time": 1776813889,
+    "update_time": 1776813889,
+    "_id": "Replaced Parts"
+  },
+  "Proof Methods": {
+    "chunk_ids": [
+      "chunk-2d0188b6660d92e46d97b6aa5ddfa898"
+    ],
+    "count": 1,
+    "create_time": 1776813889,
+    "update_time": 1776813889,
+    "_id": "Proof Methods"
+  },
+  "Electronic Invoice": {
+    "chunk_ids": [
+      "chunk-2d0188b6660d92e46d97b6aa5ddfa898"
+    ],
+    "count": 1,
+    "create_time": 1776813890,
+    "update_time": 1776813890,
+    "_id": "Electronic Invoice"
+  },
+  "Article Fifteen": {
+    "chunk_ids": [
+      "chunk-9acf77028a44df007ff93e9e4464a66e",
+      "chunk-0287b0d01cfa4f5a98740f1886983a05"
+    ],
+    "count": 2,
+    "update_time": 1776814585,
+    "_id": "Article Fifteen"
+  },
+  "Pre-formulated Contract": {
+    "chunk_ids": [
+      "chunk-9acf77028a44df007ff93e9e4464a66e"
+    ],
+    "count": 1,
+    "create_time": 1776813895,
+    "update_time": 1776813895,
+    "_id": "Pre-formulated Contract"
+  },
+  "No Charge": {
+    "chunk_ids": [
+      "chunk-9acf77028a44df007ff93e9e4464a66e"
+    ],
+    "count": 1,
+    "create_time": 1776813895,
+    "update_time": 1776813895,
+    "_id": "No Charge"
+  },
+  "On Request": {
+    "chunk_ids": [
+      "chunk-9acf77028a44df007ff93e9e4464a66e"
+    ],
+    "count": 1,
+    "create_time": 1776813895,
+    "update_time": 1776813895,
+    "_id": "On Request"
+  },
+  "Article Sixteen": {
+    "chunk_ids": [
+      "chunk-c85a7dbe91de94e3f41746b161dffff2"
+    ],
+    "count": 1,
+    "create_time": 1776813902,
+    "update_time": 1776813902,
+    "_id": "Article Sixteen"
+  },
+  "Burden Of Proof": {
+    "chunk_ids": [
+      "chunk-c85a7dbe91de94e3f41746b161dffff2"
+    ],
+    "count": 1,
+    "create_time": 1776813902,
+    "update_time": 1776813902,
+    "_id": "Burden Of Proof"
+  },
+  "Information Disclosure Obligation": {
+    "chunk_ids": [
+      "chunk-c85a7dbe91de94e3f41746b161dffff2"
+    ],
+    "count": 1,
+    "create_time": 1776813902,
+    "update_time": 1776813902,
+    "_id": "Information Disclosure Obligation"
+  },
+  "Unfair Commercial Practices": {
+    "chunk_ids": [
+      "chunk-811c2282e5faf0e8745c51115a8604e5"
+    ],
+    "count": 1,
+    "create_time": 1776813913,
+    "update_time": 1776813913,
+    "_id": "Unfair Commercial Practices"
+  },
+  "Media Outlet": {
+    "chunk_ids": [
+      "chunk-811c2282e5faf0e8745c51115a8604e5"
+    ],
+    "count": 1,
+    "create_time": 1776813913,
+    "update_time": 1776813913,
+    "_id": "Media Outlet"
+  },
+  "Personal Data": {
+    "chunk_ids": [
+      "chunk-811c2282e5faf0e8745c51115a8604e5",
+      "chunk-30e605d9deb7e33ed48fcf51264fb16e"
+    ],
+    "count": 2,
+    "update_time": 1776814508,
+    "_id": "Personal Data"
+  },
+  "Direct Marketing": {
+    "chunk_ids": [
+      "chunk-811c2282e5faf0e8745c51115a8604e5"
+    ],
+    "count": 1,
+    "create_time": 1776813913,
+    "update_time": 1776813913,
+    "_id": "Direct Marketing"
+  },
+  "Payment Method": {
+    "chunk_ids": [
+      "chunk-811c2282e5faf0e8745c51115a8604e5"
+    ],
+    "count": 1,
+    "create_time": 1776813913,
+    "update_time": 1776813913,
+    "_id": "Payment Method"
+  },
+  "Unjustified Conditions": {
+    "chunk_ids": [
+      "chunk-811c2282e5faf0e8745c51115a8604e5"
+    ],
+    "count": 1,
+    "create_time": 1776813913,
+    "update_time": 1776813913,
+    "_id": "Unjustified Conditions"
+  },
+  "Discrimination": {
+    "chunk_ids": [
+      "chunk-811c2282e5faf0e8745c51115a8604e5"
+    ],
+    "count": 1,
+    "create_time": 1776813913,
+    "update_time": 1776813913,
+    "_id": "Discrimination"
+  },
+  "Deceptive Advertising": {
+    "chunk_ids": [
+      "chunk-811c2282e5faf0e8745c51115a8604e5"
+    ],
+    "count": 1,
+    "create_time": 1776813913,
+    "update_time": 1776813913,
+    "_id": "Deceptive Advertising"
+  },
+  "Product Lifecycle Manipulation": {
+    "chunk_ids": [
+      "chunk-811c2282e5faf0e8745c51115a8604e5"
+    ],
+    "count": 1,
+    "create_time": 1776813913,
+    "update_time": 1776813913,
+    "_id": "Product Lifecycle Manipulation"
+  },
+  "Misleading Commercial Practices": {
+    "chunk_ids": [
+      "chunk-6fb2c83cde8c36de94f7057d58fb2869"
+    ],
+    "count": 1,
+    "create_time": 1776813927,
+    "update_time": 1776813927,
+    "_id": "Misleading Commercial Practices"
+  },
+  "Article Eighteen": {
+    "chunk_ids": [
+      "chunk-6fb2c83cde8c36de94f7057d58fb2869",
+      "chunk-f5661f438c3dca334dc944b7a2eeeb87",
+      "chunk-bdd31cd82935851ed60fa97049b2dc09"
+    ],
+    "count": 3,
+    "update_time": 1776814610,
+    "_id": "Article Eighteen"
+  },
+  "Awards": {
+    "chunk_ids": [
+      "chunk-6fb2c83cde8c36de94f7057d58fb2869"
+    ],
+    "count": 1,
+    "create_time": 1776813927,
+    "update_time": 1776813927,
+    "_id": "Awards"
+  },
+  "Certifications": {
+    "chunk_ids": [
+      "chunk-6fb2c83cde8c36de94f7057d58fb2869"
+    ],
+    "count": 1,
+    "create_time": 1776813927,
+    "update_time": 1776813927,
+    "_id": "Certifications"
+  },
+  "Quality Marks": {
+    "chunk_ids": [
+      "chunk-6fb2c83cde8c36de94f7057d58fb2869"
+    ],
+    "count": 1,
+    "create_time": 1776813927,
+    "update_time": 1776813927,
+    "_id": "Quality Marks"
+  },
+  "Trademarks": {
+    "chunk_ids": [
+      "chunk-6fb2c83cde8c36de94f7057d58fb2869"
+    ],
+    "count": 1,
+    "create_time": 1776813927,
+    "update_time": 1776813927,
+    "_id": "Trademarks"
+  },
+  "Logos": {
+    "chunk_ids": [
+      "chunk-6fb2c83cde8c36de94f7057d58fb2869"
+    ],
+    "count": 1,
+    "create_time": 1776813927,
+    "update_time": 1776813927,
+    "_id": "Logos"
+  },
+  "False Discounts": {
+    "chunk_ids": [
+      "chunk-6fb2c83cde8c36de94f7057d58fb2869"
+    ],
+    "count": 1,
+    "create_time": 1776813927,
+    "update_time": 1776813927,
+    "_id": "False Discounts"
+  },
+  "Warranty": {
+    "chunk_ids": [
+      "chunk-6fb2c83cde8c36de94f7057d58fb2869"
+    ],
+    "count": 1,
+    "create_time": 1776813927,
+    "update_time": 1776813927,
+    "_id": "Warranty"
+  },
+  "Article Nineteen": {
+    "chunk_ids": [
+      "chunk-a9356ec391f6d77e79bbb8d92e8e7958",
+      "chunk-db15b26408bc87ab744a17b5b0ea6317",
+      "chunk-bdd31cd82935851ed60fa97049b2dc09"
+    ],
+    "count": 3,
+    "update_time": 1776814610,
+    "_id": "Article Nineteen"
+  },
+  "Comparative Advertising": {
+    "chunk_ids": [
+      "chunk-a9356ec391f6d77e79bbb8d92e8e7958"
+    ],
+    "count": 1,
+    "create_time": 1776813933,
+    "update_time": 1776813933,
+    "_id": "Comparative Advertising"
+  },
+  "Consumer Needs": {
+    "chunk_ids": [
+      "chunk-a9356ec391f6d77e79bbb8d92e8e7958"
+    ],
+    "count": 1,
+    "create_time": 1776813933,
+    "update_time": 1776813933,
+    "_id": "Consumer Needs"
+  },
+  "Key Advantages": {
+    "chunk_ids": [
+      "chunk-a9356ec391f6d77e79bbb8d92e8e7958"
+    ],
+    "count": 1,
+    "create_time": 1776813933,
+    "update_time": 1776813933,
+    "_id": "Key Advantages"
+  },
+  "Competitor Reputation": {
+    "chunk_ids": [
+      "chunk-a9356ec391f6d77e79bbb8d92e8e7958"
+    ],
+    "count": 1,
+    "create_time": 1776813933,
+    "update_time": 1776813933,
+    "_id": "Competitor Reputation"
+  },
+  "Misleading Practice": {
+    "chunk_ids": [
+      "chunk-a9356ec391f6d77e79bbb8d92e8e7958"
+    ],
+    "count": 1,
+    "create_time": 1776813933,
+    "update_time": 1776813933,
+    "_id": "Misleading Practice"
+  },
+  "Article 20 Electronic Advertising": {
+    "chunk_ids": [
+      "chunk-c71f72d143d12f0695043e4deb70f183"
+    ],
+    "count": 1,
+    "create_time": 1776813942,
+    "update_time": 1776813942,
+    "_id": "Article 20 Electronic Advertising"
+  },
+  "Email Address": {
+    "chunk_ids": [
+      "chunk-c71f72d143d12f0695043e4deb70f183",
+      "chunk-7b813a98432e97bd821133a34c3ab82c"
+    ],
+    "count": 2,
+    "update_time": 1776814494,
+    "_id": "Email Address"
+  },
+  "Prior Explicit Consent": {
+    "chunk_ids": [
+      "chunk-c71f72d143d12f0695043e4deb70f183"
+    ],
+    "count": 1,
+    "create_time": 1776813942,
+    "update_time": 1776813942,
+    "_id": "Prior Explicit Consent"
+  },
+  "Advertising Content Requirements": {
+    "chunk_ids": [
+      "chunk-c71f72d143d12f0695043e4deb70f183"
+    ],
+    "count": 1,
+    "create_time": 1776813942,
+    "update_time": 1776813942,
+    "_id": "Advertising Content Requirements"
+  },
+  "Sender Identity Disclosure": {
+    "chunk_ids": [
+      "chunk-c71f72d143d12f0695043e4deb70f183"
+    ],
+    "count": 1,
+    "create_time": 1776813942,
+    "update_time": 1776813942,
+    "_id": "Sender Identity Disclosure"
+  },
+  "Opt-Out Mechanism": {
+    "chunk_ids": [
+      "chunk-c71f72d143d12f0695043e4deb70f183"
+    ],
+    "count": 1,
+    "create_time": 1776813942,
+    "update_time": 1776813942,
+    "_id": "Opt-Out Mechanism"
+  },
+  "Implementing Regulations": {
+    "chunk_ids": [
+      "chunk-c71f72d143d12f0695043e4deb70f183",
+      "chunk-20c777b39e1e4bbef77c2e5719e36820",
+      "chunk-a4d1807f1fc70cd86f3926044c5b150a",
+      "chunk-bbcbc9c6d4024ed107a3aed8073f87c9"
+    ],
+    "count": 4,
+    "update_time": 1776814132,
+    "_id": "Implementing Regulations"
+  },
+  "Article Twenty-One": {
+    "chunk_ids": [
+      "chunk-a0621a29a827530e6d64c79f4cced1de",
+      "chunk-85d489500ac41fa5ad12a8c9462979b4"
+    ],
+    "count": 2,
+    "update_time": 1776814626,
+    "_id": "Article Twenty-One"
+  },
+  "Children Advertising": {
+    "chunk_ids": [
+      "chunk-a0621a29a827530e6d64c79f4cced1de"
+    ],
+    "count": 1,
+    "create_time": 1776813946,
+    "update_time": 1776813946,
+    "_id": "Children Advertising"
+  },
+  "Child Safety": {
+    "chunk_ids": [
+      "chunk-a0621a29a827530e6d64c79f4cced1de"
+    ],
+    "count": 1,
+    "create_time": 1776813946,
+    "update_time": 1776813946,
+    "_id": "Child Safety"
+  },
+  "Age-Inappropriate Products": {
+    "chunk_ids": [
+      "chunk-a0621a29a827530e6d64c79f4cced1de"
+    ],
+    "count": 1,
+    "create_time": 1776813946,
+    "update_time": 1776813946,
+    "_id": "Age-Inappropriate Products"
+  },
+  "Consumer Protection Law Article 22": {
+    "chunk_ids": [
+      "chunk-ec82bc886475d035ec952d60da6a6e6c"
+    ],
+    "count": 1,
+    "create_time": 1776813952,
+    "update_time": 1776813952,
+    "_id": "Consumer Protection Law Article 22"
+  },
+  "Approved Communication Tariff": {
+    "chunk_ids": [
+      "chunk-ec82bc886475d035ec952d60da6a6e6c"
+    ],
+    "count": 1,
+    "create_time": 1776813952,
+    "update_time": 1776813952,
+    "_id": "Approved Communication Tariff"
+  },
+  "Electronic Communication Means": {
+    "chunk_ids": [
+      "chunk-ec82bc886475d035ec952d60da6a6e6c"
+    ],
+    "count": 1,
+    "create_time": 1776813952,
+    "update_time": 1776813952,
+    "_id": "Electronic Communication Means"
+  },
+  "Artificial Intelligence": {
+    "chunk_ids": [
+      "chunk-ec82bc886475d035ec952d60da6a6e6c"
+    ],
+    "count": 1,
+    "create_time": 1776813952,
+    "update_time": 1776813952,
+    "_id": "Artificial Intelligence"
+  },
+  "Websites": {
+    "chunk_ids": [
+      "chunk-ec82bc886475d035ec952d60da6a6e6c"
+    ],
+    "count": 1,
+    "create_time": 1776813952,
+    "update_time": 1776813952,
+    "_id": "Websites"
+  },
+  "Telephone Communications": {
+    "chunk_ids": [
+      "chunk-ec82bc886475d035ec952d60da6a6e6c"
+    ],
+    "count": 1,
+    "create_time": 1776813952,
+    "update_time": 1776813952,
+    "_id": "Telephone Communications"
+  },
+  "Article 23: Reductions": {
+    "chunk_ids": [
+      "chunk-56229fb9380fc83bd53da4c959da6c7c"
+    ],
+    "count": 1,
+    "create_time": 1776813959,
+    "update_time": 1776813959,
+    "_id": "Article 23: Reductions"
+  },
+  "Misleading Practices": {
+    "chunk_ids": [
+      "chunk-56229fb9380fc83bd53da4c959da6c7c"
+    ],
+    "count": 1,
+    "create_time": 1776813959,
+    "update_time": 1776813959,
+    "_id": "Misleading Practices"
+  },
+  "The Regulations": {
+    "chunk_ids": [
+      "chunk-56229fb9380fc83bd53da4c959da6c7c"
+    ],
+    "count": 1,
+    "create_time": 1776813959,
+    "update_time": 1776813959,
+    "_id": "The Regulations"
+  },
+  "Bylaws": {
+    "chunk_ids": [
+      "chunk-56229fb9380fc83bd53da4c959da6c7c",
+      "chunk-41f86c946795eb4b1b8e1172b283f83c"
+    ],
+    "count": 2,
+    "update_time": 1776814291,
+    "_id": "Bylaws"
+  },
+  "Reduction Campaigns": {
+    "chunk_ids": [
+      "chunk-56229fb9380fc83bd53da4c959da6c7c"
+    ],
+    "count": 1,
+    "create_time": 1776813959,
+    "update_time": 1776813959,
+    "_id": "Reduction Campaigns"
+  },
+  "The Fourteenth Article": {
+    "chunk_ids": [
+      "chunk-9a6516eb7274d47a5878b05ae794d1f0"
+    ],
+    "count": 1,
+    "create_time": 1776813966,
+    "update_time": 1776813966,
+    "_id": "The Fourteenth Article"
+  },
+  "Competitions": {
+    "chunk_ids": [
+      "chunk-9a6516eb7274d47a5878b05ae794d1f0"
+    ],
+    "count": 1,
+    "create_time": 1776813966,
+    "update_time": 1776813966,
+    "_id": "Competitions"
+  },
+  "Competition License": {
+    "chunk_ids": [
+      "chunk-9a6516eb7274d47a5878b05ae794d1f0"
+    ],
+    "count": 1,
+    "create_time": 1776813966,
+    "update_time": 1776813966,
+    "_id": "Competition License"
+  },
+  "Competition Coupon": {
+    "chunk_ids": [
+      "chunk-9a6516eb7274d47a5878b05ae794d1f0"
+    ],
+    "count": 1,
+    "create_time": 1776813966,
+    "update_time": 1776813966,
+    "_id": "Competition Coupon"
+  },
+  "Competition Details": {
+    "chunk_ids": [
+      "chunk-9a6516eb7274d47a5878b05ae794d1f0"
+    ],
+    "count": 1,
+    "create_time": 1776813966,
+    "update_time": 1776813966,
+    "_id": "Competition Details"
+  },
+  "Prizes": {
+    "chunk_ids": [
+      "chunk-9a6516eb7274d47a5878b05ae794d1f0"
+    ],
+    "count": 1,
+    "create_time": 1776813966,
+    "update_time": 1776813966,
+    "_id": "Prizes"
+  },
+  "Product Or Service Purchase Requirement": {
+    "chunk_ids": [
+      "chunk-9a6516eb7274d47a5878b05ae794d1f0"
+    ],
+    "count": 1,
+    "create_time": 1776813967,
+    "update_time": 1776813967,
+    "_id": "Product Or Service Purchase Requirement"
+  },
+  "Article Twenty-Five": {
+    "chunk_ids": [
+      "chunk-2228f5a1f65a7fcad0b31452f9941e5d"
+    ],
+    "count": 1,
+    "create_time": 1776813972,
+    "update_time": 1776813972,
+    "_id": "Article Twenty-Five"
+  },
+  "Strategic Products And Services": {
+    "chunk_ids": [
+      "chunk-2228f5a1f65a7fcad0b31452f9941e5d"
+    ],
+    "count": 1,
+    "create_time": 1776813972,
+    "update_time": 1776813972,
+    "_id": "Strategic Products And Services"
+  },
+  "Head Of The Competent Authority": {
+    "chunk_ids": [
+      "chunk-2228f5a1f65a7fcad0b31452f9941e5d",
+      "chunk-e1c5c3874985bccf0474e63d7c12c51d",
+      "chunk-53d255606873f798c277f71c669581e4"
+    ],
+    "count": 3,
+    "update_time": 1776814451,
+    "_id": "Head Of The Competent Authority"
+  },
+  "Holders Of Strategic Products": {
+    "chunk_ids": [
+      "chunk-2228f5a1f65a7fcad0b31452f9941e5d"
+    ],
+    "count": 1,
+    "create_time": 1776813972,
+    "update_time": 1776813972,
+    "_id": "Holders Of Strategic Products"
+  },
+  "Trade": {
+    "chunk_ids": [
+      "chunk-2228f5a1f65a7fcad0b31452f9941e5d"
+    ],
+    "count": 1,
+    "create_time": 1776813972,
+    "update_time": 1776813972,
+    "_id": "Trade"
+  },
+  "Personal Use": {
+    "chunk_ids": [
+      "chunk-2228f5a1f65a7fcad0b31452f9941e5d"
+    ],
+    "count": 1,
+    "create_time": 1776813972,
+    "update_time": 1776813972,
+    "_id": "Personal Use"
+  },
+  "Article 26": {
+    "chunk_ids": [
+      "chunk-20c777b39e1e4bbef77c2e5719e36820"
+    ],
+    "count": 1,
+    "create_time": 1776813978,
+    "update_time": 1776813978,
+    "_id": "Article 26"
+  },
+  "Extraordinary Price Increases": {
+    "chunk_ids": [
+      "chunk-20c777b39e1e4bbef77c2e5719e36820"
+    ],
+    "count": 1,
+    "create_time": 1776813978,
+    "update_time": 1776813978,
+    "_id": "Extraordinary Price Increases"
+  },
+  "Competent Authority President": {
+    "chunk_ids": [
+      "chunk-20c777b39e1e4bbef77c2e5719e36820",
+      "chunk-a77f891792f59dafbde31f28e906bdf0"
+    ],
+    "count": 2,
+    "update_time": 1776814393,
+    "_id": "Competent Authority President"
+  },
+  "Emergency Circumstances": {
+    "chunk_ids": [
+      "chunk-20c777b39e1e4bbef77c2e5719e36820"
+    ],
+    "count": 1,
+    "create_time": 1776813978,
+    "update_time": 1776813978,
+    "_id": "Emergency Circumstances"
+  },
+  "Cabinet Council": {
+    "chunk_ids": [
+      "chunk-20c777b39e1e4bbef77c2e5719e36820"
+    ],
+    "count": 1,
+    "create_time": 1776813978,
+    "update_time": 1776813978,
+    "_id": "Cabinet Council"
+  },
+  "Consumer Interests": {
+    "chunk_ids": [
+      "chunk-20c777b39e1e4bbef77c2e5719e36820"
+    ],
+    "count": 1,
+    "create_time": 1776813978,
+    "update_time": 1776813978,
+    "_id": "Consumer Interests"
+  },
+  "Temporary Measures": {
+    "chunk_ids": [
+      "chunk-20c777b39e1e4bbef77c2e5719e36820"
+    ],
+    "count": 1,
+    "create_time": 1776813978,
+    "update_time": 1776813978,
+    "_id": "Temporary Measures"
+  },
+  "Article Twenty-Seven": {
+    "chunk_ids": [
+      "chunk-fb13f1b3abd5cc99dd565ac09795ffc6"
+    ],
+    "count": 1,
+    "create_time": 1776813983,
+    "update_time": 1776813983,
+    "_id": "Article Twenty-Seven"
+  },
+  "Consumer Contracts": {
+    "chunk_ids": [
+      "chunk-fb13f1b3abd5cc99dd565ac09795ffc6"
+    ],
+    "count": 1,
+    "create_time": 1776813983,
+    "update_time": 1776813983,
+    "_id": "Consumer Contracts"
+  },
+  "Standard Contract": {
+    "chunk_ids": [
+      "chunk-fb13f1b3abd5cc99dd565ac09795ffc6"
+    ],
+    "count": 1,
+    "create_time": 1776813983,
+    "update_time": 1776813983,
+    "_id": "Standard Contract"
+  },
+  "Negotiated Contract": {
+    "chunk_ids": [
+      "chunk-fb13f1b3abd5cc99dd565ac09795ffc6"
+    ],
+    "count": 1,
+    "create_time": 1776813983,
+    "update_time": 1776813983,
+    "_id": "Negotiated Contract"
+  },
+  "Burden of Proof": {
+    "chunk_ids": [
+      "chunk-fb13f1b3abd5cc99dd565ac09795ffc6",
+      "chunk-294b2d78155c5479740e5f6e60fabd5b",
+      "chunk-9ee11e2f2efdecd0a6233d3dde78ac94",
+      "chunk-301a4ffbdfd6fdb0a956239d0553872e",
+      "chunk-a4d1807f1fc70cd86f3926044c5b150a"
+    ],
+    "count": 5,
+    "update_time": 1776814127,
+    "_id": "Burden of Proof"
+  },
+  "Contract Information Disclosure": {
+    "chunk_ids": [
+      "chunk-05ecf93d1d9a52151af2a72301234ed7"
+    ],
+    "count": 1,
+    "create_time": 1776813994,
+    "update_time": 1776813994,
+    "_id": "Contract Information Disclosure"
+  },
+  "Used Product Sale Regulations": {
+    "chunk_ids": [
+      "chunk-05ecf93d1d9a52151af2a72301234ed7"
+    ],
+    "count": 1,
+    "create_time": 1776813994,
+    "update_time": 1776813994,
+    "_id": "Used Product Sale Regulations"
+  },
+  "Vehicle Maintenance Service Provider": {
+    "chunk_ids": [
+      "chunk-05ecf93d1d9a52151af2a72301234ed7"
+    ],
+    "count": 1,
+    "create_time": 1776813994,
+    "update_time": 1776813994,
+    "_id": "Vehicle Maintenance Service Provider"
+  },
+  "Technical Report": {
+    "chunk_ids": [
+      "chunk-05ecf93d1d9a52151af2a72301234ed7"
+    ],
+    "count": 1,
+    "create_time": 1776813994,
+    "update_time": 1776813994,
+    "_id": "Technical Report"
+  },
+  "Dispute Resolution Platforms": {
+    "chunk_ids": [
+      "chunk-05ecf93d1d9a52151af2a72301234ed7"
+    ],
+    "count": 1,
+    "create_time": 1776813994,
+    "update_time": 1776813994,
+    "_id": "Dispute Resolution Platforms"
+  },
+  "Product or Service Description": {
+    "chunk_ids": [
+      "chunk-05ecf93d1d9a52151af2a72301234ed7"
+    ],
+    "count": 1,
+    "create_time": 1776813995,
+    "update_time": 1776813995,
+    "_id": "Product or Service Description"
+  },
+  "Economic Operator Identity Data": {
+    "chunk_ids": [
+      "chunk-05ecf93d1d9a52151af2a72301234ed7"
+    ],
+    "count": 1,
+    "create_time": 1776813995,
+    "update_time": 1776813995,
+    "_id": "Economic Operator Identity Data"
+  },
+  "Contact Information": {
+    "chunk_ids": [
+      "chunk-05ecf93d1d9a52151af2a72301234ed7",
+      "chunk-8eba08bab139116de9ee95fe214a7f7e"
+    ],
+    "count": 2,
+    "update_time": 1776814366,
+    "_id": "Contact Information"
+  },
+  "Payment and Delivery Terms": {
+    "chunk_ids": [
+      "chunk-05ecf93d1d9a52151af2a72301234ed7"
+    ],
+    "count": 1,
+    "create_time": 1776813995,
+    "update_time": 1776813995,
+    "_id": "Payment and Delivery Terms"
+  },
+  "Return and Exchange Policy": {
+    "chunk_ids": [
+      "chunk-05ecf93d1d9a52151af2a72301234ed7"
+    ],
+    "count": 1,
+    "create_time": 1776813995,
+    "update_time": 1776813995,
+    "_id": "Return and Exchange Policy"
+  },
+  "Installation and Maintenance Conditions": {
+    "chunk_ids": [
+      "chunk-05ecf93d1d9a52151af2a72301234ed7"
+    ],
+    "count": 1,
+    "create_time": 1776813995,
+    "update_time": 1776813995,
+    "_id": "Installation and Maintenance Conditions"
+  },
+  "Contract Duration and Termination": {
+    "chunk_ids": [
+      "chunk-05ecf93d1d9a52151af2a72301234ed7"
+    ],
+    "count": 1,
+    "create_time": 1776813995,
+    "update_time": 1776813995,
+    "_id": "Contract Duration and Termination"
+  },
+  "Usage Risks and Prevention": {
+    "chunk_ids": [
+      "chunk-05ecf93d1d9a52151af2a72301234ed7"
+    ],
+    "count": 1,
+    "create_time": 1776813995,
+    "update_time": 1776813995,
+    "_id": "Usage Risks and Prevention"
+  },
+  "Complaint Handling Procedure": {
+    "chunk_ids": [
+      "chunk-05ecf93d1d9a52151af2a72301234ed7"
+    ],
+    "count": 1,
+    "create_time": 1776813995,
+    "update_time": 1776813995,
+    "_id": "Complaint Handling Procedure"
+  },
+  "Article 29": {
+    "chunk_ids": [
+      "chunk-1db2fdbafbec4cf6444dec6b72a0824e"
+    ],
+    "count": 1,
+    "create_time": 1776814000,
+    "update_time": 1776814000,
+    "_id": "Article 29"
+  },
+  "Contract Terms": {
+    "chunk_ids": [
+      "chunk-1db2fdbafbec4cf6444dec6b72a0824e",
+      "chunk-5d152ef32e10dd0dd90a99794e2ce09a",
+      "chunk-70049c2c9beee67be467a0bc1e8e5319"
+    ],
+    "count": 3,
+    "update_time": 1776814161,
+    "_id": "Contract Terms"
+  },
+  "Oral Communication": {
+    "chunk_ids": [
+      "chunk-1db2fdbafbec4cf6444dec6b72a0824e"
+    ],
+    "count": 1,
+    "create_time": 1776814000,
+    "update_time": 1776814000,
+    "_id": "Oral Communication"
+  },
+  "Written Document": {
+    "chunk_ids": [
+      "chunk-1db2fdbafbec4cf6444dec6b72a0824e"
+    ],
+    "count": 1,
+    "create_time": 1776814000,
+    "update_time": 1776814000,
+    "_id": "Written Document"
+  },
+  "Article 30": {
+    "chunk_ids": [
+      "chunk-10fae82f7c6a76b4dbf01080c7ed22eb"
+    ],
+    "count": 1,
+    "create_time": 1776814006,
+    "update_time": 1776814006,
+    "_id": "Article 30"
+  },
+  "Unfair Terms": {
+    "chunk_ids": [
+      "chunk-10fae82f7c6a76b4dbf01080c7ed22eb"
+    ],
+    "count": 1,
+    "create_time": 1776814006,
+    "update_time": 1776814006,
+    "_id": "Unfair Terms"
+  },
+  "Contract": {
+    "chunk_ids": [
+      "chunk-10fae82f7c6a76b4dbf01080c7ed22eb",
+      "chunk-6e82925b2fc83bb4036c3b1f007ba923",
+      "chunk-dfe11211e281ef2abb48c30415b14f61",
+      "chunk-fc0c7efa3b63af90af17dc69c2eb4ab7",
+      "chunk-7b813a98432e97bd821133a34c3ab82c",
+      "chunk-ed4385a57314892c443871db0108ea1b",
+      "chunk-98520f83d72a9bac06aacc6991d7d823",
+      "chunk-c0d47d22075e87911525f2b1b1a29585"
+    ],
+    "count": 8,
+    "update_time": 1776814578,
+    "_id": "Contract"
+  },
+  "Contractual Rights": {
+    "chunk_ids": [
+      "chunk-10fae82f7c6a76b4dbf01080c7ed22eb"
+    ],
+    "count": 1,
+    "create_time": 1776814006,
+    "update_time": 1776814006,
+    "_id": "Contractual Rights"
+  },
+  "Contractual Obligations": {
+    "chunk_ids": [
+      "chunk-10fae82f7c6a76b4dbf01080c7ed22eb"
+    ],
+    "count": 1,
+    "create_time": 1776814007,
+    "update_time": 1776814007,
+    "_id": "Contractual Obligations"
+  },
+  "Article 31": {
+    "chunk_ids": [
+      "chunk-6e82925b2fc83bb4036c3b1f007ba923"
+    ],
+    "count": 1,
+    "create_time": 1776814017,
+    "update_time": 1776814017,
+    "_id": "Article 31"
+  },
+  "Regulations": {
+    "chunk_ids": [
+      "chunk-6e82925b2fc83bb4036c3b1f007ba923",
+      "chunk-c473b635efc04ff40f299b6d7f6fc2db",
+      "chunk-7b813a98432e97bd821133a34c3ab82c",
+      "chunk-98520f83d72a9bac06aacc6991d7d823",
+      "chunk-0287b0d01cfa4f5a98740f1886983a05"
+    ],
+    "count": 5,
+    "update_time": 1776814585,
+    "_id": "Regulations"
+  },
+  "Judicial System": {
+    "chunk_ids": [
+      "chunk-6e82925b2fc83bb4036c3b1f007ba923"
+    ],
+    "count": 1,
+    "create_time": 1776814017,
+    "update_time": 1776814017,
+    "_id": "Judicial System"
+  },
+  "Other Country Law": {
+    "chunk_ids": [
+      "chunk-6e82925b2fc83bb4036c3b1f007ba923"
+    ],
+    "count": 1,
+    "create_time": 1776814017,
+    "update_time": 1776814017,
+    "_id": "Other Country Law"
+  },
+  "Liability Exemption": {
+    "chunk_ids": [
+      "chunk-6e82925b2fc83bb4036c3b1f007ba923"
+    ],
+    "count": 1,
+    "create_time": 1776814017,
+    "update_time": 1776814017,
+    "_id": "Liability Exemption"
+  },
+  "Unilateral Modification Right": {
+    "chunk_ids": [
+      "chunk-6e82925b2fc83bb4036c3b1f007ba923"
+    ],
+    "count": 1,
+    "create_time": 1776814017,
+    "update_time": 1776814017,
+    "_id": "Unilateral Modification Right"
+  },
+  "Dispute Resolution Clause": {
+    "chunk_ids": [
+      "chunk-6e82925b2fc83bb4036c3b1f007ba923"
+    ],
+    "count": 1,
+    "create_time": 1776814017,
+    "update_time": 1776814017,
+    "_id": "Dispute Resolution Clause"
+  },
+  "Delivery Period": {
+    "chunk_ids": [
+      "chunk-dfe11211e281ef2abb48c30415b14f61"
+    ],
+    "count": 1,
+    "create_time": 1776814027,
+    "update_time": 1776814027,
+    "_id": "Delivery Period"
+  },
+  "Refund Period": {
+    "chunk_ids": [
+      "chunk-dfe11211e281ef2abb48c30415b14f61"
+    ],
+    "count": 1,
+    "create_time": 1776814027,
+    "update_time": 1776814027,
+    "_id": "Refund Period"
+  },
+  "Article Thirty-Two": {
+    "chunk_ids": [
+      "chunk-dfe11211e281ef2abb48c30415b14f61"
+    ],
+    "count": 1,
+    "create_time": 1776814027,
+    "update_time": 1776814027,
+    "_id": "Article Thirty-Two"
+  },
+  "Delay Notification": {
+    "chunk_ids": [
+      "chunk-dfe11211e281ef2abb48c30415b14f61"
+    ],
+    "count": 1,
+    "create_time": 1776814027,
+    "update_time": 1776814027,
+    "_id": "Delay Notification"
+  },
+  "Contract Conclusion Date": {
+    "chunk_ids": [
+      "chunk-dfe11211e281ef2abb48c30415b14f61",
+      "chunk-301a4ffbdfd6fdb0a956239d0553872e"
+    ],
+    "count": 2,
+    "update_time": 1776814098,
+    "_id": "Contract Conclusion Date"
+  },
+  "Cancellation Notification Date": {
+    "chunk_ids": [
+      "chunk-dfe11211e281ef2abb48c30415b14f61"
+    ],
+    "count": 1,
+    "create_time": 1776814028,
+    "update_time": 1776814028,
+    "_id": "Cancellation Notification Date"
+  },
+  "Article Thirty-Three: Liability for Loss": {
+    "chunk_ids": [
+      "chunk-4a056e5bd9daa08695b5a665b53f6d3b"
+    ],
+    "count": 1,
+    "create_time": 1776814034,
+    "update_time": 1776814034,
+    "_id": "Article Thirty-Three: Liability for Loss"
+  },
+  "Carrier": {
+    "chunk_ids": [
+      "chunk-4a056e5bd9daa08695b5a665b53f6d3b"
+    ],
+    "count": 1,
+    "create_time": 1776814034,
+    "update_time": 1776814034,
+    "_id": "Carrier"
+  },
+  "Delivery": {
+    "chunk_ids": [
+      "chunk-4a056e5bd9daa08695b5a665b53f6d3b"
+    ],
+    "count": 1,
+    "create_time": 1776814034,
+    "update_time": 1776814034,
+    "_id": "Delivery"
+  },
+  "Article 34": {
+    "chunk_ids": [
+      "chunk-5d152ef32e10dd0dd90a99794e2ce09a"
+    ],
+    "count": 1,
+    "create_time": 1776814038,
+    "update_time": 1776814038,
+    "_id": "Article 34"
+  },
+  "Clause": {
+    "chunk_ids": [
+      "chunk-5d152ef32e10dd0dd90a99794e2ce09a"
+    ],
+    "count": 1,
+    "create_time": 1776814038,
+    "update_time": 1776814038,
+    "_id": "Clause"
+  },
+  "Article Thirty-Five": {
+    "chunk_ids": [
+      "chunk-23ea8c91412652822b5737482cd0f932"
+    ],
+    "count": 1,
+    "create_time": 1776814047,
+    "update_time": 1776814047,
+    "_id": "Article Thirty-Five"
+  },
+  "Contract Outside Business Premises": {
+    "chunk_ids": [
+      "chunk-23ea8c91412652822b5737482cd0f932"
+    ],
+    "count": 1,
+    "create_time": 1776814047,
+    "update_time": 1776814047,
+    "_id": "Contract Outside Business Premises"
+  },
+  "Sale Of Product Or Service Provision": {
+    "chunk_ids": [
+      "chunk-23ea8c91412652822b5737482cd0f932"
+    ],
+    "count": 1,
+    "create_time": 1776814047,
+    "update_time": 1776814047,
+    "_id": "Sale Of Product Or Service Provision"
+  },
+  "Visit Outside Premises": {
+    "chunk_ids": [
+      "chunk-23ea8c91412652822b5737482cd0f932"
+    ],
+    "count": 1,
+    "create_time": 1776814047,
+    "update_time": 1776814047,
+    "_id": "Visit Outside Premises"
+  },
+  "Consumer Residence": {
+    "chunk_ids": [
+      "chunk-23ea8c91412652822b5737482cd0f932"
+    ],
+    "count": 1,
+    "create_time": 1776814047,
+    "update_time": 1776814047,
+    "_id": "Consumer Residence"
+  },
+  "Consumer Workplace": {
+    "chunk_ids": [
+      "chunk-23ea8c91412652822b5737482cd0f932"
+    ],
+    "count": 1,
+    "create_time": 1776814047,
+    "update_time": 1776814047,
+    "_id": "Consumer Workplace"
+  },
+  "Article 36": {
+    "chunk_ids": [
+      "chunk-294b2d78155c5479740e5f6e60fabd5b",
+      "chunk-9ee11e2f2efdecd0a6233d3dde78ac94"
+    ],
+    "count": 2,
+    "update_time": 1776814074,
+    "_id": "Article 36"
+  },
+  "Seven-Day Period": {
+    "chunk_ids": [
+      "chunk-294b2d78155c5479740e5f6e60fabd5b",
+      "chunk-301a4ffbdfd6fdb0a956239d0553872e",
+      "chunk-019c5b0704e7195269616af2f7e331e2",
+      "chunk-98520f83d72a9bac06aacc6991d7d823"
+    ],
+    "count": 4,
+    "update_time": 1776814570,
+    "_id": "Seven-Day Period"
+  },
+  "Contract Cancellation": {
+    "chunk_ids": [
+      "chunk-294b2d78155c5479740e5f6e60fabd5b"
+    ],
+    "count": 1,
+    "create_time": 1776814054,
+    "update_time": 1776814054,
+    "_id": "Contract Cancellation"
+  },
+  "Article 42": {
+    "chunk_ids": [
+      "chunk-294b2d78155c5479740e5f6e60fabd5b"
+    ],
+    "count": 1,
+    "create_time": 1776814054,
+    "update_time": 1776814054,
+    "_id": "Article 42"
+  },
+  "Subcontract": {
+    "chunk_ids": [
+      "chunk-294b2d78155c5479740e5f6e60fabd5b",
+      "chunk-301a4ffbdfd6fdb0a956239d0553872e"
+    ],
+    "count": 2,
+    "update_time": 1776814098,
+    "_id": "Subcontract"
+  },
+  "Article 37": {
+    "chunk_ids": [
+      "chunk-93b8a69d3470d8fd4caae59080df0a54"
+    ],
+    "count": 1,
+    "create_time": 1776814067,
+    "update_time": 1776814067,
+    "_id": "Article 37"
+  },
+  "Contract Termination": {
+    "chunk_ids": [
+      "chunk-93b8a69d3470d8fd4caae59080df0a54",
+      "chunk-019c5b0704e7195269616af2f7e331e2",
+      "chunk-e2e9d4353bb95f7bca809f541cd54320"
+    ],
+    "count": 3,
+    "update_time": 1776814300,
+    "_id": "Contract Termination"
+  },
+  "Seven-Day Return Period": {
+    "chunk_ids": [
+      "chunk-93b8a69d3470d8fd4caae59080df0a54"
+    ],
+    "count": 1,
+    "create_time": 1776814067,
+    "update_time": 1776814067,
+    "_id": "Seven-Day Return Period"
+  },
+  "Fourteen-Day Refund Period": {
+    "chunk_ids": [
+      "chunk-93b8a69d3470d8fd4caae59080df0a54"
+    ],
+    "count": 1,
+    "create_time": 1776814067,
+    "update_time": 1776814067,
+    "_id": "Fourteen-Day Refund Period"
+  },
+  "Systematic Warranty": {
+    "chunk_ids": [
+      "chunk-93b8a69d3470d8fd4caae59080df0a54"
+    ],
+    "count": 1,
+    "create_time": 1776814067,
+    "update_time": 1776814067,
+    "_id": "Systematic Warranty"
+  },
+  "Article 49": {
+    "chunk_ids": [
+      "chunk-93b8a69d3470d8fd4caae59080df0a54",
+      "chunk-019c5b0704e7195269616af2f7e331e2",
+      "chunk-d15616980ad303389944137db1af4f22"
+    ],
+    "count": 3,
+    "update_time": 1776814191,
+    "_id": "Article 49"
+  },
+  "Article 38": {
+    "chunk_ids": [
+      "chunk-9ee11e2f2efdecd0a6233d3dde78ac94"
+    ],
+    "count": 1,
+    "create_time": 1776814074,
+    "update_time": 1776814074,
+    "_id": "Article 38"
+  },
+  "Contract Termination Right": {
+    "chunk_ids": [
+      "chunk-9ee11e2f2efdecd0a6233d3dde78ac94"
+    ],
+    "count": 1,
+    "create_time": 1776814074,
+    "update_time": 1776814074,
+    "_id": "Contract Termination Right"
+  },
+  "Electronic Mediator": {
+    "chunk_ids": [
+      "chunk-9ee11e2f2efdecd0a6233d3dde78ac94"
+    ],
+    "count": 1,
+    "create_time": 1776814074,
+    "update_time": 1776814074,
+    "_id": "Electronic Mediator"
+  },
+  "Article 28": {
+    "chunk_ids": [
+      "chunk-9ee11e2f2efdecd0a6233d3dde78ac94"
+    ],
+    "count": 1,
+    "create_time": 1776814074,
+    "update_time": 1776814074,
+    "_id": "Article 28"
+  },
+  "Article Thirty-Nine": {
+    "chunk_ids": [
+      "chunk-c47f120917e5636d314c4a5e75774c7a"
+    ],
+    "count": 1,
+    "create_time": 1776814082,
+    "update_time": 1776814082,
+    "_id": "Article Thirty-Nine"
+  },
+  "Remote Sales Contract": {
+    "chunk_ids": [
+      "chunk-c47f120917e5636d314c4a5e75774c7a"
+    ],
+    "count": 1,
+    "create_time": 1776814082,
+    "update_time": 1776814082,
+    "_id": "Remote Sales Contract"
+  },
+  "Product Sale": {
+    "chunk_ids": [
+      "chunk-c47f120917e5636d314c4a5e75774c7a"
+    ],
+    "count": 1,
+    "create_time": 1776814082,
+    "update_time": 1776814082,
+    "_id": "Product Sale"
+  },
+  "Service Provision": {
+    "chunk_ids": [
+      "chunk-c47f120917e5636d314c4a5e75774c7a"
+    ],
+    "count": 1,
+    "create_time": 1776814082,
+    "update_time": 1776814082,
+    "_id": "Service Provision"
+  },
+  "Communication Media": {
+    "chunk_ids": [
+      "chunk-c47f120917e5636d314c4a5e75774c7a"
+    ],
+    "count": 1,
+    "create_time": 1776814082,
+    "update_time": 1776814082,
+    "_id": "Communication Media"
+  },
+  "Telephone": {
+    "chunk_ids": [
+      "chunk-c47f120917e5636d314c4a5e75774c7a"
+    ],
+    "count": 1,
+    "create_time": 1776814082,
+    "update_time": 1776814082,
+    "_id": "Telephone"
+  },
+  "Fax": {
+    "chunk_ids": [
+      "chunk-c47f120917e5636d314c4a5e75774c7a"
+    ],
+    "count": 1,
+    "create_time": 1776814082,
+    "update_time": 1776814082,
+    "_id": "Fax"
+  },
+  "Mail": {
+    "chunk_ids": [
+      "chunk-c47f120917e5636d314c4a5e75774c7a"
+    ],
+    "count": 1,
+    "create_time": 1776814082,
+    "update_time": 1776814082,
+    "_id": "Mail"
+  },
+  "Website": {
+    "chunk_ids": [
+      "chunk-c47f120917e5636d314c4a5e75774c7a"
+    ],
+    "count": 1,
+    "create_time": 1776814082,
+    "update_time": 1776814082,
+    "_id": "Website"
+  },
+  "System Regulations": {
+    "chunk_ids": [
+      "chunk-c47f120917e5636d314c4a5e75774c7a",
+      "chunk-41f86c946795eb4b1b8e1172b283f83c",
+      "chunk-505a7da5372dbf86a3bdc9b55579249e"
+    ],
+    "count": 3,
+    "update_time": 1776814629,
+    "_id": "System Regulations"
+  },
+  "Article Forty": {
+    "chunk_ids": [
+      "chunk-0931bf17be9284d5fcf4f6332cd19598"
+    ],
+    "count": 1,
+    "create_time": 1776814091,
+    "update_time": 1776814091,
+    "_id": "Article Forty"
+  },
+  "Off-Premises Contracts": {
+    "chunk_ids": [
+      "chunk-0931bf17be9284d5fcf4f6332cd19598"
+    ],
+    "count": 1,
+    "create_time": 1776814091,
+    "update_time": 1776814091,
+    "_id": "Off-Premises Contracts"
+  },
+  "Automatic Vending Machines": {
+    "chunk_ids": [
+      "chunk-0931bf17be9284d5fcf4f6332cd19598"
+    ],
+    "count": 1,
+    "create_time": 1776814091,
+    "update_time": 1776814091,
+    "_id": "Automatic Vending Machines"
+  },
+  "Financial Service Contracts": {
+    "chunk_ids": [
+      "chunk-0931bf17be9284d5fcf4f6332cd19598"
+    ],
+    "count": 1,
+    "create_time": 1776814091,
+    "update_time": 1776814091,
+    "_id": "Financial Service Contracts"
+  },
+  "Remote Contracts": {
+    "chunk_ids": [
+      "chunk-0931bf17be9284d5fcf4f6332cd19598",
+      "chunk-ec93773600936293052d86178a78f903"
+    ],
+    "count": 2,
+    "update_time": 1776814385,
+    "_id": "Remote Contracts"
+  },
+  "Article 41": {
+    "chunk_ids": [
+      "chunk-301a4ffbdfd6fdb0a956239d0553872e"
+    ],
+    "count": 1,
+    "create_time": 1776814098,
+    "update_time": 1776814098,
+    "_id": "Article 41"
+  },
+  "Product Delivery Date": {
+    "chunk_ids": [
+      "chunk-301a4ffbdfd6fdb0a956239d0553872e",
+      "chunk-98520f83d72a9bac06aacc6991d7d823"
+    ],
+    "count": 2,
+    "update_time": 1776814570,
+    "_id": "Product Delivery Date"
+  },
+  "Termination Regulation": {
+    "chunk_ids": [
+      "chunk-301a4ffbdfd6fdb0a956239d0553872e"
+    ],
+    "count": 1,
+    "create_time": 1776814099,
+    "update_time": 1776814099,
+    "_id": "Termination Regulation"
+  },
+  "Authorized Representative": {
+    "chunk_ids": [
+      "chunk-301a4ffbdfd6fdb0a956239d0553872e"
+    ],
+    "count": 1,
+    "create_time": 1776814099,
+    "update_time": 1776814099,
+    "_id": "Authorized Representative"
+  },
+  "Termination of Remote Contract": {
+    "chunk_ids": [
+      "chunk-301a4ffbdfd6fdb0a956239d0553872e"
+    ],
+    "count": 1,
+    "create_time": 1776814099,
+    "update_time": 1776814099,
+    "_id": "Termination of Remote Contract"
+  },
+  "Right To Cancel Contract": {
+    "chunk_ids": [
+      "chunk-bc991839dd0cc98acaf12ea5bc58ecc8"
+    ],
+    "count": 1,
+    "create_time": 1776814106,
+    "update_time": 1776814106,
+    "_id": "Right To Cancel Contract"
+  },
+  "Service Contracts": {
+    "chunk_ids": [
+      "chunk-bc991839dd0cc98acaf12ea5bc58ecc8"
+    ],
+    "count": 1,
+    "create_time": 1776814106,
+    "update_time": 1776814106,
+    "_id": "Service Contracts"
+  },
+  "Digital Content": {
+    "chunk_ids": [
+      "chunk-bc991839dd0cc98acaf12ea5bc58ecc8",
+      "chunk-c81dd10f0ce67f495fcaa4afb41ade53"
+    ],
+    "count": 2,
+    "update_time": 1776814184,
+    "_id": "Digital Content"
+  },
+  "Periodical Publications": {
+    "chunk_ids": [
+      "chunk-bc991839dd0cc98acaf12ea5bc58ecc8"
+    ],
+    "count": 1,
+    "create_time": 1776814106,
+    "update_time": 1776814106,
+    "_id": "Periodical Publications"
+  },
+  "Software Programs": {
+    "chunk_ids": [
+      "chunk-bc991839dd0cc98acaf12ea5bc58ecc8"
+    ],
+    "count": 1,
+    "create_time": 1776814106,
+    "update_time": 1776814106,
+    "_id": "Software Programs"
+  },
+  "Accommodation And Transport Services": {
+    "chunk_ids": [
+      "chunk-bc991839dd0cc98acaf12ea5bc58ecc8"
+    ],
+    "count": 1,
+    "create_time": 1776814106,
+    "update_time": 1776814106,
+    "_id": "Accommodation And Transport Services"
+  },
+  "Defective Products": {
+    "chunk_ids": [
+      "chunk-bc991839dd0cc98acaf12ea5bc58ecc8"
+    ],
+    "count": 1,
+    "create_time": 1776814107,
+    "update_time": 1776814107,
+    "_id": "Defective Products"
+  },
+  "Improper Use": {
+    "chunk_ids": [
+      "chunk-bc991839dd0cc98acaf12ea5bc58ecc8"
+    ],
+    "count": 1,
+    "create_time": 1776814107,
+    "update_time": 1776814107,
+    "_id": "Improper Use"
+  },
+  "Article Forty-Two": {
+    "chunk_ids": [
+      "chunk-bc991839dd0cc98acaf12ea5bc58ecc8"
+    ],
+    "count": 1,
+    "create_time": 1776814107,
+    "update_time": 1776814107,
+    "_id": "Article Forty-Two"
+  },
+  "Article 43": {
+    "chunk_ids": [
+      "chunk-019c5b0704e7195269616af2f7e331e2"
+    ],
+    "count": 1,
+    "create_time": 1776814117,
+    "update_time": 1776814117,
+    "_id": "Article 43"
+  },
+  "Fourteen-Day Period": {
+    "chunk_ids": [
+      "chunk-019c5b0704e7195269616af2f7e331e2"
+    ],
+    "count": 1,
+    "create_time": 1776814117,
+    "update_time": 1776814117,
+    "_id": "Fourteen-Day Period"
+  },
+  "Refund Amounts": {
+    "chunk_ids": [
+      "chunk-019c5b0704e7195269616af2f7e331e2"
+    ],
+    "count": 1,
+    "create_time": 1776814117,
+    "update_time": 1776814117,
+    "_id": "Refund Amounts"
+  },
+  "Refund Method": {
+    "chunk_ids": [
+      "chunk-019c5b0704e7195269616af2f7e331e2"
+    ],
+    "count": 1,
+    "create_time": 1776814118,
+    "update_time": 1776814118,
+    "_id": "Refund Method"
+  },
+  "Statutory Warranty": {
+    "chunk_ids": [
+      "chunk-019c5b0704e7195269616af2f7e331e2",
+      "chunk-5086b6cf9bc02c27ea5fb4cb9ed609ed",
+      "chunk-70049c2c9beee67be467a0bc1e8e5319",
+      "chunk-d15616980ad303389944137db1af4f22",
+      "chunk-4f2ea9e729aab0deda37682e004b3fc6",
+      "chunk-bbdc0bdfb37532b71f5f2a12cb9f8fe0"
+    ],
+    "count": 6,
+    "update_time": 1776814208,
+    "_id": "Statutory Warranty"
+  },
+  "Article Forty-Four": {
+    "chunk_ids": [
+      "chunk-a4d1807f1fc70cd86f3926044c5b150a"
+    ],
+    "count": 1,
+    "create_time": 1776814127,
+    "update_time": 1776814127,
+    "_id": "Article Forty-Four"
+  },
+  "Identity Data": {
+    "chunk_ids": [
+      "chunk-a4d1807f1fc70cd86f3926044c5b150a"
+    ],
+    "count": 1,
+    "create_time": 1776814127,
+    "update_time": 1776814127,
+    "_id": "Identity Data"
+  },
+  "Direct Communication Means": {
+    "chunk_ids": [
+      "chunk-a4d1807f1fc70cd86f3926044c5b150a"
+    ],
+    "count": 1,
+    "create_time": 1776814127,
+    "update_time": 1776814127,
+    "_id": "Direct Communication Means"
+  },
+  "Right of Withdrawal": {
+    "chunk_ids": [
+      "chunk-a4d1807f1fc70cd86f3926044c5b150a"
+    ],
+    "count": 1,
+    "create_time": 1776814127,
+    "update_time": 1776814127,
+    "_id": "Right of Withdrawal"
+  },
+  "Payment Methods Information": {
+    "chunk_ids": [
+      "chunk-a4d1807f1fc70cd86f3926044c5b150a"
+    ],
+    "count": 1,
+    "create_time": 1776814127,
+    "update_time": 1776814127,
+    "_id": "Payment Methods Information"
+  },
+  "Obligation to Inform": {
+    "chunk_ids": [
+      "chunk-a4d1807f1fc70cd86f3926044c5b150a"
+    ],
+    "count": 1,
+    "create_time": 1776814127,
+    "update_time": 1776814127,
+    "_id": "Obligation to Inform"
+  },
+  "Electronic Platforms": {
+    "chunk_ids": [
+      "chunk-a4d1807f1fc70cd86f3926044c5b150a",
+      "chunk-b54adc716da8570bddd8c2bd41899a6f",
+      "chunk-b93d95a5b6df178db9b2bb6cde162f61"
+    ],
+    "count": 3,
+    "update_time": 1776814589,
+    "_id": "Electronic Platforms"
+  },
+  "Article Forty-One": {
+    "chunk_ids": [
+      "chunk-a4d1807f1fc70cd86f3926044c5b150a"
+    ],
+    "count": 1,
+    "create_time": 1776814127,
+    "update_time": 1776814127,
+    "_id": "Article Forty-One"
+  },
+  "Contract Formation Commitment": {
+    "chunk_ids": [
+      "chunk-a4d1807f1fc70cd86f3926044c5b150a"
+    ],
+    "count": 1,
+    "create_time": 1776814127,
+    "update_time": 1776814127,
+    "_id": "Contract Formation Commitment"
+  },
+  "Article Forty-Five": {
+    "chunk_ids": [
+      "chunk-bbcbc9c6d4024ed107a3aed8073f87c9"
+    ],
+    "count": 1,
+    "create_time": 1776814132,
+    "update_time": 1776814132,
+    "_id": "Article Forty-Five"
+  },
+  "Remote Contract Agreement": {
+    "chunk_ids": [
+      "chunk-bbcbc9c6d4024ed107a3aed8073f87c9"
+    ],
+    "count": 1,
+    "create_time": 1776814132,
+    "update_time": 1776814132,
+    "_id": "Remote Contract Agreement"
+  },
+  "Twenty-Four Hour Period": {
+    "chunk_ids": [
+      "chunk-bbcbc9c6d4024ed107a3aed8073f87c9"
+    ],
+    "count": 1,
+    "create_time": 1776814132,
+    "update_time": 1776814132,
+    "_id": "Twenty-Four Hour Period"
+  },
+  "Article Forty-Six": {
+    "chunk_ids": [
+      "chunk-c6572d1610f6bb7f6ec41fc6f8eb934f",
+      "chunk-6d5f73112067d3017eacad446fe05c6c"
+    ],
+    "count": 2,
+    "update_time": 1776814143,
+    "_id": "Article Forty-Six"
+  },
+  "Standards And Specifications": {
+    "chunk_ids": [
+      "chunk-c6572d1610f6bb7f6ec41fc6f8eb934f"
+    ],
+    "count": 1,
+    "create_time": 1776814137,
+    "update_time": 1776814137,
+    "_id": "Standards And Specifications"
+  },
+  "Quality Standards": {
+    "chunk_ids": [
+      "chunk-c6572d1610f6bb7f6ec41fc6f8eb934f"
+    ],
+    "count": 1,
+    "create_time": 1776814137,
+    "update_time": 1776814137,
+    "_id": "Quality Standards"
+  },
+  "Article Forty-Seven": {
+    "chunk_ids": [
+      "chunk-6d5f73112067d3017eacad446fe05c6c"
+    ],
+    "count": 1,
+    "create_time": 1776814143,
+    "update_time": 1776814143,
+    "_id": "Article Forty-Seven"
+  },
+  "Product Or Service Non-Compliance": {
+    "chunk_ids": [
+      "chunk-6d5f73112067d3017eacad446fe05c6c"
+    ],
+    "count": 1,
+    "create_time": 1776814143,
+    "update_time": 1776814143,
+    "_id": "Product Or Service Non-Compliance"
+  },
+  "Ten Days": {
+    "chunk_ids": [
+      "chunk-6d5f73112067d3017eacad446fe05c6c",
+      "chunk-db15b26408bc87ab744a17b5b0ea6317"
+    ],
+    "count": 2,
+    "update_time": 1776814597,
+    "_id": "Ten Days"
+  },
+  "Article 48": {
+    "chunk_ids": [
+      "chunk-5086b6cf9bc02c27ea5fb4cb9ed609ed"
+    ],
+    "count": 1,
+    "create_time": 1776814152,
+    "update_time": 1776814152,
+    "_id": "Article 48"
+  },
+  "Digital Content Contracts": {
+    "chunk_ids": [
+      "chunk-5086b6cf9bc02c27ea5fb4cb9ed609ed"
+    ],
+    "count": 1,
+    "create_time": 1776814152,
+    "update_time": 1776814152,
+    "_id": "Digital Content Contracts"
+  },
+  "Digital Services": {
+    "chunk_ids": [
+      "chunk-5086b6cf9bc02c27ea5fb4cb9ed609ed"
+    ],
+    "count": 1,
+    "create_time": 1776814152,
+    "update_time": 1776814152,
+    "_id": "Digital Services"
+  },
+  "Third Party": {
+    "chunk_ids": [
+      "chunk-5086b6cf9bc02c27ea5fb4cb9ed609ed"
+    ],
+    "count": 1,
+    "create_time": 1776814152,
+    "update_time": 1776814152,
+    "_id": "Third Party"
+  },
+  "Compulsory Execution Products": {
+    "chunk_ids": [
+      "chunk-5086b6cf9bc02c27ea5fb4cb9ed609ed"
+    ],
+    "count": 1,
+    "create_time": 1776814152,
+    "update_time": 1776814152,
+    "_id": "Compulsory Execution Products"
+  },
+  "Specialized Authority": {
+    "chunk_ids": [
+      "chunk-5086b6cf9bc02c27ea5fb4cb9ed609ed"
+    ],
+    "count": 1,
+    "create_time": 1776814153,
+    "update_time": 1776814153,
+    "_id": "Specialized Authority"
+  },
+  "Used Products": {
+    "chunk_ids": [
+      "chunk-5086b6cf9bc02c27ea5fb4cb9ed609ed"
+    ],
+    "count": 1,
+    "create_time": 1776814153,
+    "update_time": 1776814153,
+    "_id": "Used Products"
+  },
+  "Public Auction": {
+    "chunk_ids": [
+      "chunk-5086b6cf9bc02c27ea5fb4cb9ed609ed"
+    ],
+    "count": 1,
+    "create_time": 1776814153,
+    "update_time": 1776814153,
+    "_id": "Public Auction"
+  },
+  "Live Animals": {
+    "chunk_ids": [
+      "chunk-5086b6cf9bc02c27ea5fb4cb9ed609ed"
+    ],
+    "count": 1,
+    "create_time": 1776814153,
+    "update_time": 1776814153,
+    "_id": "Live Animals"
+  },
+  "Statutory Warranty Chapter": {
+    "chunk_ids": [
+      "chunk-5086b6cf9bc02c27ea5fb4cb9ed609ed"
+    ],
+    "count": 1,
+    "create_time": 1776814153,
+    "update_time": 1776814153,
+    "_id": "Statutory Warranty Chapter"
+  },
+  "Digital Product Updates": {
+    "chunk_ids": [
+      "chunk-70049c2c9beee67be467a0bc1e8e5319"
+    ],
+    "count": 1,
+    "create_time": 1776814161,
+    "update_time": 1776814161,
+    "_id": "Digital Product Updates"
+  },
+  "Sample Or Model": {
+    "chunk_ids": [
+      "chunk-70049c2c9beee67be467a0bc1e8e5319"
+    ],
+    "count": 1,
+    "create_time": 1776814161,
+    "update_time": 1776814161,
+    "_id": "Sample Or Model"
+  },
+  "Product Specifications": {
+    "chunk_ids": [
+      "chunk-70049c2c9beee67be467a0bc1e8e5319"
+    ],
+    "count": 1,
+    "create_time": 1776814161,
+    "update_time": 1776814161,
+    "_id": "Product Specifications"
+  },
+  "Advertising And Labels": {
+    "chunk_ids": [
+      "chunk-70049c2c9beee67be467a0bc1e8e5319"
+    ],
+    "count": 1,
+    "create_time": 1776814161,
+    "update_time": 1776814161,
+    "_id": "Advertising And Labels"
+  },
+  "Last Consumer Owner": {
+    "chunk_ids": [
+      "chunk-70049c2c9beee67be467a0bc1e8e5319"
+    ],
+    "count": 1,
+    "create_time": 1776814162,
+    "update_time": 1776814162,
+    "_id": "Last Consumer Owner"
+  },
+  "Article Forty-Nine": {
+    "chunk_ids": [
+      "chunk-70049c2c9beee67be467a0bc1e8e5319"
+    ],
+    "count": 1,
+    "create_time": 1776814162,
+    "update_time": 1776814162,
+    "_id": "Article Forty-Nine"
+  },
+  "Regulatory Regulation": {
+    "chunk_ids": [
+      "chunk-70049c2c9beee67be467a0bc1e8e5319"
+    ],
+    "count": 1,
+    "create_time": 1776814162,
+    "update_time": 1776814162,
+    "_id": "Regulatory Regulation"
+  },
+  "Article 50": {
+    "chunk_ids": [
+      "chunk-5b3ef01cc61802e9c5898cf34fea5a1c"
+    ],
+    "count": 1,
+    "create_time": 1776814175,
+    "update_time": 1776814175,
+    "_id": "Article 50"
+  },
+  "Product Assembly Error": {
+    "chunk_ids": [
+      "chunk-5b3ef01cc61802e9c5898cf34fea5a1c"
+    ],
+    "count": 1,
+    "create_time": 1776814175,
+    "update_time": 1776814175,
+    "_id": "Product Assembly Error"
+  },
+  "Warranty Breach": {
+    "chunk_ids": [
+      "chunk-5b3ef01cc61802e9c5898cf34fea5a1c"
+    ],
+    "count": 1,
+    "create_time": 1776814175,
+    "update_time": 1776814175,
+    "_id": "Warranty Breach"
+  },
+  "Sales Contract": {
+    "chunk_ids": [
+      "chunk-5b3ef01cc61802e9c5898cf34fea5a1c"
+    ],
+    "count": 1,
+    "create_time": 1776814175,
+    "update_time": 1776814175,
+    "_id": "Sales Contract"
+  },
+  "Assembly Instructions": {
+    "chunk_ids": [
+      "chunk-5b3ef01cc61802e9c5898cf34fea5a1c"
+    ],
+    "count": 1,
+    "create_time": 1776814175,
+    "update_time": 1776814175,
+    "_id": "Assembly Instructions"
+  },
+  "Economic Operator's Supervision": {
+    "chunk_ids": [
+      "chunk-5b3ef01cc61802e9c5898cf34fea5a1c"
+    ],
+    "count": 1,
+    "create_time": 1776814176,
+    "update_time": 1776814176,
+    "_id": "Economic Operator's Supervision"
+  },
+  "Product Warranty": {
+    "chunk_ids": [
+      "chunk-c81dd10f0ce67f495fcaa4afb41ade53"
+    ],
+    "count": 1,
+    "create_time": 1776814184,
+    "update_time": 1776814184,
+    "_id": "Product Warranty"
+  },
+  "Service Warranty": {
+    "chunk_ids": [
+      "chunk-c81dd10f0ce67f495fcaa4afb41ade53"
+    ],
+    "count": 1,
+    "create_time": 1776814184,
+    "update_time": 1776814184,
+    "_id": "Service Warranty"
+  },
+  "Digital Service": {
+    "chunk_ids": [
+      "chunk-c81dd10f0ce67f495fcaa4afb41ade53"
+    ],
+    "count": 1,
+    "create_time": 1776814184,
+    "update_time": 1776814184,
+    "_id": "Digital Service"
+  },
+  "Two-Year Period": {
+    "chunk_ids": [
+      "chunk-c81dd10f0ce67f495fcaa4afb41ade53"
+    ],
+    "count": 1,
+    "create_time": 1776814184,
+    "update_time": 1776814184,
+    "_id": "Two-Year Period"
+  },
+  "One-Year Period": {
+    "chunk_ids": [
+      "chunk-c81dd10f0ce67f495fcaa4afb41ade53"
+    ],
+    "count": 1,
+    "create_time": 1776814184,
+    "update_time": 1776814184,
+    "_id": "One-Year Period"
+  },
+  "Article 51": {
+    "chunk_ids": [
+      "chunk-c81dd10f0ce67f495fcaa4afb41ade53"
+    ],
+    "count": 1,
+    "create_time": 1776814184,
+    "update_time": 1776814184,
+    "_id": "Article 51"
+  },
+  "Article 52": {
+    "chunk_ids": [
+      "chunk-d15616980ad303389944137db1af4f22"
+    ],
+    "count": 1,
+    "create_time": 1776814191,
+    "update_time": 1776814191,
+    "_id": "Article 52"
+  },
+  "Contract Conclusion": {
+    "chunk_ids": [
+      "chunk-d15616980ad303389944137db1af4f22"
+    ],
+    "count": 1,
+    "create_time": 1776814191,
+    "update_time": 1776814191,
+    "_id": "Contract Conclusion"
+  },
+  "Misuse": {
+    "chunk_ids": [
+      "chunk-d15616980ad303389944137db1af4f22"
+    ],
+    "count": 1,
+    "create_time": 1776814191,
+    "update_time": 1776814191,
+    "_id": "Misuse"
+  },
+  "Article 53": {
+    "chunk_ids": [
+      "chunk-4f2ea9e729aab0deda37682e004b3fc6"
+    ],
+    "count": 1,
+    "create_time": 1776814201,
+    "update_time": 1776814201,
+    "_id": "Article 53"
+  },
+  "Compensation": {
+    "chunk_ids": [
+      "chunk-4f2ea9e729aab0deda37682e004b3fc6"
+    ],
+    "count": 1,
+    "create_time": 1776814201,
+    "update_time": 1776814201,
+    "_id": "Compensation"
+  },
+  "Damages": {
+    "chunk_ids": [
+      "chunk-4f2ea9e729aab0deda37682e004b3fc6"
+    ],
+    "count": 1,
+    "create_time": 1776814201,
+    "update_time": 1776814201,
+    "_id": "Damages"
+  },
+  "Additional Warranty": {
+    "chunk_ids": [
+      "chunk-bbdc0bdfb37532b71f5f2a12cb9f8fe0"
+    ],
+    "count": 1,
+    "create_time": 1776814208,
+    "update_time": 1776814208,
+    "_id": "Additional Warranty"
+  },
+  "Warranty Document": {
+    "chunk_ids": [
+      "chunk-bbdc0bdfb37532b71f5f2a12cb9f8fe0"
+    ],
+    "count": 1,
+    "create_time": 1776814208,
+    "update_time": 1776814208,
+    "_id": "Warranty Document"
+  },
+  "Electronic Intermediary": {
+    "chunk_ids": [
+      "chunk-bbdc0bdfb37532b71f5f2a12cb9f8fe0"
+    ],
+    "count": 1,
+    "create_time": 1776814208,
+    "update_time": 1776814208,
+    "_id": "Electronic Intermediary"
+  },
+  "Article 55": {
+    "chunk_ids": [
+      "chunk-7675218c2feb4f3d03df5d15f853c435"
+    ],
+    "count": 1,
+    "create_time": 1776814214,
+    "update_time": 1776814214,
+    "_id": "Article 55"
+  },
+  "Spare Parts And Maintenance Services": {
+    "chunk_ids": [
+      "chunk-7675218c2feb4f3d03df5d15f853c435"
+    ],
+    "count": 1,
+    "create_time": 1776814214,
+    "update_time": 1776814214,
+    "_id": "Spare Parts And Maintenance Services"
+  },
+  "Duration Of Availability": {
+    "chunk_ids": [
+      "chunk-7675218c2feb4f3d03df5d15f853c435"
+    ],
+    "count": 1,
+    "create_time": 1776814214,
+    "update_time": 1776814214,
+    "_id": "Duration Of Availability"
+  },
+  "Article 56": {
+    "chunk_ids": [
+      "chunk-0bb91dbf0d0d74be15a1f23f7ef09d39"
+    ],
+    "count": 1,
+    "create_time": 1776814218,
+    "update_time": 1776814218,
+    "_id": "Article 56"
+  },
+  "Spare Parts": {
+    "chunk_ids": [
+      "chunk-0bb91dbf0d0d74be15a1f23f7ef09d39"
+    ],
+    "count": 1,
+    "create_time": 1776814218,
+    "update_time": 1776814218,
+    "_id": "Spare Parts"
+  },
+  "Article Fifty-Seven": {
+    "chunk_ids": [
+      "chunk-5dc591f6a06f37fe2f1b3209ca356c15"
+    ],
+    "count": 1,
+    "create_time": 1776814227,
+    "update_time": 1776814227,
+    "_id": "Article Fifty-Seven"
+  },
+  "Economic Operators": {
+    "chunk_ids": [
+      "chunk-5dc591f6a06f37fe2f1b3209ca356c15",
+      "chunk-d72a2ff68ca9639d25fac0d200e648dd",
+      "chunk-60f77fe5478de7b3d8b2672afe5ee95d",
+      "chunk-4fe0038af572654f7ea64ab35fd3849a"
+    ],
+    "count": 4,
+    "update_time": 1776814444,
+    "_id": "Economic Operators"
+  },
+  "Consumer Protection Rules": {
+    "chunk_ids": [
+      "chunk-5dc591f6a06f37fe2f1b3209ca356c15"
+    ],
+    "count": 1,
+    "create_time": 1776814227,
+    "update_time": 1776814227,
+    "_id": "Consumer Protection Rules"
+  },
+  "System And Regulations": {
+    "chunk_ids": [
+      "chunk-5dc591f6a06f37fe2f1b3209ca356c15",
+      "chunk-da4dec7a272932b152bbbcd68d8fab88"
+    ],
+    "count": 2,
+    "update_time": 1776814379,
+    "_id": "System And Regulations"
+  },
+  "Market Surveillance": {
+    "chunk_ids": [
+      "chunk-5dc591f6a06f37fe2f1b3209ca356c15",
+      "chunk-8d3fef46affeb71273796cdeced53169"
+    ],
+    "count": 2,
+    "update_time": 1776814235,
+    "_id": "Market Surveillance"
+  },
+  "Article 58": {
+    "chunk_ids": [
+      "chunk-8d3fef46affeb71273796cdeced53169"
+    ],
+    "count": 1,
+    "create_time": 1776814235,
+    "update_time": 1776814235,
+    "_id": "Article 58"
+  },
+  "Relevant Authorities": {
+    "chunk_ids": [
+      "chunk-8d3fef46affeb71273796cdeced53169",
+      "chunk-e1c5c3874985bccf0474e63d7c12c51d"
+    ],
+    "count": 2,
+    "update_time": 1776814248,
+    "_id": "Relevant Authorities"
+  },
+  "Surveillance Systems": {
+    "chunk_ids": [
+      "chunk-8d3fef46affeb71273796cdeced53169"
+    ],
+    "count": 1,
+    "create_time": 1776814235,
+    "update_time": 1776814235,
+    "_id": "Surveillance Systems"
+  },
+  "Consumer Protection": {
+    "chunk_ids": [
+      "chunk-8d3fef46affeb71273796cdeced53169"
+    ],
+    "count": 1,
+    "create_time": 1776814235,
+    "update_time": 1776814235,
+    "_id": "Consumer Protection"
+  },
+  "Penalties": {
+    "chunk_ids": [
+      "chunk-8d3fef46affeb71273796cdeced53169",
+      "chunk-41f86c946795eb4b1b8e1172b283f83c",
+      "chunk-0f17c98aec4af855d06847e8dc54f39d",
+      "chunk-bdd31cd82935851ed60fa97049b2dc09"
+    ],
+    "count": 4,
+    "update_time": 1776814611,
+    "_id": "Penalties"
+  },
+  "Database Systems": {
+    "chunk_ids": [
+      "chunk-8d3fef46affeb71273796cdeced53169"
+    ],
+    "count": 1,
+    "create_time": 1776814235,
+    "update_time": 1776814235,
+    "_id": "Database Systems"
+  },
+  "Information Exchange": {
+    "chunk_ids": [
+      "chunk-8d3fef46affeb71273796cdeced53169"
+    ],
+    "count": 1,
+    "create_time": 1776814235,
+    "update_time": 1776814235,
+    "_id": "Information Exchange"
+  },
+  "Facts": {
+    "chunk_ids": [
+      "chunk-8d3fef46affeb71273796cdeced53169"
+    ],
+    "count": 1,
+    "create_time": 1776814235,
+    "update_time": 1776814235,
+    "_id": "Facts"
+  },
+  "Complaints": {
+    "chunk_ids": [
+      "chunk-8d3fef46affeb71273796cdeced53169"
+    ],
+    "count": 1,
+    "create_time": 1776814235,
+    "update_time": 1776814235,
+    "_id": "Complaints"
+  },
+  "Behaviors": {
+    "chunk_ids": [
+      "chunk-8d3fef46affeb71273796cdeced53169"
+    ],
+    "count": 1,
+    "create_time": 1776814235,
+    "update_time": 1776814235,
+    "_id": "Behaviors"
+  },
+  "Market Monitoring Procedures": {
+    "chunk_ids": [
+      "chunk-8d3fef46affeb71273796cdeced53169"
+    ],
+    "count": 1,
+    "create_time": 1776814235,
+    "update_time": 1776814235,
+    "_id": "Market Monitoring Procedures"
+  },
+  "Inspectors": {
+    "chunk_ids": [
+      "chunk-e1c5c3874985bccf0474e63d7c12c51d"
+    ],
+    "count": 1,
+    "create_time": 1776814247,
+    "update_time": 1776814247,
+    "_id": "Inspectors"
+  },
+  "Article Fifty-Nine": {
+    "chunk_ids": [
+      "chunk-e1c5c3874985bccf0474e63d7c12c51d"
+    ],
+    "count": 1,
+    "create_time": 1776814247,
+    "update_time": 1776814247,
+    "_id": "Article Fifty-Nine"
+  },
+  "Inspection Powers": {
+    "chunk_ids": [
+      "chunk-e1c5c3874985bccf0474e63d7c12c51d"
+    ],
+    "count": 1,
+    "create_time": 1776814247,
+    "update_time": 1776814247,
+    "_id": "Inspection Powers"
+  },
+  "Criminal Police Status": {
+    "chunk_ids": [
+      "chunk-e1c5c3874985bccf0474e63d7c12c51d"
+    ],
+    "count": 1,
+    "create_time": 1776814247,
+    "update_time": 1776814247,
+    "_id": "Criminal Police Status"
+  },
+  "Confidentiality Principles": {
+    "chunk_ids": [
+      "chunk-e1c5c3874985bccf0474e63d7c12c51d"
+    ],
+    "count": 1,
+    "create_time": 1776814248,
+    "update_time": 1776814248,
+    "_id": "Confidentiality Principles"
+  },
+  "Financial Rewards": {
+    "chunk_ids": [
+      "chunk-e1c5c3874985bccf0474e63d7c12c51d"
+    ],
+    "count": 1,
+    "create_time": 1776814248,
+    "update_time": 1776814248,
+    "_id": "Financial Rewards"
+  },
+  "Workplaces And Premises": {
+    "chunk_ids": [
+      "chunk-e1c5c3874985bccf0474e63d7c12c51d"
+    ],
+    "count": 1,
+    "create_time": 1776814248,
+    "update_time": 1776814248,
+    "_id": "Workplaces And Premises"
+  },
+  "Documents And Data": {
+    "chunk_ids": [
+      "chunk-e1c5c3874985bccf0474e63d7c12c51d"
+    ],
+    "count": 1,
+    "create_time": 1776814248,
+    "update_time": 1776814248,
+    "_id": "Documents And Data"
+  },
+  "Surveillance Recordings": {
+    "chunk_ids": [
+      "chunk-e1c5c3874985bccf0474e63d7c12c51d"
+    ],
+    "count": 1,
+    "create_time": 1776814248,
+    "update_time": 1776814248,
+    "_id": "Surveillance Recordings"
+  },
+  "Products And Services": {
+    "chunk_ids": [
+      "chunk-e1c5c3874985bccf0474e63d7c12c51d"
+    ],
+    "count": 1,
+    "create_time": 1776814248,
+    "update_time": 1776814248,
+    "_id": "Products And Services"
+  },
+  "System And Regulation": {
+    "chunk_ids": [
+      "chunk-e1c5c3874985bccf0474e63d7c12c51d",
+      "chunk-db15b26408bc87ab744a17b5b0ea6317"
+    ],
+    "count": 2,
+    "update_time": 1776814596,
+    "_id": "System And Regulation"
+  },
+  "Representative Of Economic Operator": {
+    "chunk_ids": [
+      "chunk-e1c5c3874985bccf0474e63d7c12c51d"
+    ],
+    "count": 1,
+    "create_time": 1776814248,
+    "update_time": 1776814248,
+    "_id": "Representative Of Economic Operator"
+  },
+  "Other Persons": {
+    "chunk_ids": [
+      "chunk-e1c5c3874985bccf0474e63d7c12c51d"
+    ],
+    "count": 1,
+    "create_time": 1776814248,
+    "update_time": 1776814248,
+    "_id": "Other Persons"
+  },
+  "Article Sixty": {
+    "chunk_ids": [
+      "chunk-3180421cdd22a4773c6db6e08f304f90"
+    ],
+    "count": 1,
+    "create_time": 1776814257,
+    "update_time": 1776814257,
+    "_id": "Article Sixty"
+  },
+  "Inspection Report": {
+    "chunk_ids": [
+      "chunk-3180421cdd22a4773c6db6e08f304f90"
+    ],
+    "count": 1,
+    "create_time": 1776814257,
+    "update_time": 1776814257,
+    "_id": "Inspection Report"
+  },
+  "Inspector": {
+    "chunk_ids": [
+      "chunk-3180421cdd22a4773c6db6e08f304f90",
+      "chunk-1c88be299a43d67d9b9fc0d255ce74ea"
+    ],
+    "count": 2,
+    "update_time": 1776814266,
+    "_id": "Inspector"
+  },
+  "Person At Location": {
+    "chunk_ids": [
+      "chunk-3180421cdd22a4773c6db6e08f304f90"
+    ],
+    "count": 1,
+    "create_time": 1776814257,
+    "update_time": 1776814257,
+    "_id": "Person At Location"
+  },
+  "Supporting Documents": {
+    "chunk_ids": [
+      "chunk-3180421cdd22a4773c6db6e08f304f90"
+    ],
+    "count": 1,
+    "create_time": 1776814257,
+    "update_time": 1776814257,
+    "_id": "Supporting Documents"
+  },
+  "Inspection Activities": {
+    "chunk_ids": [
+      "chunk-3180421cdd22a4773c6db6e08f304f90"
+    ],
+    "count": 1,
+    "create_time": 1776814257,
+    "update_time": 1776814257,
+    "_id": "Inspection Activities"
+  },
+  "Inspection Results": {
+    "chunk_ids": [
+      "chunk-3180421cdd22a4773c6db6e08f304f90"
+    ],
+    "count": 1,
+    "create_time": 1776814257,
+    "update_time": 1776814257,
+    "_id": "Inspection Results"
+  },
+  "Facts Of Inspection": {
+    "chunk_ids": [
+      "chunk-3180421cdd22a4773c6db6e08f304f90"
+    ],
+    "count": 1,
+    "create_time": 1776814257,
+    "update_time": 1776814257,
+    "_id": "Facts Of Inspection"
+  },
+  "Statements": {
+    "chunk_ids": [
+      "chunk-3180421cdd22a4773c6db6e08f304f90"
+    ],
+    "count": 1,
+    "create_time": 1776814257,
+    "update_time": 1776814257,
+    "_id": "Statements"
+  },
+  "False Information": {
+    "chunk_ids": [
+      "chunk-3180421cdd22a4773c6db6e08f304f90"
+    ],
+    "count": 1,
+    "create_time": 1776814257,
+    "update_time": 1776814257,
+    "_id": "False Information"
+  },
+  "Anyone": {
+    "chunk_ids": [
+      "chunk-3180421cdd22a4773c6db6e08f304f90"
+    ],
+    "count": 1,
+    "create_time": 1776814258,
+    "update_time": 1776814258,
+    "_id": "Anyone"
+  },
+  "Administrative Penalties": {
+    "chunk_ids": [
+      "chunk-1c88be299a43d67d9b9fc0d255ce74ea",
+      "chunk-a77f891792f59dafbde31f28e906bdf0",
+      "chunk-c473b635efc04ff40f299b6d7f6fc2db"
+    ],
+    "count": 3,
+    "update_time": 1776814426,
+    "_id": "Administrative Penalties"
+  },
+  "Minor Violations": {
+    "chunk_ids": [
+      "chunk-1c88be299a43d67d9b9fc0d255ce74ea"
+    ],
+    "count": 1,
+    "create_time": 1776814266,
+    "update_time": 1776814266,
+    "_id": "Minor Violations"
+  },
+  "System": {
+    "chunk_ids": [
+      "chunk-1c88be299a43d67d9b9fc0d255ce74ea",
+      "chunk-d72a2ff68ca9639d25fac0d200e648dd",
+      "chunk-53d255606873f798c277f71c669581e4",
+      "chunk-bdd31cd82935851ed60fa97049b2dc09",
+      "chunk-2e5edf0ea88592648169855ce547cfd5",
+      "chunk-4356d14be0458851058bcbfa4dd8eff9",
+      "chunk-f1cdab301d132fa946f551f1fb83be2d"
+    ],
+    "count": 7,
+    "update_time": 1776814646,
+    "_id": "System"
+  },
+  "Warning": {
+    "chunk_ids": [
+      "chunk-1c88be299a43d67d9b9fc0d255ce74ea",
+      "chunk-f5661f438c3dca334dc944b7a2eeeb87"
+    ],
+    "count": 2,
+    "update_time": 1776814603,
+    "_id": "Warning"
+  },
+  "Order To Correct": {
+    "chunk_ids": [
+      "chunk-1c88be299a43d67d9b9fc0d255ce74ea"
+    ],
+    "count": 1,
+    "create_time": 1776814267,
+    "update_time": 1776814267,
+    "_id": "Order To Correct"
+  },
+  "Fine": {
+    "chunk_ids": [
+      "chunk-1c88be299a43d67d9b9fc0d255ce74ea"
+    ],
+    "count": 1,
+    "create_time": 1776814267,
+    "update_time": 1776814267,
+    "_id": "Fine"
+  },
+  "Five Thousand Riyals": {
+    "chunk_ids": [
+      "chunk-1c88be299a43d67d9b9fc0d255ce74ea"
+    ],
+    "count": 1,
+    "create_time": 1776814267,
+    "update_time": 1776814267,
+    "_id": "Five Thousand Riyals"
+  },
+  "Article 61": {
+    "chunk_ids": [
+      "chunk-1c88be299a43d67d9b9fc0d255ce74ea"
+    ],
+    "count": 1,
+    "create_time": 1776814267,
+    "update_time": 1776814267,
+    "_id": "Article 61"
+  },
+  "Article Sixty-Two": {
+    "chunk_ids": [
+      "chunk-4761261f928e9e2a04c5cf880b36af44",
+      "chunk-a77f891792f59dafbde31f28e906bdf0"
+    ],
+    "count": 2,
+    "update_time": 1776814393,
+    "_id": "Article Sixty-Two"
+  },
+  "Administrative Penalty Notice": {
+    "chunk_ids": [
+      "chunk-4761261f928e9e2a04c5cf880b36af44"
+    ],
+    "count": 1,
+    "create_time": 1776814272,
+    "update_time": 1776814272,
+    "_id": "Administrative Penalty Notice"
+  },
+  "Committee": {
+    "chunk_ids": [
+      "chunk-4761261f928e9e2a04c5cf880b36af44",
+      "chunk-db15b26408bc87ab744a17b5b0ea6317",
+      "chunk-bdd31cd82935851ed60fa97049b2dc09"
+    ],
+    "count": 3,
+    "update_time": 1776814610,
+    "_id": "Committee"
+  },
+  "Article Seventy-Five": {
+    "chunk_ids": [
+      "chunk-4761261f928e9e2a04c5cf880b36af44"
+    ],
+    "count": 1,
+    "create_time": 1776814272,
+    "update_time": 1776814272,
+    "_id": "Article Seventy-Five"
+  },
+  "Competent Court": {
+    "chunk_ids": [
+      "chunk-4761261f928e9e2a04c5cf880b36af44",
+      "chunk-b6a6d5fd04ff86c2506f73df9e65d57b",
+      "chunk-e40f0555a179abb24172277f52bec711",
+      "chunk-c473b635efc04ff40f299b6d7f6fc2db",
+      "chunk-0f17c98aec4af855d06847e8dc54f39d"
+    ],
+    "count": 5,
+    "update_time": 1776814439,
+    "_id": "Competent Court"
+  },
+  "Interested Party": {
+    "chunk_ids": [
+      "chunk-b6a6d5fd04ff86c2506f73df9e65d57b"
+    ],
+    "count": 1,
+    "create_time": 1776814282,
+    "update_time": 1776814282,
+    "_id": "Interested Party"
+  },
+  "Chambers of Commerce": {
+    "chunk_ids": [
+      "chunk-b6a6d5fd04ff86c2506f73df9e65d57b"
+    ],
+    "count": 1,
+    "create_time": 1776814282,
+    "update_time": 1776814282,
+    "_id": "Chambers of Commerce"
+  },
+  "Employers' Associations": {
+    "chunk_ids": [
+      "chunk-b6a6d5fd04ff86c2506f73df9e65d57b"
+    ],
+    "count": 1,
+    "create_time": 1776814282,
+    "update_time": 1776814282,
+    "_id": "Employers' Associations"
+  },
+  "Non-Compliant Practices": {
+    "chunk_ids": [
+      "chunk-b6a6d5fd04ff86c2506f73df9e65d57b"
+    ],
+    "count": 1,
+    "create_time": 1776814282,
+    "update_time": 1776814282,
+    "_id": "Non-Compliant Practices"
+  },
+  "Compensation For Consumers": {
+    "chunk_ids": [
+      "chunk-b6a6d5fd04ff86c2506f73df9e65d57b"
+    ],
+    "count": 1,
+    "create_time": 1776814282,
+    "update_time": 1776814282,
+    "_id": "Compensation For Consumers"
+  },
+  "Corrosive Judgment": {
+    "chunk_ids": [
+      "chunk-b6a6d5fd04ff86c2506f73df9e65d57b"
+    ],
+    "count": 1,
+    "create_time": 1776814282,
+    "update_time": 1776814282,
+    "_id": "Corrosive Judgment"
+  },
+  "Article Sixty-Three": {
+    "chunk_ids": [
+      "chunk-b6a6d5fd04ff86c2506f73df9e65d57b"
+    ],
+    "count": 1,
+    "create_time": 1776814282,
+    "update_time": 1776814282,
+    "_id": "Article Sixty-Three"
+  },
+  "Temporary Order": {
+    "chunk_ids": [
+      "chunk-b6a6d5fd04ff86c2506f73df9e65d57b"
+    ],
+    "count": 1,
+    "create_time": 1776814282,
+    "update_time": 1776814282,
+    "_id": "Temporary Order"
+  },
+  "Individual Consumer": {
+    "chunk_ids": [
+      "chunk-b6a6d5fd04ff86c2506f73df9e65d57b"
+    ],
+    "count": 1,
+    "create_time": 1776814282,
+    "update_time": 1776814282,
+    "_id": "Individual Consumer"
+  },
+  "Plaintiff": {
+    "chunk_ids": [
+      "chunk-b6a6d5fd04ff86c2506f73df9e65d57b"
+    ],
+    "count": 1,
+    "create_time": 1776814283,
+    "update_time": 1776814283,
+    "_id": "Plaintiff"
+  },
+  "Article 64": {
+    "chunk_ids": [
+      "chunk-41f86c946795eb4b1b8e1172b283f83c"
+    ],
+    "count": 1,
+    "create_time": 1776814291,
+    "update_time": 1776814291,
+    "_id": "Article 64"
+  },
+  "Market Surveillance Activities": {
+    "chunk_ids": [
+      "chunk-41f86c946795eb4b1b8e1172b283f83c"
+    ],
+    "count": 1,
+    "create_time": 1776814291,
+    "update_time": 1776814291,
+    "_id": "Market Surveillance Activities"
+  },
+  "Concerned Parties": {
+    "chunk_ids": [
+      "chunk-41f86c946795eb4b1b8e1172b283f83c"
+    ],
+    "count": 1,
+    "create_time": 1776814291,
+    "update_time": 1776814291,
+    "_id": "Concerned Parties"
+  },
+  "Private Sector": {
+    "chunk_ids": [
+      "chunk-41f86c946795eb4b1b8e1172b283f83c"
+    ],
+    "count": 1,
+    "create_time": 1776814291,
+    "update_time": 1776814291,
+    "_id": "Private Sector"
+  },
+  "Warnings": {
+    "chunk_ids": [
+      "chunk-41f86c946795eb4b1b8e1172b283f83c"
+    ],
+    "count": 1,
+    "create_time": 1776814291,
+    "update_time": 1776814291,
+    "_id": "Warnings"
+  },
+  "Sanctions": {
+    "chunk_ids": [
+      "chunk-41f86c946795eb4b1b8e1172b283f83c"
+    ],
+    "count": 1,
+    "create_time": 1776814291,
+    "update_time": 1776814291,
+    "_id": "Sanctions"
+  },
+  "System And Bylaws": {
+    "chunk_ids": [
+      "chunk-41f86c946795eb4b1b8e1172b283f83c"
+    ],
+    "count": 1,
+    "create_time": 1776814291,
+    "update_time": 1776814291,
+    "_id": "System And Bylaws"
+  },
+  "Article Sixty-Five": {
+    "chunk_ids": [
+      "chunk-e2e9d4353bb95f7bca809f541cd54320"
+    ],
+    "count": 1,
+    "create_time": 1776814300,
+    "update_time": 1776814300,
+    "_id": "Article Sixty-Five"
+  },
+  "Harm": {
+    "chunk_ids": [
+      "chunk-e2e9d4353bb95f7bca809f541cd54320"
+    ],
+    "count": 1,
+    "create_time": 1776814300,
+    "update_time": 1776814300,
+    "_id": "Harm"
+  },
+  "Legal Violations": {
+    "chunk_ids": [
+      "chunk-e2e9d4353bb95f7bca809f541cd54320"
+    ],
+    "count": 1,
+    "create_time": 1776814300,
+    "update_time": 1776814300,
+    "_id": "Legal Violations"
+  },
+  "Product Replacement": {
+    "chunk_ids": [
+      "chunk-e2e9d4353bb95f7bca809f541cd54320"
+    ],
+    "count": 1,
+    "create_time": 1776814300,
+    "update_time": 1776814300,
+    "_id": "Product Replacement"
+  },
+  "Price Reduction": {
+    "chunk_ids": [
+      "chunk-e2e9d4353bb95f7bca809f541cd54320"
+    ],
+    "count": 1,
+    "create_time": 1776814300,
+    "update_time": 1776814300,
+    "_id": "Price Reduction"
+  },
+  "Damage Compensation": {
+    "chunk_ids": [
+      "chunk-e2e9d4353bb95f7bca809f541cd54320"
+    ],
+    "count": 1,
+    "create_time": 1776814300,
+    "update_time": 1776814300,
+    "_id": "Damage Compensation"
+  },
+  "Penalties And Punishments": {
+    "chunk_ids": [
+      "chunk-e2e9d4353bb95f7bca809f541cd54320"
+    ],
+    "count": 1,
+    "create_time": 1776814300,
+    "update_time": 1776814300,
+    "_id": "Penalties And Punishments"
+  },
+  "Article Sixty-Six": {
+    "chunk_ids": [
+      "chunk-e40f0555a179abb24172277f52bec711"
+    ],
+    "count": 1,
+    "create_time": 1776814310,
+    "update_time": 1776814310,
+    "_id": "Article Sixty-Six"
+  },
+  "Minor Claims": {
+    "chunk_ids": [
+      "chunk-e40f0555a179abb24172277f52bec711"
+    ],
+    "count": 1,
+    "create_time": 1776814310,
+    "update_time": 1776814310,
+    "_id": "Minor Claims"
+  },
+  "Simplified Procedures": {
+    "chunk_ids": [
+      "chunk-e40f0555a179abb24172277f52bec711"
+    ],
+    "count": 1,
+    "create_time": 1776814310,
+    "update_time": 1776814310,
+    "_id": "Simplified Procedures"
+  },
+  "Relevant Regulations": {
+    "chunk_ids": [
+      "chunk-e40f0555a179abb24172277f52bec711"
+    ],
+    "count": 1,
+    "create_time": 1776814310,
+    "update_time": 1776814310,
+    "_id": "Relevant Regulations"
+  },
+  "Alternative Means For Dispute Resolution": {
+    "chunk_ids": [
+      "chunk-b54adc716da8570bddd8c2bd41899a6f"
+    ],
+    "count": 1,
+    "create_time": 1776814321,
+    "update_time": 1776814321,
+    "_id": "Alternative Means For Dispute Resolution"
+  },
+  "Unified Network": {
+    "chunk_ids": [
+      "chunk-b54adc716da8570bddd8c2bd41899a6f"
+    ],
+    "count": 1,
+    "create_time": 1776814321,
+    "update_time": 1776814321,
+    "_id": "Unified Network"
+  },
+  "Dispute Resolution Providers": {
+    "chunk_ids": [
+      "chunk-b54adc716da8570bddd8c2bd41899a6f"
+    ],
+    "count": 1,
+    "create_time": 1776814321,
+    "update_time": 1776814321,
+    "_id": "Dispute Resolution Providers"
+  },
+  "Article 67": {
+    "chunk_ids": [
+      "chunk-b54adc716da8570bddd8c2bd41899a6f"
+    ],
+    "count": 1,
+    "create_time": 1776814321,
+    "update_time": 1776814321,
+    "_id": "Article 67"
+  },
+  "Article Sixty-Eight": {
+    "chunk_ids": [
+      "chunk-d72a2ff68ca9639d25fac0d200e648dd"
+    ],
+    "count": 1,
+    "create_time": 1776814334,
+    "update_time": 1776814334,
+    "_id": "Article Sixty-Eight"
+  },
+  "Ministry of Justice": {
+    "chunk_ids": [
+      "chunk-d72a2ff68ca9639d25fac0d200e648dd",
+      "chunk-60f77fe5478de7b3d8b2672afe5ee95d"
+    ],
+    "count": 2,
+    "update_time": 1776814350,
+    "_id": "Ministry of Justice"
+  },
+  "Alternative Dispute Resolution Providers": {
+    "chunk_ids": [
+      "chunk-d72a2ff68ca9639d25fac0d200e648dd",
+      "chunk-5d8a453039317884766c4bfb4e705a9a",
+      "chunk-60f77fe5478de7b3d8b2672afe5ee95d",
+      "chunk-8eba08bab139116de9ee95fe214a7f7e"
+    ],
+    "count": 4,
+    "update_time": 1776814366,
+    "_id": "Alternative Dispute Resolution Providers"
+  },
+  "Electronic Platforms For Dispute Resolution": {
+    "chunk_ids": [
+      "chunk-d72a2ff68ca9639d25fac0d200e648dd",
+      "chunk-5d8a453039317884766c4bfb4e705a9a",
+      "chunk-8eba08bab139116de9ee95fe214a7f7e"
+    ],
+    "count": 3,
+    "update_time": 1776814366,
+    "_id": "Electronic Platforms For Dispute Resolution"
+  },
+  "Committee For Alternative Means And Electronic Platforms": {
+    "chunk_ids": [
+      "chunk-d72a2ff68ca9639d25fac0d200e648dd"
+    ],
+    "count": 1,
+    "create_time": 1776814334,
+    "update_time": 1776814334,
+    "_id": "Committee For Alternative Means And Electronic Platforms"
+  },
+  "Quality Guidelines": {
+    "chunk_ids": [
+      "chunk-d72a2ff68ca9639d25fac0d200e648dd"
+    ],
+    "count": 1,
+    "create_time": 1776814334,
+    "update_time": 1776814334,
+    "_id": "Quality Guidelines"
+  },
+  "Training Requirements": {
+    "chunk_ids": [
+      "chunk-d72a2ff68ca9639d25fac0d200e648dd"
+    ],
+    "count": 1,
+    "create_time": 1776814334,
+    "update_time": 1776814334,
+    "_id": "Training Requirements"
+  },
+  "Operational Reports": {
+    "chunk_ids": [
+      "chunk-d72a2ff68ca9639d25fac0d200e648dd"
+    ],
+    "count": 1,
+    "create_time": 1776814334,
+    "update_time": 1776814334,
+    "_id": "Operational Reports"
+  },
+  "General Public": {
+    "chunk_ids": [
+      "chunk-d72a2ff68ca9639d25fac0d200e648dd"
+    ],
+    "count": 1,
+    "create_time": 1776814335,
+    "update_time": 1776814335,
+    "_id": "General Public"
+  },
+  "Arbitrators": {
+    "chunk_ids": [
+      "chunk-5d8a453039317884766c4bfb4e705a9a",
+      "chunk-60f77fe5478de7b3d8b2672afe5ee95d",
+      "chunk-8eba08bab139116de9ee95fe214a7f7e"
+    ],
+    "count": 3,
+    "update_time": 1776814366,
+    "_id": "Arbitrators"
+  },
+  "Mediators": {
+    "chunk_ids": [
+      "chunk-5d8a453039317884766c4bfb4e705a9a",
+      "chunk-60f77fe5478de7b3d8b2672afe5ee95d",
+      "chunk-8eba08bab139116de9ee95fe214a7f7e"
+    ],
+    "count": 3,
+    "update_time": 1776814366,
+    "_id": "Mediators"
+  },
+  "Experts": {
+    "chunk_ids": [
+      "chunk-5d8a453039317884766c4bfb4e705a9a",
+      "chunk-60f77fe5478de7b3d8b2672afe5ee95d"
+    ],
+    "count": 2,
+    "update_time": 1776814350,
+    "_id": "Experts"
+  },
+  "Dispute Resolution Procedures": {
+    "chunk_ids": [
+      "chunk-5d8a453039317884766c4bfb4e705a9a"
+    ],
+    "count": 1,
+    "create_time": 1776814342,
+    "update_time": 1776814342,
+    "_id": "Dispute Resolution Procedures"
+  },
+  "Article Ninety-Nine": {
+    "chunk_ids": [
+      "chunk-5d8a453039317884766c4bfb4e705a9a"
+    ],
+    "count": 1,
+    "create_time": 1776814342,
+    "update_time": 1776814342,
+    "_id": "Article Ninety-Nine"
+  },
+  "Article 70": {
+    "chunk_ids": [
+      "chunk-60f77fe5478de7b3d8b2672afe5ee95d"
+    ],
+    "count": 1,
+    "create_time": 1776814350,
+    "update_time": 1776814350,
+    "_id": "Article 70"
+  },
+  "Electronic Dispute Resolution Platforms": {
+    "chunk_ids": [
+      "chunk-60f77fe5478de7b3d8b2672afe5ee95d"
+    ],
+    "count": 1,
+    "create_time": 1776814350,
+    "update_time": 1776814350,
+    "_id": "Electronic Dispute Resolution Platforms"
+  },
+  "Article Seventy One": {
+    "chunk_ids": [
+      "chunk-8eba08bab139116de9ee95fe214a7f7e"
+    ],
+    "count": 1,
+    "create_time": 1776814366,
+    "update_time": 1776814366,
+    "_id": "Article Seventy One"
+  },
+  "Public": {
+    "chunk_ids": [
+      "chunk-8eba08bab139116de9ee95fe214a7f7e"
+    ],
+    "count": 1,
+    "create_time": 1776814366,
+    "update_time": 1776814366,
+    "_id": "Public"
+  },
+  "Natural Persons Responsible": {
+    "chunk_ids": [
+      "chunk-8eba08bab139116de9ee95fe214a7f7e"
+    ],
+    "count": 1,
+    "create_time": 1776814366,
+    "update_time": 1776814366,
+    "_id": "Natural Persons Responsible"
+  },
+  "Procedural Rules": {
+    "chunk_ids": [
+      "chunk-8eba08bab139116de9ee95fe214a7f7e"
+    ],
+    "count": 1,
+    "create_time": 1776814366,
+    "update_time": 1776814366,
+    "_id": "Procedural Rules"
+  },
+  "Cost Of Procedure": {
+    "chunk_ids": [
+      "chunk-8eba08bab139116de9ee95fe214a7f7e"
+    ],
+    "count": 1,
+    "create_time": 1776814366,
+    "update_time": 1776814366,
+    "_id": "Cost Of Procedure"
+  },
+  "Average Duration": {
+    "chunk_ids": [
+      "chunk-8eba08bab139116de9ee95fe214a7f7e"
+    ],
+    "count": 1,
+    "create_time": 1776814366,
+    "update_time": 1776814366,
+    "_id": "Average Duration"
+  },
+  "Consumer Waiver Right": {
+    "chunk_ids": [
+      "chunk-8eba08bab139116de9ee95fe214a7f7e"
+    ],
+    "count": 1,
+    "create_time": 1776814367,
+    "update_time": 1776814367,
+    "_id": "Consumer Waiver Right"
+  },
+  "Binding Nature Of Results": {
+    "chunk_ids": [
+      "chunk-8eba08bab139116de9ee95fe214a7f7e"
+    ],
+    "count": 1,
+    "create_time": 1776814367,
+    "update_time": 1776814367,
+    "_id": "Binding Nature Of Results"
+  },
+  "Enforceability Of Results": {
+    "chunk_ids": [
+      "chunk-8eba08bab139116de9ee95fe214a7f7e"
+    ],
+    "count": 1,
+    "create_time": 1776814367,
+    "update_time": 1776814367,
+    "_id": "Enforceability Of Results"
+  },
+  "Activity Reports": {
+    "chunk_ids": [
+      "chunk-8eba08bab139116de9ee95fe214a7f7e"
+    ],
+    "count": 1,
+    "create_time": 1776814367,
+    "update_time": 1776814367,
+    "_id": "Activity Reports"
+  },
+  "Ministry Of Justice": {
+    "chunk_ids": [
+      "chunk-8eba08bab139116de9ee95fe214a7f7e",
+      "chunk-da4dec7a272932b152bbbcd68d8fab88"
+    ],
+    "count": 2,
+    "update_time": 1776814379,
+    "_id": "Ministry Of Justice"
+  },
+  "Dispute Statistics": {
+    "chunk_ids": [
+      "chunk-8eba08bab139116de9ee95fe214a7f7e"
+    ],
+    "count": 1,
+    "create_time": 1776814367,
+    "update_time": 1776814367,
+    "_id": "Dispute Statistics"
+  },
+  "Waiver Rates And Reasons": {
+    "chunk_ids": [
+      "chunk-8eba08bab139116de9ee95fe214a7f7e"
+    ],
+    "count": 1,
+    "create_time": 1776814367,
+    "update_time": 1776814367,
+    "_id": "Waiver Rates And Reasons"
+  },
+  "Compliance Rate": {
+    "chunk_ids": [
+      "chunk-8eba08bab139116de9ee95fe214a7f7e"
+    ],
+    "count": 1,
+    "create_time": 1776814367,
+    "update_time": 1776814367,
+    "_id": "Compliance Rate"
+  },
+  "Beneficiary": {
+    "chunk_ids": [
+      "chunk-8eba08bab139116de9ee95fe214a7f7e"
+    ],
+    "count": 1,
+    "create_time": 1776814367,
+    "update_time": 1776814367,
+    "_id": "Beneficiary"
+  },
+  "Defined Compensation": {
+    "chunk_ids": [
+      "chunk-8eba08bab139116de9ee95fe214a7f7e"
+    ],
+    "count": 1,
+    "create_time": 1776814367,
+    "update_time": 1776814367,
+    "_id": "Defined Compensation"
+  },
+  "Article Seventy-Two": {
+    "chunk_ids": [
+      "chunk-396aa1e5ed51d610f5f6e15aaf6ec6b6"
+    ],
+    "count": 1,
+    "create_time": 1776814372,
+    "update_time": 1776814372,
+    "_id": "Article Seventy-Two"
+  },
+  "Quality Assurance": {
+    "chunk_ids": [
+      "chunk-396aa1e5ed51d610f5f6e15aaf6ec6b6"
+    ],
+    "count": 1,
+    "create_time": 1776814372,
+    "update_time": 1776814372,
+    "_id": "Quality Assurance"
+  },
+  "Alternative Dispute Resolution Providers Network": {
+    "chunk_ids": [
+      "chunk-396aa1e5ed51d610f5f6e15aaf6ec6b6"
+    ],
+    "count": 1,
+    "create_time": 1776814372,
+    "update_time": 1776814372,
+    "_id": "Alternative Dispute Resolution Providers Network"
+  },
+  "Electronic Dispute Settlement Platforms": {
+    "chunk_ids": [
+      "chunk-396aa1e5ed51d610f5f6e15aaf6ec6b6"
+    ],
+    "count": 1,
+    "create_time": 1776814372,
+    "update_time": 1776814372,
+    "_id": "Electronic Dispute Settlement Platforms"
+  },
+  "Article Seventy-Three": {
+    "chunk_ids": [
+      "chunk-da4dec7a272932b152bbbcd68d8fab88"
+    ],
+    "count": 1,
+    "create_time": 1776814379,
+    "update_time": 1776814379,
+    "_id": "Article Seventy-Three"
+  },
+  "Courts": {
+    "chunk_ids": [
+      "chunk-da4dec7a272932b152bbbcd68d8fab88"
+    ],
+    "count": 1,
+    "create_time": 1776814379,
+    "update_time": 1776814379,
+    "_id": "Courts"
+  },
+  "Collective Lawsuits": {
+    "chunk_ids": [
+      "chunk-da4dec7a272932b152bbbcd68d8fab88"
+    ],
+    "count": 1,
+    "create_time": 1776814379,
+    "update_time": 1776814379,
+    "_id": "Collective Lawsuits"
+  },
+  "Individual Consumers": {
+    "chunk_ids": [
+      "chunk-da4dec7a272932b152bbbcd68d8fab88"
+    ],
+    "count": 1,
+    "create_time": 1776814379,
+    "update_time": 1776814379,
+    "_id": "Individual Consumers"
+  },
+  "Article Seventy-Four": {
+    "chunk_ids": [
+      "chunk-ec93773600936293052d86178a78f903"
+    ],
+    "count": 1,
+    "create_time": 1776814385,
+    "update_time": 1776814385,
+    "_id": "Article Seventy-Four"
+  },
+  "Specialized Court": {
+    "chunk_ids": [
+      "chunk-ec93773600936293052d86178a78f903"
+    ],
+    "count": 1,
+    "create_time": 1776814385,
+    "update_time": 1776814385,
+    "_id": "Specialized Court"
+  },
+  "Consumer Disputes": {
+    "chunk_ids": [
+      "chunk-ec93773600936293052d86178a78f903"
+    ],
+    "count": 1,
+    "create_time": 1776814385,
+    "update_time": 1776814385,
+    "_id": "Consumer Disputes"
+  },
+  "Consumer Domicile": {
+    "chunk_ids": [
+      "chunk-ec93773600936293052d86178a78f903"
+    ],
+    "count": 1,
+    "create_time": 1776814385,
+    "update_time": 1776814385,
+    "_id": "Consumer Domicile"
+  },
+  "Court Competence": {
+    "chunk_ids": [
+      "chunk-ec93773600936293052d86178a78f903"
+    ],
+    "count": 1,
+    "create_time": 1776814385,
+    "update_time": 1776814385,
+    "_id": "Court Competence"
+  },
+  "Review Committee For Violations": {
+    "chunk_ids": [
+      "chunk-a77f891792f59dafbde31f28e906bdf0"
+    ],
+    "count": 1,
+    "create_time": 1776814393,
+    "update_time": 1776814393,
+    "_id": "Review Committee For Violations"
+  },
+  "System And Regulation Provisions": {
+    "chunk_ids": [
+      "chunk-a77f891792f59dafbde31f28e906bdf0"
+    ],
+    "count": 1,
+    "create_time": 1776814393,
+    "update_time": 1776814393,
+    "_id": "System And Regulation Provisions"
+  },
+  "Objections Under Article Sixty-Two": {
+    "chunk_ids": [
+      "chunk-a77f891792f59dafbde31f28e906bdf0"
+    ],
+    "count": 1,
+    "create_time": 1776814393,
+    "update_time": 1776814393,
+    "_id": "Objections Under Article Sixty-Two"
+  },
+  "Specific Economic Sectors": {
+    "chunk_ids": [
+      "chunk-a77f891792f59dafbde31f28e906bdf0"
+    ],
+    "count": 1,
+    "create_time": 1776814393,
+    "update_time": 1776814393,
+    "_id": "Specific Economic Sectors"
+  },
+  "Permanent Advisor": {
+    "chunk_ids": [
+      "chunk-a77f891792f59dafbde31f28e906bdf0"
+    ],
+    "count": 1,
+    "create_time": 1776814393,
+    "update_time": 1776814393,
+    "_id": "Permanent Advisor"
+  },
+  "Article Seventy-Seven": {
+    "chunk_ids": [
+      "chunk-a77f891792f59dafbde31f28e906bdf0"
+    ],
+    "count": 1,
+    "create_time": 1776814393,
+    "update_time": 1776814393,
+    "_id": "Article Seventy-Seven"
+  },
+  "Article Eighty-Eight": {
+    "chunk_ids": [
+      "chunk-a77f891792f59dafbde31f28e906bdf0"
+    ],
+    "count": 1,
+    "create_time": 1776814393,
+    "update_time": 1776814393,
+    "_id": "Article Eighty-Eight"
+  },
+  "Article Seventy-Six": {
+    "chunk_ids": [
+      "chunk-72929fe75d8e8a52b412bbb808e64665"
+    ],
+    "count": 1,
+    "create_time": 1776814404,
+    "update_time": 1776814404,
+    "_id": "Article Seventy-Six"
+  },
+  "The Committee": {
+    "chunk_ids": [
+      "chunk-72929fe75d8e8a52b412bbb808e64665"
+    ],
+    "count": 1,
+    "create_time": 1776814404,
+    "update_time": 1776814404,
+    "_id": "The Committee"
+  },
+  "Violation Severity": {
+    "chunk_ids": [
+      "chunk-72929fe75d8e8a52b412bbb808e64665",
+      "chunk-bdd31cd82935851ed60fa97049b2dc09"
+    ],
+    "count": 2,
+    "update_time": 1776814611,
+    "_id": "Violation Severity"
+  },
+  "Recurrence": {
+    "chunk_ids": [
+      "chunk-72929fe75d8e8a52b412bbb808e64665"
+    ],
+    "count": 1,
+    "create_time": 1776814404,
+    "update_time": 1776814404,
+    "_id": "Recurrence"
+  },
+  "Circumstances": {
+    "chunk_ids": [
+      "chunk-72929fe75d8e8a52b412bbb808e64665"
+    ],
+    "count": 1,
+    "create_time": 1776814404,
+    "update_time": 1776814404,
+    "_id": "Circumstances"
+  },
+  "Consequences": {
+    "chunk_ids": [
+      "chunk-72929fe75d8e8a52b412bbb808e64665"
+    ],
+    "count": 1,
+    "create_time": 1776814404,
+    "update_time": 1776814404,
+    "_id": "Consequences"
+  },
+  "Damage": {
+    "chunk_ids": [
+      "chunk-72929fe75d8e8a52b412bbb808e64665"
+    ],
+    "count": 1,
+    "create_time": 1776814404,
+    "update_time": 1776814404,
+    "_id": "Damage"
+  },
+  "Activity Volume": {
+    "chunk_ids": [
+      "chunk-72929fe75d8e8a52b412bbb808e64665"
+    ],
+    "count": 1,
+    "create_time": 1776814404,
+    "update_time": 1776814404,
+    "_id": "Activity Volume"
+  },
+  "Duration Of Activity": {
+    "chunk_ids": [
+      "chunk-72929fe75d8e8a52b412bbb808e64665"
+    ],
+    "count": 1,
+    "create_time": 1776814404,
+    "update_time": 1776814404,
+    "_id": "Duration Of Activity"
+  },
+  "Committee For Examining Violations": {
+    "chunk_ids": [
+      "chunk-51ea5244ed2d72532c1d4e4a8c7c8711"
+    ],
+    "count": 1,
+    "create_time": 1776814415,
+    "update_time": 1776814415,
+    "_id": "Committee For Examining Violations"
+  },
+  "Consumer Protection System And Regulation": {
+    "chunk_ids": [
+      "chunk-51ea5244ed2d72532c1d4e4a8c7c8711"
+    ],
+    "count": 1,
+    "create_time": 1776814415,
+    "update_time": 1776814415,
+    "_id": "Consumer Protection System And Regulation"
+  },
+  "Electronic Platform": {
+    "chunk_ids": [
+      "chunk-51ea5244ed2d72532c1d4e4a8c7c8711"
+    ],
+    "count": 1,
+    "create_time": 1776814415,
+    "update_time": 1776814415,
+    "_id": "Electronic Platform"
+  },
+  "Domain Name Registrars": {
+    "chunk_ids": [
+      "chunk-51ea5244ed2d72532c1d4e4a8c7c8711"
+    ],
+    "count": 1,
+    "create_time": 1776814415,
+    "update_time": 1776814415,
+    "_id": "Domain Name Registrars"
+  },
+  "Hosting Service Providers": {
+    "chunk_ids": [
+      "chunk-51ea5244ed2d72532c1d4e4a8c7c8711"
+    ],
+    "count": 1,
+    "create_time": 1776814415,
+    "update_time": 1776814415,
+    "_id": "Hosting Service Providers"
+  },
+  "Judicial Decision": {
+    "chunk_ids": [
+      "chunk-51ea5244ed2d72532c1d4e4a8c7c8711"
+    ],
+    "count": 1,
+    "create_time": 1776814415,
+    "update_time": 1776814415,
+    "_id": "Judicial Decision"
+  },
+  "Article 77": {
+    "chunk_ids": [
+      "chunk-51ea5244ed2d72532c1d4e4a8c7c8711"
+    ],
+    "count": 1,
+    "create_time": 1776814415,
+    "update_time": 1776814415,
+    "_id": "Article 77"
+  },
+  "Contract Or Terms": {
+    "chunk_ids": [
+      "chunk-51ea5244ed2d72532c1d4e4a8c7c8711"
+    ],
+    "count": 1,
+    "create_time": 1776814415,
+    "update_time": 1776814415,
+    "_id": "Contract Or Terms"
+  },
+  "Confiscated Products": {
+    "chunk_ids": [
+      "chunk-51ea5244ed2d72532c1d4e4a8c7c8711"
+    ],
+    "count": 1,
+    "create_time": 1776814415,
+    "update_time": 1776814415,
+    "_id": "Confiscated Products"
+  },
+  "Article Seventy-Eight": {
+    "chunk_ids": [
+      "chunk-c473b635efc04ff40f299b6d7f6fc2db"
+    ],
+    "count": 1,
+    "create_time": 1776814426,
+    "update_time": 1776814426,
+    "_id": "Article Seventy-Eight"
+  },
+  "The System": {
+    "chunk_ids": [
+      "chunk-c473b635efc04ff40f299b6d7f6fc2db",
+      "chunk-9b912e56726cb9e0d5237d61584a5fa6",
+      "chunk-3323a5605fc02cf6b08e6daf15866451"
+    ],
+    "count": 3,
+    "update_time": 1776814642,
+    "_id": "The System"
+  },
+  "Administrative Warning": {
+    "chunk_ids": [
+      "chunk-c473b635efc04ff40f299b6d7f6fc2db"
+    ],
+    "count": 1,
+    "create_time": 1776814426,
+    "update_time": 1776814426,
+    "_id": "Administrative Warning"
+  },
+  "Product Seizure": {
+    "chunk_ids": [
+      "chunk-c473b635efc04ff40f299b6d7f6fc2db"
+    ],
+    "count": 1,
+    "create_time": 1776814426,
+    "update_time": 1776814426,
+    "_id": "Product Seizure"
+  },
+  "Service Prohibition": {
+    "chunk_ids": [
+      "chunk-c473b635efc04ff40f299b6d7f6fc2db"
+    ],
+    "count": 1,
+    "create_time": 1776814426,
+    "update_time": 1776814426,
+    "_id": "Service Prohibition"
+  },
+  "Product Recall": {
+    "chunk_ids": [
+      "chunk-c473b635efc04ff40f299b6d7f6fc2db"
+    ],
+    "count": 1,
+    "create_time": 1776814426,
+    "update_time": 1776814426,
+    "_id": "Product Recall"
+  },
+  "Monetary Fine": {
+    "chunk_ids": [
+      "chunk-c473b635efc04ff40f299b6d7f6fc2db",
+      "chunk-f5661f438c3dca334dc944b7a2eeeb87"
+    ],
+    "count": 2,
+    "update_time": 1776814603,
+    "_id": "Monetary Fine"
+  },
+  "Activity Suspension": {
+    "chunk_ids": [
+      "chunk-c473b635efc04ff40f299b6d7f6fc2db"
+    ],
+    "count": 1,
+    "create_time": 1776814426,
+    "update_time": 1776814426,
+    "_id": "Activity Suspension"
+  },
+  "Local Newspapers": {
+    "chunk_ids": [
+      "chunk-c473b635efc04ff40f299b6d7f6fc2db",
+      "chunk-85d489500ac41fa5ad12a8c9462979b4"
+    ],
+    "count": 2,
+    "update_time": 1776814626,
+    "_id": "Local Newspapers"
+  },
+  "Appropriate Means": {
+    "chunk_ids": [
+      "chunk-c473b635efc04ff40f299b6d7f6fc2db"
+    ],
+    "count": 1,
+    "create_time": 1776814426,
+    "update_time": 1776814426,
+    "_id": "Appropriate Means"
+  },
+  "Article Ninety-Seven": {
+    "chunk_ids": [
+      "chunk-0f17c98aec4af855d06847e8dc54f39d"
+    ],
+    "count": 1,
+    "create_time": 1776814438,
+    "update_time": 1776814438,
+    "_id": "Article Ninety-Seven"
+  },
+  "Three Million Riyals": {
+    "chunk_ids": [
+      "chunk-0f17c98aec4af855d06847e8dc54f39d"
+    ],
+    "count": 1,
+    "create_time": 1776814438,
+    "update_time": 1776814438,
+    "_id": "Three Million Riyals"
+  },
+  "Seventeenth Article": {
+    "chunk_ids": [
+      "chunk-0f17c98aec4af855d06847e8dc54f39d"
+    ],
+    "count": 1,
+    "create_time": 1776814438,
+    "update_time": 1776814438,
+    "_id": "Seventeenth Article"
+  },
+  "Twenty-First Article": {
+    "chunk_ids": [
+      "chunk-0f17c98aec4af855d06847e8dc54f39d"
+    ],
+    "count": 1,
+    "create_time": 1776814438,
+    "update_time": 1776814438,
+    "_id": "Twenty-First Article"
+  },
+  "Twenty-Fifth Article": {
+    "chunk_ids": [
+      "chunk-0f17c98aec4af855d06847e8dc54f39d"
+    ],
+    "count": 1,
+    "create_time": 1776814438,
+    "update_time": 1776814438,
+    "_id": "Twenty-Fifth Article"
+  },
+  "Twenty-Sixth Article": {
+    "chunk_ids": [
+      "chunk-0f17c98aec4af855d06847e8dc54f39d"
+    ],
+    "count": 1,
+    "create_time": 1776814438,
+    "update_time": 1776814438,
+    "_id": "Twenty-Sixth Article"
+  },
+  "Thirtieth Article": {
+    "chunk_ids": [
+      "chunk-0f17c98aec4af855d06847e8dc54f39d"
+    ],
+    "count": 1,
+    "create_time": 1776814438,
+    "update_time": 1776814438,
+    "_id": "Thirtieth Article"
+  },
+  "Forty-Seventh Article": {
+    "chunk_ids": [
+      "chunk-0f17c98aec4af855d06847e8dc54f39d"
+    ],
+    "count": 1,
+    "create_time": 1776814438,
+    "update_time": 1776814438,
+    "_id": "Forty-Seventh Article"
+  },
+  "Sixty-Third Article Clause 3": {
+    "chunk_ids": [
+      "chunk-0f17c98aec4af855d06847e8dc54f39d"
+    ],
+    "count": 1,
+    "create_time": 1776814439,
+    "update_time": 1776814439,
+    "_id": "Sixty-Third Article Clause 3"
+  },
+  "Seventy-Seventh Article": {
+    "chunk_ids": [
+      "chunk-0f17c98aec4af855d06847e8dc54f39d"
+    ],
+    "count": 1,
+    "create_time": 1776814439,
+    "update_time": 1776814439,
+    "_id": "Seventy-Seventh Article"
+  },
+  "Judicial Orders And Rulings": {
+    "chunk_ids": [
+      "chunk-0f17c98aec4af855d06847e8dc54f39d"
+    ],
+    "count": 1,
+    "create_time": 1776814439,
+    "update_time": 1776814439,
+    "_id": "Judicial Orders And Rulings"
+  },
+  "Public Prosecution": {
+    "chunk_ids": [
+      "chunk-0f17c98aec4af855d06847e8dc54f39d"
+    ],
+    "count": 1,
+    "create_time": 1776814439,
+    "update_time": 1776814439,
+    "_id": "Public Prosecution"
+  },
+  "Criminal Penalties": {
+    "chunk_ids": [
+      "chunk-0f17c98aec4af855d06847e8dc54f39d"
+    ],
+    "count": 1,
+    "create_time": 1776814439,
+    "update_time": 1776814439,
+    "_id": "Criminal Penalties"
+  },
+  "Article 80": {
+    "chunk_ids": [
+      "chunk-4fe0038af572654f7ea64ab35fd3849a"
+    ],
+    "count": 1,
+    "create_time": 1776814444,
+    "update_time": 1776814444,
+    "_id": "Article 80"
+  },
+  "Reconciling Situations": {
+    "chunk_ids": [
+      "chunk-4fe0038af572654f7ea64ab35fd3849a"
+    ],
+    "count": 1,
+    "create_time": 1776814444,
+    "update_time": 1776814444,
+    "_id": "Reconciling Situations"
+  },
+  "Article Eighty-One": {
+    "chunk_ids": [
+      "chunk-53d255606873f798c277f71c669581e4"
+    ],
+    "count": 1,
+    "create_time": 1776814451,
+    "update_time": 1776814451,
+    "_id": "Article Eighty-One"
+  },
+  "The Regulation": {
+    "chunk_ids": [
+      "chunk-53d255606873f798c277f71c669581e4"
+    ],
+    "count": 1,
+    "create_time": 1776814451,
+    "update_time": 1776814451,
+    "_id": "The Regulation"
+  },
+  "Official Gazette": {
+    "chunk_ids": [
+      "chunk-53d255606873f798c277f71c669581e4",
+      "chunk-a3b69865f5086a21397426b8108eefe1",
+      "chunk-3323a5605fc02cf6b08e6daf15866451",
+      "chunk-f1cdab301d132fa946f551f1fb83be2d"
+    ],
+    "count": 4,
+    "update_time": 1776814646,
+    "_id": "Official Gazette"
+  },
+  "180-Day Period": {
+    "chunk_ids": [
+      "chunk-53d255606873f798c277f71c669581e4"
+    ],
+    "count": 1,
+    "create_time": 1776814451,
+    "update_time": 1776814451,
+    "_id": "180-Day Period"
+  },
+  "Enforcement Date": {
+    "chunk_ids": [
+      "chunk-53d255606873f798c277f71c669581e4"
+    ],
+    "count": 1,
+    "create_time": 1776814451,
+    "update_time": 1776814451,
+    "_id": "Enforcement Date"
+  },
+  "Article Eighty-Two": {
+    "chunk_ids": [
+      "chunk-a3b69865f5086a21397426b8108eefe1"
+    ],
+    "count": 1,
+    "create_time": 1776814458,
+    "update_time": 1776814458,
+    "_id": "Article Eighty-Two"
+  },
+  "Anti-Commercial Fraud System": {
+    "chunk_ids": [
+      "chunk-a3b69865f5086a21397426b8108eefe1"
+    ],
+    "count": 1,
+    "create_time": 1776814458,
+    "update_time": 1776814458,
+    "_id": "Anti-Commercial Fraud System"
+  },
+  "Electronic Commerce System": {
+    "chunk_ids": [
+      "chunk-a3b69865f5086a21397426b8108eefe1"
+    ],
+    "count": 1,
+    "create_time": 1776814458,
+    "update_time": 1776814458,
+    "_id": "Electronic Commerce System"
+  },
+  "Royal Decree No. M/19": {
+    "chunk_ids": [
+      "chunk-a3b69865f5086a21397426b8108eefe1"
+    ],
+    "count": 1,
+    "create_time": 1776814458,
+    "update_time": 1776814458,
+    "_id": "Royal Decree No. M/19"
+  },
+  "Royal Decree No. M/126": {
+    "chunk_ids": [
+      "chunk-a3b69865f5086a21397426b8108eefe1"
+    ],
+    "count": 1,
+    "create_time": 1776814458,
+    "update_time": 1776814458,
+    "_id": "Royal Decree No. M/126"
+  },
+  "Eighteen Months Period": {
+    "chunk_ids": [
+      "chunk-a3b69865f5086a21397426b8108eefe1"
+    ],
+    "count": 1,
+    "create_time": 1776814458,
+    "update_time": 1776814458,
+    "_id": "Eighteen Months Period"
+  },
+  "Current System": {
+    "chunk_ids": [
+      "chunk-a3b69865f5086a21397426b8108eefe1"
+    ],
+    "count": 1,
+    "create_time": 1776814458,
+    "update_time": 1776814458,
+    "_id": "Current System"
+  },
+  "E-Commerce System": {
+    "chunk_ids": [
+      "chunk-fc0c7efa3b63af90af17dc69c2eb4ab7"
+    ],
+    "count": 1,
+    "create_time": 1776814477,
+    "update_time": 1776814477,
+    "_id": "E-Commerce System"
+  },
+  "Executive Regulation": {
+    "chunk_ids": [
+      "chunk-fc0c7efa3b63af90af17dc69c2eb4ab7"
+    ],
+    "count": 1,
+    "create_time": 1776814477,
+    "update_time": 1776814477,
+    "_id": "Executive Regulation"
+  },
+  "Ministry of Commerce and Investment": {
+    "chunk_ids": [
+      "chunk-fc0c7efa3b63af90af17dc69c2eb4ab7"
+    ],
+    "count": 1,
+    "create_time": 1776814477,
+    "update_time": 1776814477,
+    "_id": "Ministry of Commerce and Investment"
+  },
+  "Minister of Commerce and Investment": {
+    "chunk_ids": [
+      "chunk-fc0c7efa3b63af90af17dc69c2eb4ab7"
+    ],
+    "count": 1,
+    "create_time": 1776814477,
+    "update_time": 1776814477,
+    "_id": "Minister of Commerce and Investment"
+  },
+  "Electronic Commerce": {
+    "chunk_ids": [
+      "chunk-fc0c7efa3b63af90af17dc69c2eb4ab7"
+    ],
+    "count": 1,
+    "create_time": 1776814477,
+    "update_time": 1776814477,
+    "_id": "Electronic Commerce"
+  },
+  "Data": {
+    "chunk_ids": [
+      "chunk-fc0c7efa3b63af90af17dc69c2eb4ab7"
+    ],
+    "count": 1,
+    "create_time": 1776814477,
+    "update_time": 1776814477,
+    "_id": "Data"
+  },
+  "Person": {
+    "chunk_ids": [
+      "chunk-fc0c7efa3b63af90af17dc69c2eb4ab7"
+    ],
+    "count": 1,
+    "create_time": 1776814477,
+    "update_time": 1776814477,
+    "_id": "Person"
+  },
+  "Merchant": {
+    "chunk_ids": [
+      "chunk-fc0c7efa3b63af90af17dc69c2eb4ab7",
+      "chunk-7b813a98432e97bd821133a34c3ab82c"
+    ],
+    "count": 2,
+    "update_time": 1776814493,
+    "_id": "Merchant"
+  },
+  "Practitioner": {
+    "chunk_ids": [
+      "chunk-fc0c7efa3b63af90af17dc69c2eb4ab7",
+      "chunk-7b813a98432e97bd821133a34c3ab82c"
+    ],
+    "count": 2,
+    "update_time": 1776814493,
+    "_id": "Practitioner"
+  },
+  "Electronic Location": {
+    "chunk_ids": [
+      "chunk-fc0c7efa3b63af90af17dc69c2eb4ab7",
+      "chunk-a02c96de615b73a0b4a82ae7b14bc537"
+    ],
+    "count": 2,
+    "update_time": 1776814513,
+    "_id": "Electronic Location"
+  },
+  "Electronic Location Verification Entities": {
+    "chunk_ids": [
+      "chunk-fc0c7efa3b63af90af17dc69c2eb4ab7"
+    ],
+    "count": 1,
+    "create_time": 1776814478,
+    "update_time": 1776814478,
+    "_id": "Electronic Location Verification Entities"
+  },
+  "Electronic Correspondence": {
+    "chunk_ids": [
+      "chunk-fc0c7efa3b63af90af17dc69c2eb4ab7",
+      "chunk-ef5c3f67882b7588927d8bca42047269"
+    ],
+    "count": 2,
+    "update_time": 1776814500,
+    "_id": "Electronic Correspondence"
+  },
+  "Electronic Advertisement": {
+    "chunk_ids": [
+      "chunk-fc0c7efa3b63af90af17dc69c2eb4ab7",
+      "chunk-7dce39ad69ab952b0a24c9573b89731d"
+    ],
+    "count": 2,
+    "update_time": 1776814549,
+    "_id": "Electronic Advertisement"
+  },
+  "Electronic Means": {
+    "chunk_ids": [
+      "chunk-fc0c7efa3b63af90af17dc69c2eb4ab7"
+    ],
+    "count": 1,
+    "create_time": 1776814478,
+    "update_time": 1776814478,
+    "_id": "Electronic Means"
+  },
+  "Service Provider Within The Kingdom": {
+    "chunk_ids": [
+      "chunk-9b912e56726cb9e0d5237d61584a5fa6"
+    ],
+    "count": 1,
+    "create_time": 1776814484,
+    "update_time": 1776814484,
+    "_id": "Service Provider Within The Kingdom"
+  },
+  "Practitioner Outside The Kingdom": {
+    "chunk_ids": [
+      "chunk-9b912e56726cb9e0d5237d61584a5fa6"
+    ],
+    "count": 1,
+    "create_time": 1776814484,
+    "update_time": 1776814484,
+    "_id": "Practitioner Outside The Kingdom"
+  },
+  "Article Three": {
+    "chunk_ids": [
+      "chunk-7b813a98432e97bd821133a34c3ab82c"
+    ],
+    "count": 1,
+    "create_time": 1776814493,
+    "update_time": 1776814493,
+    "_id": "Article Three"
+  },
+  "Commercial Register": {
+    "chunk_ids": [
+      "chunk-7b813a98432e97bd821133a34c3ab82c"
+    ],
+    "count": 1,
+    "create_time": 1776814493,
+    "update_time": 1776814493,
+    "_id": "Commercial Register"
+  },
+  "Electronic Office": {
+    "chunk_ids": [
+      "chunk-7b813a98432e97bd821133a34c3ab82c"
+    ],
+    "count": 1,
+    "create_time": 1776814493,
+    "update_time": 1776814493,
+    "_id": "Electronic Office"
+  },
+  "Information System": {
+    "chunk_ids": [
+      "chunk-7b813a98432e97bd821133a34c3ab82c"
+    ],
+    "count": 1,
+    "create_time": 1776814494,
+    "update_time": 1776814494,
+    "_id": "Information System"
+  },
+  "Domain Name": {
+    "chunk_ids": [
+      "chunk-7b813a98432e97bd821133a34c3ab82c"
+    ],
+    "count": 1,
+    "create_time": 1776814494,
+    "update_time": 1776814494,
+    "_id": "Domain Name"
+  },
+  "Natural Person": {
+    "chunk_ids": [
+      "chunk-7b813a98432e97bd821133a34c3ab82c"
+    ],
+    "count": 1,
+    "create_time": 1776814494,
+    "update_time": 1776814494,
+    "_id": "Natural Person"
+  },
+  "Habitual Residence": {
+    "chunk_ids": [
+      "chunk-7b813a98432e97bd821133a34c3ab82c"
+    ],
+    "count": 1,
+    "create_time": 1776814494,
+    "update_time": 1776814494,
+    "_id": "Habitual Residence"
+  },
+  "Place of Business": {
+    "chunk_ids": [
+      "chunk-7b813a98432e97bd821133a34c3ab82c"
+    ],
+    "count": 1,
+    "create_time": 1776814494,
+    "update_time": 1776814494,
+    "_id": "Place of Business"
+  },
+  "Country": {
+    "chunk_ids": [
+      "chunk-7b813a98432e97bd821133a34c3ab82c"
+    ],
+    "count": 1,
+    "create_time": 1776814494,
+    "update_time": 1776814494,
+    "_id": "Country"
+  },
+  "Communication Technology": {
+    "chunk_ids": [
+      "chunk-ef5c3f67882b7588927d8bca42047269"
+    ],
+    "count": 1,
+    "create_time": 1776814500,
+    "update_time": 1776814500,
+    "_id": "Communication Technology"
+  },
+  "Error Correction Notice": {
+    "chunk_ids": [
+      "chunk-ef5c3f67882b7588927d8bca42047269"
+    ],
+    "count": 1,
+    "create_time": 1776814500,
+    "update_time": 1776814500,
+    "_id": "Error Correction Notice"
+  },
+  "Product Benefit": {
+    "chunk_ids": [
+      "chunk-ef5c3f67882b7588927d8bca42047269"
+    ],
+    "count": 1,
+    "create_time": 1776814500,
+    "update_time": 1776814500,
+    "_id": "Product Benefit"
+  },
+  "Electronic Communications": {
+    "chunk_ids": [
+      "chunk-30e605d9deb7e33ed48fcf51264fb16e"
+    ],
+    "count": 1,
+    "create_time": 1776814508,
+    "update_time": 1776814508,
+    "_id": "Electronic Communications"
+  },
+  "E-Commerce Transactions": {
+    "chunk_ids": [
+      "chunk-30e605d9deb7e33ed48fcf51264fb16e",
+      "chunk-9d902918ab9ab7a4b9783ccc6785c4da"
+    ],
+    "count": 2,
+    "update_time": 1776814633,
+    "_id": "E-Commerce Transactions"
+  },
+  "Regulatory Framework": {
+    "chunk_ids": [
+      "chunk-30e605d9deb7e33ed48fcf51264fb16e"
+    ],
+    "count": 1,
+    "create_time": 1776814508,
+    "update_time": 1776814508,
+    "_id": "Regulatory Framework"
+  },
+  "Third Parties": {
+    "chunk_ids": [
+      "chunk-30e605d9deb7e33ed48fcf51264fb16e"
+    ],
+    "count": 1,
+    "create_time": 1776814508,
+    "update_time": 1776814508,
+    "_id": "Third Parties"
+  },
+  "Article 5": {
+    "chunk_ids": [
+      "chunk-30e605d9deb7e33ed48fcf51264fb16e"
+    ],
+    "count": 1,
+    "create_time": 1776814508,
+    "update_time": 1776814508,
+    "_id": "Article 5"
+  },
+  "Registration Authority": {
+    "chunk_ids": [
+      "chunk-a02c96de615b73a0b4a82ae7b14bc537",
+      "chunk-17f12893b7ea3153ad9caac0b573a730"
+    ],
+    "count": 2,
+    "update_time": 1776814538,
+    "_id": "Registration Authority"
+  },
+  "Commercial Registry": {
+    "chunk_ids": [
+      "chunk-a02c96de615b73a0b4a82ae7b14bc537",
+      "chunk-0287b0d01cfa4f5a98740f1886983a05"
+    ],
+    "count": 2,
+    "update_time": 1776814585,
+    "_id": "Commercial Registry"
+  },
+  "Contract Statement": {
+    "chunk_ids": [
+      "chunk-b0f30d8785ebf55f768a527b1ede688f"
+    ],
+    "count": 1,
+    "create_time": 1776814522,
+    "update_time": 1776814522,
+    "_id": "Contract Statement"
+  },
+  "Contract Procedures": {
+    "chunk_ids": [
+      "chunk-b0f30d8785ebf55f768a527b1ede688f"
+    ],
+    "count": 1,
+    "create_time": 1776814522,
+    "update_time": 1776814522,
+    "_id": "Contract Procedures"
+  },
+  "Product or Service Characteristics": {
+    "chunk_ids": [
+      "chunk-b0f30d8785ebf55f768a527b1ede688f"
+    ],
+    "count": 1,
+    "create_time": 1776814522,
+    "update_time": 1776814522,
+    "_id": "Product or Service Characteristics"
+  },
+  "Total Price": {
+    "chunk_ids": [
+      "chunk-b0f30d8785ebf55f768a527b1ede688f",
+      "chunk-ed4385a57314892c443871db0108ea1b"
+    ],
+    "count": 2,
+    "update_time": 1776814532,
+    "_id": "Total Price"
+  },
+  "Payment and Delivery Arrangements": {
+    "chunk_ids": [
+      "chunk-b0f30d8785ebf55f768a527b1ede688f"
+    ],
+    "count": 1,
+    "create_time": 1776814522,
+    "update_time": 1776814522,
+    "_id": "Payment and Delivery Arrangements"
+  },
+  "Warranty Information": {
+    "chunk_ids": [
+      "chunk-b0f30d8785ebf55f768a527b1ede688f"
+    ],
+    "count": 1,
+    "create_time": 1776814522,
+    "update_time": 1776814522,
+    "_id": "Warranty Information"
+  },
+  "Service Provider Data": {
+    "chunk_ids": [
+      "chunk-b0f30d8785ebf55f768a527b1ede688f"
+    ],
+    "count": 1,
+    "create_time": 1776814522,
+    "update_time": 1776814522,
+    "_id": "Service Provider Data"
+  },
+  "Product Costs": {
+    "chunk_ids": [
+      "chunk-ed4385a57314892c443871db0108ea1b"
+    ],
+    "count": 1,
+    "create_time": 1776814532,
+    "update_time": 1776814532,
+    "_id": "Product Costs"
+  },
+  "Delivery Date And Location": {
+    "chunk_ids": [
+      "chunk-ed4385a57314892c443871db0108ea1b"
+    ],
+    "count": 1,
+    "create_time": 1776814532,
+    "update_time": 1776814532,
+    "_id": "Delivery Date And Location"
+  },
+  "Ninth Article": {
+    "chunk_ids": [
+      "chunk-17f12893b7ea3153ad9caac0b573a730"
+    ],
+    "count": 1,
+    "create_time": 1776814538,
+    "update_time": 1776814538,
+    "_id": "Ninth Article"
+  },
+  "License Or Permit": {
+    "chunk_ids": [
+      "chunk-17f12893b7ea3153ad9caac0b573a730"
+    ],
+    "count": 1,
+    "create_time": 1776814538,
+    "update_time": 1776814538,
+    "_id": "License Or Permit"
+  },
+  "Professional Title": {
+    "chunk_ids": [
+      "chunk-17f12893b7ea3153ad9caac0b573a730"
+    ],
+    "count": 1,
+    "create_time": 1776814538,
+    "update_time": 1776814538,
+    "_id": "Professional Title"
+  },
+  "Granting Country": {
+    "chunk_ids": [
+      "chunk-17f12893b7ea3153ad9caac0b573a730"
+    ],
+    "count": 1,
+    "create_time": 1776814538,
+    "update_time": 1776814538,
+    "_id": "Granting Country"
+  },
+  "Regulatory Bylaws": {
+    "chunk_ids": [
+      "chunk-17f12893b7ea3153ad9caac0b573a730",
+      "chunk-d54b07a7c7ab7c081f38bdd3d484ecc7"
+    ],
+    "count": 2,
+    "update_time": 1776814544,
+    "_id": "Regulatory Bylaws"
+  },
+  "Regulated Profession": {
+    "chunk_ids": [
+      "chunk-17f12893b7ea3153ad9caac0b573a730"
+    ],
+    "count": 1,
+    "create_time": 1776814538,
+    "update_time": 1776814538,
+    "_id": "Regulated Profession"
+  },
+  "Electronic Declaration": {
+    "chunk_ids": [
+      "chunk-d54b07a7c7ab7c081f38bdd3d484ecc7"
+    ],
+    "count": 1,
+    "create_time": 1776814544,
+    "update_time": 1776814544,
+    "_id": "Electronic Declaration"
+  },
+  "Contract Parties": {
+    "chunk_ids": [
+      "chunk-d54b07a7c7ab7c081f38bdd3d484ecc7"
+    ],
+    "count": 1,
+    "create_time": 1776814544,
+    "update_time": 1776814544,
+    "_id": "Contract Parties"
+  },
+  "Product Or Service Name": {
+    "chunk_ids": [
+      "chunk-d54b07a7c7ab7c081f38bdd3d484ecc7"
+    ],
+    "count": 1,
+    "create_time": 1776814544,
+    "update_time": 1776814544,
+    "_id": "Product Or Service Name"
+  },
+  "Electronics Business Authentication Authorities": {
+    "chunk_ids": [
+      "chunk-d54b07a7c7ab7c081f38bdd3d484ecc7"
+    ],
+    "count": 1,
+    "create_time": 1776814544,
+    "update_time": 1776814544,
+    "_id": "Electronics Business Authentication Authorities"
+  },
+  "Communication Channels": {
+    "chunk_ids": [
+      "chunk-d54b07a7c7ab7c081f38bdd3d484ecc7"
+    ],
+    "count": 1,
+    "create_time": 1776814544,
+    "update_time": 1776814544,
+    "_id": "Communication Channels"
+  },
+  "Electronic Contracts": {
+    "chunk_ids": [
+      "chunk-d54b07a7c7ab7c081f38bdd3d484ecc7"
+    ],
+    "count": 1,
+    "create_time": 1776814544,
+    "update_time": 1776814544,
+    "_id": "Electronic Contracts"
+  },
+  "False Representation": {
+    "chunk_ids": [
+      "chunk-7dce39ad69ab952b0a24c9573b89731d"
+    ],
+    "count": 1,
+    "create_time": 1776814549,
+    "update_time": 1776814549,
+    "_id": "False Representation"
+  },
+  "Trademark": {
+    "chunk_ids": [
+      "chunk-7dce39ad69ab952b0a24c9573b89731d"
+    ],
+    "count": 1,
+    "create_time": 1776814549,
+    "update_time": 1776814549,
+    "_id": "Trademark"
+  },
+  "Article 12": {
+    "chunk_ids": [
+      "chunk-a679e1dd369b0584601fe4f3f1b24454"
+    ],
+    "count": 1,
+    "create_time": 1776814556,
+    "update_time": 1776814556,
+    "_id": "Article 12"
+  },
+  "Administrative Penalties Regime": {
+    "chunk_ids": [
+      "chunk-a679e1dd369b0584601fe4f3f1b24454"
+    ],
+    "count": 1,
+    "create_time": 1776814556,
+    "update_time": 1776814556,
+    "_id": "Administrative Penalties Regime"
+  },
+  "Violations of Paragraph (2) of Article 10": {
+    "chunk_ids": [
+      "chunk-a679e1dd369b0584601fe4f3f1b24454"
+    ],
+    "count": 1,
+    "create_time": 1776814556,
+    "update_time": 1776814556,
+    "_id": "Violations of Paragraph (2) of Article 10"
+  },
+  "Violations of Article 11": {
+    "chunk_ids": [
+      "chunk-a679e1dd369b0584601fe4f3f1b24454"
+    ],
+    "count": 1,
+    "create_time": 1776814556,
+    "update_time": 1776814556,
+    "_id": "Violations of Article 11"
+  },
+  "Ministry": {
+    "chunk_ids": [
+      "chunk-a679e1dd369b0584601fe4f3f1b24454"
+    ],
+    "count": 1,
+    "create_time": 1776814556,
+    "update_time": 1776814556,
+    "_id": "Ministry"
+  },
+  "Violation Removal": {
+    "chunk_ids": [
+      "chunk-a679e1dd369b0584601fe4f3f1b24454"
+    ],
+    "count": 1,
+    "create_time": 1776814556,
+    "update_time": 1776814556,
+    "_id": "Violation Removal"
+  },
+  "Advertisement Withdrawal": {
+    "chunk_ids": [
+      "chunk-a679e1dd369b0584601fe4f3f1b24454"
+    ],
+    "count": 1,
+    "create_time": 1776814556,
+    "update_time": 1776814556,
+    "_id": "Advertisement Withdrawal"
+  },
+  "One-Day Deadline": {
+    "chunk_ids": [
+      "chunk-a679e1dd369b0584601fe4f3f1b24454"
+    ],
+    "count": 1,
+    "create_time": 1776814556,
+    "update_time": 1776814556,
+    "_id": "One-Day Deadline"
+  },
+  "Article 18": {
+    "chunk_ids": [
+      "chunk-a679e1dd369b0584601fe4f3f1b24454"
+    ],
+    "count": 1,
+    "create_time": 1776814556,
+    "update_time": 1776814556,
+    "_id": "Article 18"
+  },
+  "Article 13": {
+    "chunk_ids": [
+      "chunk-98520f83d72a9bac06aacc6991d7d823"
+    ],
+    "count": 1,
+    "create_time": 1776814570,
+    "update_time": 1776814570,
+    "_id": "Article 13"
+  },
+  "Contracting Date": {
+    "chunk_ids": [
+      "chunk-98520f83d72a9bac06aacc6991d7d823"
+    ],
+    "count": 1,
+    "create_time": 1776814570,
+    "update_time": 1776814570,
+    "_id": "Contracting Date"
+  },
+  "Custom-Produced Products": {
+    "chunk_ids": [
+      "chunk-98520f83d72a9bac06aacc6991d7d823"
+    ],
+    "count": 1,
+    "create_time": 1776814570,
+    "update_time": 1776814570,
+    "_id": "Custom-Produced Products"
+  },
+  "Used Media And Software": {
+    "chunk_ids": [
+      "chunk-98520f83d72a9bac06aacc6991d7d823"
+    ],
+    "count": 1,
+    "create_time": 1776814570,
+    "update_time": 1776814570,
+    "_id": "Used Media And Software"
+  },
+  "Periodicals": {
+    "chunk_ids": [
+      "chunk-98520f83d72a9bac06aacc6991d7d823"
+    ],
+    "count": 1,
+    "create_time": 1776814570,
+    "update_time": 1776814570,
+    "_id": "Periodicals"
+  },
+  "Service Providers": {
+    "chunk_ids": [
+      "chunk-98520f83d72a9bac06aacc6991d7d823"
+    ],
+    "count": 1,
+    "create_time": 1776814570,
+    "update_time": 1776814570,
+    "_id": "Service Providers"
+  },
+  "Online Downloaded Products": {
+    "chunk_ids": [
+      "chunk-98520f83d72a9bac06aacc6991d7d823"
+    ],
+    "count": 1,
+    "create_time": 1776814570,
+    "update_time": 1776814570,
+    "_id": "Online Downloaded Products"
+  },
+  "Defects": {
+    "chunk_ids": [
+      "chunk-98520f83d72a9bac06aacc6991d7d823"
+    ],
+    "count": 1,
+    "create_time": 1776814570,
+    "update_time": 1776814570,
+    "_id": "Defects"
+  },
+  "Costs": {
+    "chunk_ids": [
+      "chunk-98520f83d72a9bac06aacc6991d7d823"
+    ],
+    "count": 1,
+    "create_time": 1776814571,
+    "update_time": 1776814571,
+    "_id": "Costs"
+  },
+  "Fifteen-Day Period": {
+    "chunk_ids": [
+      "chunk-c0d47d22075e87911525f2b1b1a29585"
+    ],
+    "count": 1,
+    "create_time": 1776814578,
+    "update_time": 1776814578,
+    "_id": "Fifteen-Day Period"
+  },
+  "Force Majeure": {
+    "chunk_ids": [
+      "chunk-c0d47d22075e87911525f2b1b1a29585"
+    ],
+    "count": 1,
+    "create_time": 1776814578,
+    "update_time": 1776814578,
+    "_id": "Force Majeure"
+  },
+  "Expected Delay Notification": {
+    "chunk_ids": [
+      "chunk-c0d47d22075e87911525f2b1b1a29585"
+    ],
+    "count": 1,
+    "create_time": 1776814578,
+    "update_time": 1776814578,
+    "_id": "Expected Delay Notification"
+  },
+  "Delay Costs": {
+    "chunk_ids": [
+      "chunk-c0d47d22075e87911525f2b1b1a29585"
+    ],
+    "count": 1,
+    "create_time": 1776814578,
+    "update_time": 1776814578,
+    "_id": "Delay Costs"
+  },
+  "Trader": {
+    "chunk_ids": [
+      "chunk-0287b0d01cfa4f5a98740f1886983a05"
+    ],
+    "count": 1,
+    "create_time": 1776814585,
+    "update_time": 1776814585,
+    "_id": "Trader"
+  },
+  "Electronic Premises": {
+    "chunk_ids": [
+      "chunk-0287b0d01cfa4f5a98740f1886983a05",
+      "chunk-db15b26408bc87ab744a17b5b0ea6317",
+      "chunk-f5661f438c3dca334dc944b7a2eeeb87"
+    ],
+    "count": 3,
+    "update_time": 1776814603,
+    "_id": "Electronic Premises"
+  },
+  "Commercial Registry System": {
+    "chunk_ids": [
+      "chunk-0287b0d01cfa4f5a98740f1886983a05"
+    ],
+    "count": 1,
+    "create_time": 1776814585,
+    "update_time": 1776814585,
+    "_id": "Commercial Registry System"
+  },
+  "The Ministry": {
+    "chunk_ids": [
+      "chunk-b93d95a5b6df178db9b2bb6cde162f61"
+    ],
+    "count": 1,
+    "create_time": 1776814589,
+    "update_time": 1776814589,
+    "_id": "The Ministry"
+  },
+  "E-Commerce Sector": {
+    "chunk_ids": [
+      "chunk-b93d95a5b6df178db9b2bb6cde162f61"
+    ],
+    "count": 1,
+    "create_time": 1776814589,
+    "update_time": 1776814589,
+    "_id": "E-Commerce Sector"
+  },
+  "Electronic Verification Entities": {
+    "chunk_ids": [
+      "chunk-b93d95a5b6df178db9b2bb6cde162f61"
+    ],
+    "count": 1,
+    "create_time": 1776814589,
+    "update_time": 1776814589,
+    "_id": "Electronic Verification Entities"
+  },
+  "Transaction Integrity": {
+    "chunk_ids": [
+      "chunk-b93d95a5b6df178db9b2bb6cde162f61"
+    ],
+    "count": 1,
+    "create_time": 1776814589,
+    "update_time": 1776814589,
+    "_id": "Transaction Integrity"
+  },
+  "Minister": {
+    "chunk_ids": [
+      "chunk-db15b26408bc87ab744a17b5b0ea6317",
+      "chunk-bdd31cd82935851ed60fa97049b2dc09"
+    ],
+    "count": 2,
+    "update_time": 1776814610,
+    "_id": "Minister"
+  },
+  "Article Seventeen": {
+    "chunk_ids": [
+      "chunk-db15b26408bc87ab744a17b5b0ea6317"
+    ],
+    "count": 1,
+    "create_time": 1776814596,
+    "update_time": 1776814596,
+    "_id": "Article Seventeen"
+  },
+  "Three Days": {
+    "chunk_ids": [
+      "chunk-db15b26408bc87ab744a17b5b0ea6317"
+    ],
+    "count": 1,
+    "create_time": 1776814597,
+    "update_time": 1776814597,
+    "_id": "Three Days"
+  },
+  "Violation": {
+    "chunk_ids": [
+      "chunk-db15b26408bc87ab744a17b5b0ea6317"
+    ],
+    "count": 1,
+    "create_time": 1776814597,
+    "update_time": 1776814597,
+    "_id": "Violation"
+  },
+  "Electronic Commerce Practice": {
+    "chunk_ids": [
+      "chunk-f5661f438c3dca334dc944b7a2eeeb87"
+    ],
+    "count": 1,
+    "create_time": 1776814603,
+    "update_time": 1776814603,
+    "_id": "Electronic Commerce Practice"
+  },
+  "Suspension Of Electronic Commerce": {
+    "chunk_ids": [
+      "chunk-f5661f438c3dca334dc944b7a2eeeb87"
+    ],
+    "count": 1,
+    "create_time": 1776814603,
+    "update_time": 1776814603,
+    "_id": "Suspension Of Electronic Commerce"
+  },
+  "Blocking Of Electronic Premises": {
+    "chunk_ids": [
+      "chunk-f5661f438c3dca334dc944b7a2eeeb87"
+    ],
+    "count": 1,
+    "create_time": 1776814603,
+    "update_time": 1776814603,
+    "_id": "Blocking Of Electronic Premises"
+  },
+  "Other Regulations": {
+    "chunk_ids": [
+      "chunk-f5661f438c3dca334dc944b7a2eeeb87"
+    ],
+    "count": 1,
+    "create_time": 1776814604,
+    "update_time": 1776814604,
+    "_id": "Other Regulations"
+  },
+  "Bylaw": {
+    "chunk_ids": [
+      "chunk-bdd31cd82935851ed60fa97049b2dc09"
+    ],
+    "count": 1,
+    "create_time": 1776814610,
+    "update_time": 1776814610,
+    "_id": "Bylaw"
+  },
+  "Administrative Advisor": {
+    "chunk_ids": [
+      "chunk-bdd31cd82935851ed60fa97049b2dc09"
+    ],
+    "count": 1,
+    "create_time": 1776814610,
+    "update_time": 1776814610,
+    "_id": "Administrative Advisor"
+  },
+  "Committee Decision": {
+    "chunk_ids": [
+      "chunk-bdd31cd82935851ed60fa97049b2dc09"
+    ],
+    "count": 1,
+    "create_time": 1776814611,
+    "update_time": 1776814611,
+    "_id": "Committee Decision"
+  },
+  "Service Provider Activity": {
+    "chunk_ids": [
+      "chunk-bdd31cd82935851ed60fa97049b2dc09"
+    ],
+    "count": 1,
+    "create_time": 1776814611,
+    "update_time": 1776814611,
+    "_id": "Service Provider Activity"
+  },
+  "Recidivism": {
+    "chunk_ids": [
+      "chunk-bdd31cd82935851ed60fa97049b2dc09"
+    ],
+    "count": 1,
+    "create_time": 1776814611,
+    "update_time": 1776814611,
+    "_id": "Recidivism"
+  },
+  "Service Provider Size": {
+    "chunk_ids": [
+      "chunk-bdd31cd82935851ed60fa97049b2dc09"
+    ],
+    "count": 1,
+    "create_time": 1776814612,
+    "update_time": 1776814612,
+    "_id": "Service Provider Size"
+  },
+  "Third-Party Harm": {
+    "chunk_ids": [
+      "chunk-bdd31cd82935851ed60fa97049b2dc09"
+    ],
+    "count": 1,
+    "create_time": 1776814612,
+    "update_time": 1776814612,
+    "_id": "Third-Party Harm"
+  },
+  "المادة العشرون": {
+    "chunk_ids": [
+      "chunk-2e5edf0ea88592648169855ce547cfd5"
+    ],
+    "count": 1,
+    "create_time": 1776814617,
+    "update_time": 1776814617,
+    "_id": "المادة العشرون"
+  },
+  "Administrative Decision": {
+    "chunk_ids": [
+      "chunk-2e5edf0ea88592648169855ce547cfd5"
+    ],
+    "count": 1,
+    "create_time": 1776814617,
+    "update_time": 1776814617,
+    "_id": "Administrative Decision"
+  },
+  "Administrative Court": {
+    "chunk_ids": [
+      "chunk-2e5edf0ea88592648169855ce547cfd5"
+    ],
+    "count": 1,
+    "create_time": 1776814617,
+    "update_time": 1776814617,
+    "_id": "Administrative Court"
+  },
+  "Diwan Al-Muzalim": {
+    "chunk_ids": [
+      "chunk-2e5edf0ea88592648169855ce547cfd5"
+    ],
+    "count": 1,
+    "create_time": 1776814617,
+    "update_time": 1776814617,
+    "_id": "Diwan Al-Muzalim"
+  },
+  "Diwan Al-Muzalim Litigation System": {
+    "chunk_ids": [
+      "chunk-2e5edf0ea88592648169855ce547cfd5"
+    ],
+    "count": 1,
+    "create_time": 1776814617,
+    "update_time": 1776814617,
+    "_id": "Diwan Al-Muzalim Litigation System"
+  },
+  "Penalty Decision": {
+    "chunk_ids": [
+      "chunk-85d489500ac41fa5ad12a8c9462979b4"
+    ],
+    "count": 1,
+    "create_time": 1776814626,
+    "update_time": 1776814626,
+    "_id": "Penalty Decision"
+  },
+  "Violator": {
+    "chunk_ids": [
+      "chunk-85d489500ac41fa5ad12a8c9462979b4"
+    ],
+    "count": 1,
+    "create_time": 1776814626,
+    "update_time": 1776814626,
+    "_id": "Violator"
+  },
+  "Publication": {
+    "chunk_ids": [
+      "chunk-85d489500ac41fa5ad12a8c9462979b4"
+    ],
+    "count": 1,
+    "create_time": 1776814626,
+    "update_time": 1776814626,
+    "_id": "Publication"
+  },
+  "Legal Period": {
+    "chunk_ids": [
+      "chunk-85d489500ac41fa5ad12a8c9462979b4"
+    ],
+    "count": 1,
+    "create_time": 1776814626,
+    "update_time": 1776814626,
+    "_id": "Legal Period"
+  },
+  "Final Judgment": {
+    "chunk_ids": [
+      "chunk-85d489500ac41fa5ad12a8c9462979b4"
+    ],
+    "count": 1,
+    "create_time": 1776814626,
+    "update_time": 1776814626,
+    "_id": "Final Judgment"
+  },
+  "المادة الثانية والعشرون": {
+    "chunk_ids": [
+      "chunk-505a7da5372dbf86a3bdc9b55579249e"
+    ],
+    "count": 1,
+    "create_time": 1776814629,
+    "update_time": 1776814629,
+    "_id": "المادة الثانية والعشرون"
+  },
+  "المحكمة المختصة": {
+    "chunk_ids": [
+      "chunk-505a7da5372dbf86a3bdc9b55579249e"
+    ],
+    "count": 1,
+    "create_time": 1776814629,
+    "update_time": 1776814629,
+    "_id": "المحكمة المختصة"
+  },
+  "The Minister": {
+    "chunk_ids": [
+      "chunk-9d902918ab9ab7a4b9783ccc6785c4da",
+      "chunk-3323a5605fc02cf6b08e6daf15866451"
+    ],
+    "count": 2,
+    "update_time": 1776814642,
+    "_id": "The Minister"
+  },
+  "Employees": {
+    "chunk_ids": [
+      "chunk-9d902918ab9ab7a4b9783ccc6785c4da"
+    ],
+    "count": 1,
+    "create_time": 1776814633,
+    "update_time": 1776814633,
+    "_id": "Employees"
+  },
+  "System Provisions": {
+    "chunk_ids": [
+      "chunk-9d902918ab9ab7a4b9783ccc6785c4da"
+    ],
+    "count": 1,
+    "create_time": 1776814633,
+    "update_time": 1776814633,
+    "_id": "System Provisions"
+  },
+  "Regulation Bylaws": {
+    "chunk_ids": [
+      "chunk-9d902918ab9ab7a4b9783ccc6785c4da"
+    ],
+    "count": 1,
+    "create_time": 1776814633,
+    "update_time": 1776814633,
+    "_id": "Regulation Bylaws"
+  },
+  "Article Twenty-Three": {
+    "chunk_ids": [
+      "chunk-9d902918ab9ab7a4b9783ccc6785c4da"
+    ],
+    "count": 1,
+    "create_time": 1776814633,
+    "update_time": 1776814633,
+    "_id": "Article Twenty-Three"
+  },
+  "Article Twenty-Four": {
+    "chunk_ids": [
+      "chunk-4356d14be0458851058bcbfa4dd8eff9"
+    ],
+    "count": 1,
+    "create_time": 1776814638,
+    "update_time": 1776814638,
+    "_id": "Article Twenty-Four"
+  },
+  "Electronic Transactions Law": {
+    "chunk_ids": [
+      "chunk-4356d14be0458851058bcbfa4dd8eff9"
+    ],
+    "count": 1,
+    "create_time": 1776814638,
+    "update_time": 1776814638,
+    "_id": "Electronic Transactions Law"
+  },
+  "Related Systems": {
+    "chunk_ids": [
+      "chunk-4356d14be0458851058bcbfa4dd8eff9"
+    ],
+    "count": 1,
+    "create_time": 1776814638,
+    "update_time": 1776814638,
+    "_id": "Related Systems"
+  },
+  "Ninety Days": {
+    "chunk_ids": [
+      "chunk-3323a5605fc02cf6b08e6daf15866451",
+      "chunk-f1cdab301d132fa946f551f1fb83be2d"
+    ],
+    "count": 2,
+    "update_time": 1776814646,
+    "_id": "Ninety Days"
+  },
+  "Article Twenty-Six": {
+    "chunk_ids": [
+      "chunk-f1cdab301d132fa946f551f1fb83be2d"
+    ],
+    "count": 1,
+    "create_time": 1776814646,
+    "update_time": 1776814646,
+    "_id": "Article Twenty-Six"
+  }
+}

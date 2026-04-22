@@ -11,3 +11,13 @@ __pycache__/
 Thumbs.db
 *.Zone.Identifier
 
+
+# Large artifacts from pod transfer (code duplicated in core/)
+pod_workspace/
+
+# Phase 1 artifact, superseded by lightrag_storage_prod/
+lightrag_storage/
+
+# Raw source PDFs — not redistributed
+data/raw/
+*:Zone.Identifier

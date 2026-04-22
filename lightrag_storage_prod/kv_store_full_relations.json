@@ -1,0 +1,4722 @@
+{
+  "مشروع_نظام_حماية_المستهلك_المادة الأولى: التعريفات": {
+    "relation_pairs": [
+      [
+        "Competent Authority",
+        "Related Entities"
+      ],
+      [
+        "Competent Authority",
+        "Consumer Protection System"
+      ],
+      [
+        "Consumer",
+        "Economic Operator"
+      ],
+      [
+        "Defect",
+        "Service"
+      ],
+      [
+        "Consumer",
+        "Product"
+      ],
+      [
+        "Price",
+        "Product"
+      ],
+      [
+        "Economic Operator",
+        "Establishment"
+      ],
+      [
+        "Address",
+        "Economic Operator"
+      ],
+      [
+        "Product",
+        "Service Provider"
+      ],
+      [
+        "Advertisement",
+        "Economic Operator"
+      ],
+      [
+        "Consumer Protection System",
+        "Executive Regulations"
+      ],
+      [
+        "Discounts",
+        "Product"
+      ],
+      [
+        "Consumer",
+        "Service"
+      ],
+      [
+        "Price",
+        "Service"
+      ],
+      [
+        "Consumer Protection System",
+        "Corrective Measures"
+      ],
+      [
+        "Economic Operator",
+        "Service Provider"
+      ],
+      [
+        "Defect",
+        "Product"
+      ],
+      [
+        "Competition",
+        "Consumer"
+      ]
+    ],
+    "count": 18,
+    "create_time": 1776813788,
+    "update_time": 1776813788,
+    "_id": "مشروع_نظام_حماية_المستهلك_المادة الأولى: التعريفات"
+  },
+  "مشروع_نظام_حماية_المستهلك_المادة الثانية: أهداف النظام": {
+    "relation_pairs": [
+      [
+        "Consumer",
+        "Economic Operator"
+      ],
+      [
+        "Consumer Protection System",
+        "Sustainable Consumption Culture"
+      ],
+      [
+        "Consumer Protection System",
+        "Dispute Resolution"
+      ],
+      [
+        "Consumer Protection System",
+        "Unfair Practices"
+      ],
+      [
+        "Article Two",
+        "Consumer Protection System"
+      ],
+      [
+        "Consumer",
+        "Consumer Protection System"
+      ],
+      [
+        "Consumer Protection System",
+        "Economic Operator"
+      ],
+      [
+        "Consumer Protection System",
+        "Harmful Or Defective Products"
+      ],
+      [
+        "Consumer Protection System",
+        "Stakeholder Participation"
+      ],
+      [
+        "Consumer Protection System",
+        "Market Surveillance Efficiency"
+      ]
+    ],
+    "count": 10,
+    "create_time": 1776813795,
+    "update_time": 1776813795,
+    "_id": "مشروع_نظام_حماية_المستهلك_المادة الثانية: أهداف النظام"
+  },
+  "مشروع_نظام_حماية_المستهلك_المادة الثالثة: نطاق التطبيق": {
+    "relation_pairs": [
+      [
+        "Article 3 Application Scope",
+        "Consumer"
+      ],
+      [
+        "Article 3 Application Scope",
+        "Economic Operator"
+      ],
+      [
+        "Contract Conclusion Location",
+        "Remote Contract"
+      ],
+      [
+        "Article 3 Application Scope",
+        "Remote Contract"
+      ],
+      [
+        "Article 3 Application Scope",
+        "Product"
+      ],
+      [
+        "Consumer",
+        "Remote Contract"
+      ],
+      [
+        "Consumer",
+        "Economic Operator"
+      ],
+      [
+        "Article 3 Application Scope",
+        "The Kingdom"
+      ],
+      [
+        "Article 3 Application Scope",
+        "Service"
+      ],
+      [
+        "Article 3 Application Scope",
+        "E-Commerce"
+      ],
+      [
+        "Economic Operator",
+        "Remote Contract"
+      ]
+    ],
+    "count": 11,
+    "create_time": 1776813803,
+    "update_time": 1776813803,
+    "_id": "مشروع_نظام_حماية_المستهلك_المادة الثالثة: نطاق التطبيق"
+  },
+  "مشروع_نظام_حماية_المستهلك_المادة الرابعة: حقوق المستهلك الأساسية": {
+    "relation_pairs": [
+      [
+        "Consumer Associations",
+        "Consumer Rights"
+      ],
+      [
+        "Consumer Rights",
+        "Essential Products And Services"
+      ],
+      [
+        "Consumer Rights",
+        "Regulatory Systems And Bylaws"
+      ],
+      [
+        "Consumer Rights",
+        "Religious Values Public Morals"
+      ],
+      [
+        "Consumer Rights",
+        "Other Relevant Systems And Regulations"
+      ],
+      [
+        "Consumer Rights",
+        "Correct Information"
+      ],
+      [
+        "Article Four",
+        "Consumer Rights"
+      ],
+      [
+        "Consumer Rights",
+        "Dispute Resolution Mechanisms"
+      ],
+      [
+        "Consumer Rights",
+        "Personal Data Privacy"
+      ],
+      [
+        "Consumer Rights",
+        "Economic Social And Environmental Impacts"
+      ],
+      [
+        "Consumer Rights",
+        "Life Health And Safety"
+      ],
+      [
+        "Consumer Rights",
+        "Fair Compensation"
+      ],
+      [
+        "Collective Consumer Representation",
+        "Consumer Rights"
+      ]
+    ],
+    "count": 13,
+    "create_time": 1776813813,
+    "update_time": 1776813813,
+    "_id": "مشروع_نظام_حماية_المستهلك_المادة الرابعة: حقوق المستهلك الأساسية"
+  },
+  "مشروع_نظام_حماية_المستهلك_المادة الخامسة: المستهلك المعرض للضرر": {
+    "relation_pairs": [
+      [
+        "Age",
+        "Vulnerable Consumer"
+      ],
+      [
+        "Article Five",
+        "Competent Authority"
+      ],
+      [
+        "Competent Authority",
+        "Vulnerable Consumer"
+      ],
+      [
+        "Article Five",
+        "Vulnerable Consumer"
+      ],
+      [
+        "Psychological Condition",
+        "Vulnerable Consumer"
+      ],
+      [
+        "Economic Operator",
+        "Vulnerable Consumer"
+      ],
+      [
+        "Mental State",
+        "Vulnerable Consumer"
+      ],
+      [
+        "Relevant Entities",
+        "Vulnerable Consumer"
+      ],
+      [
+        "Article Five",
+        "Economic Operator"
+      ],
+      [
+        "Disability",
+        "Vulnerable Consumer"
+      ]
+    ],
+    "count": 10,
+    "create_time": 1776813821,
+    "update_time": 1776813821,
+    "_id": "مشروع_نظام_حماية_المستهلك_المادة الخامسة: المستهلك المعرض للضرر"
+  },
+  "مشروع_نظام_حماية_المستهلك_المادة السادسة: معلومات المنتج أو الخدمة": {
+    "relation_pairs": [
+      [
+        "Article Six",
+        "Composition"
+      ],
+      [
+        "Agent",
+        "Economic Operator"
+      ],
+      [
+        "Brand Name",
+        "Product Information"
+      ],
+      [
+        "Article Six",
+        "Economic Operator"
+      ],
+      [
+        "Article Six",
+        "Dimensions"
+      ],
+      [
+        "Article Six",
+        "Sequential Number"
+      ],
+      [
+        "Article Six",
+        "Quantity"
+      ],
+      [
+        "Consumer",
+        "Regulation"
+      ],
+      [
+        "Article Six",
+        "Weight"
+      ],
+      [
+        "Business Identity Data",
+        "Manufacturer"
+      ],
+      [
+        "Economic Operator",
+        "Importer"
+      ],
+      [
+        "Country Of Origin",
+        "Product Information"
+      ],
+      [
+        "Article Six",
+        "Product Type"
+      ],
+      [
+        "Business Identity Data",
+        "Distributor"
+      ],
+      [
+        "Business Identity Data",
+        "Importer"
+      ],
+      [
+        "Article Six",
+        "Price"
+      ],
+      [
+        "Manufacturer",
+        "Manufacturing Certificate"
+      ],
+      [
+        "Distributor",
+        "Economic Operator"
+      ],
+      [
+        "Consumer",
+        "Economic Operator"
+      ],
+      [
+        "Business Identity Data",
+        "Economic Operator"
+      ],
+      [
+        "Article Six",
+        "Business Identity Data"
+      ],
+      [
+        "Economic Operator",
+        "Manufacturer"
+      ],
+      [
+        "Service License",
+        "Service Provider"
+      ],
+      [
+        "Manufacturing Certificate",
+        "Product Information"
+      ],
+      [
+        "Agent",
+        "Business Identity Data"
+      ]
+    ],
+    "count": 25,
+    "create_time": 1776813838,
+    "update_time": 1776813838,
+    "_id": "مشروع_نظام_حماية_المستهلك_المادة السادسة: معلومات المنتج أو الخدمة"
+  },
+  "مشروع_نظام_حماية_المستهلك_المادة السابعة: تقديم المعلومات": {
+    "relation_pairs": [
+      [
+        "Article Seven",
+        "Electronic Medium"
+      ],
+      [
+        "Article Seven",
+        "Clear Information"
+      ],
+      [
+        "Article Seven",
+        "Consumers"
+      ],
+      [
+        "Clear Information",
+        "Usage Instructions"
+      ],
+      [
+        "Advertising Media",
+        "Clear Information"
+      ]
+    ],
+    "count": 5,
+    "create_time": 1776813842,
+    "update_time": 1776813842,
+    "_id": "مشروع_نظام_حماية_المستهلك_المادة السابعة: تقديم المعلومات"
+  },
+  "مشروع_نظام_حماية_المستهلك_المادة الثامنة: اللغة": {
+    "relation_pairs": [
+      [
+        "Consumer Information",
+        "Providing Methods"
+      ],
+      [
+        "Arabic Language",
+        "Consumer Information"
+      ],
+      [
+        "Consumer Information",
+        "Other Languages"
+      ],
+      [
+        "Article Eight",
+        "Consumer Information"
+      ]
+    ],
+    "count": 4,
+    "create_time": 1776813846,
+    "update_time": 1776813846,
+    "_id": "مشروع_نظام_حماية_المستهلك_المادة الثامنة: اللغة"
+  },
+  "مشروع_نظام_حماية_المستهلك_المادة التاسعة: بيان سعر المنتج": {
+    "relation_pairs": [
+      [
+        "Article Nine",
+        "Economic Operator"
+      ],
+      [
+        "Regulation",
+        "Scanning Technology"
+      ],
+      [
+        "Consumer",
+        "Economic Operator"
+      ],
+      [
+        "Economic Operator",
+        "Product"
+      ],
+      [
+        "Global Product Number",
+        "Regulation"
+      ],
+      [
+        "Global Product Number",
+        "Scanning Technology"
+      ],
+      [
+        "Economic Operator",
+        "Product Price"
+      ]
+    ],
+    "count": 7,
+    "create_time": 1776813852,
+    "update_time": 1776813852,
+    "_id": "مشروع_نظام_حماية_المستهلك_المادة التاسعة: بيان سعر المنتج"
+  },
+  "مشروع_نظام_حماية_المستهلك_المادة العاشرة: بيان سعر الخدمة": {
+    "relation_pairs": [
+      [
+        "Price Offer",
+        "Service Provider"
+      ],
+      [
+        "Article Ten",
+        "Explicit Consent"
+      ],
+      [
+        "Article Ten",
+        "Service Provider"
+      ],
+      [
+        "Explicit Consent",
+        "Service And Maintenance Centers"
+      ],
+      [
+        "Maintenance Work",
+        "Service And Maintenance Centers"
+      ],
+      [
+        "Article Ten",
+        "Service Pricing Disclosure"
+      ],
+      [
+        "Economic Operator",
+        "Price Offer"
+      ],
+      [
+        "Consumer",
+        "Service And Maintenance Centers"
+      ]
+    ],
+    "count": 8,
+    "create_time": 1776813858,
+    "update_time": 1776813858,
+    "_id": "مشروع_نظام_حماية_المستهلك_المادة العاشرة: بيان سعر الخدمة"
+  },
+  "مشروع_نظام_حماية_المستهلك_المادة الحادية عشرة: السعر الشامل": {
+    "relation_pairs": [
+      [
+        "Consumer",
+        "Operating Entity"
+      ],
+      [
+        "Operating Entity",
+        "Product Or Service"
+      ],
+      [
+        "Article Eleven",
+        "Product Or Service"
+      ],
+      [
+        "Article Eleven",
+        "Saudi Riyal"
+      ],
+      [
+        "Article Eleven",
+        "Taxes And Fees"
+      ],
+      [
+        "Article Eleven",
+        "Necessary Products And Services"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1776813864,
+    "update_time": 1776813864,
+    "_id": "مشروع_نظام_حماية_المستهلك_المادة الحادية عشرة: السعر الشامل"
+  },
+  "مشروع_نظام_حماية_المستهلك_المادة الثانية عشرة: الاختلاف في بيان الأسعار": {
+    "relation_pairs": [
+      [
+        "Consumer",
+        "Economic Operator"
+      ],
+      [
+        "Economic Operator",
+        "Products Or Services"
+      ],
+      [
+        "Article Twelve",
+        "Price Discrepancy"
+      ],
+      [
+        "Economic Operator",
+        "Unintentional Error"
+      ],
+      [
+        "Article Twelve",
+        "Consumer"
+      ],
+      [
+        "Article Twelve",
+        "Economic Operator"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1776813872,
+    "update_time": 1776813872,
+    "_id": "مشروع_نظام_حماية_المستهلك_المادة الثانية عشرة: الاختلاف في بيان الأسعار"
+  },
+  "مشروع_نظام_حماية_المستهلك_المادة الثالثة عشرة: تخفيض السعر": {
+    "relation_pairs": [
+      [
+        "Article Thirteen",
+        "Economic Operator"
+      ],
+      [
+        "Regulatory Authority",
+        "Subsidiary Regulation"
+      ],
+      [
+        "Spoilable Products",
+        "Subsidiary Regulation"
+      ],
+      [
+        "Economic Operator",
+        "Minimum Price History"
+      ],
+      [
+        "Economic Operator",
+        "Reduced Price"
+      ],
+      [
+        "Short-Term Products",
+        "Subsidiary Regulation"
+      ],
+      [
+        "Minimum Price History",
+        "Thirty Day Period"
+      ],
+      [
+        "Article Thirteen",
+        "Price Reduction Campaigns"
+      ]
+    ],
+    "count": 8,
+    "create_time": 1776813879,
+    "update_time": 1776813879,
+    "_id": "مشروع_نظام_حماية_المستهلك_المادة الثالثة عشرة: تخفيض السعر"
+  },
+  "مشروع_نظام_حماية_المستهلك_المادة الرابعة عشرة: تقديم الفاتورة": {
+    "relation_pairs": [
+      [
+        "Invoice",
+        "Tax Number"
+      ],
+      [
+        "Invoice",
+        "Replaced Parts"
+      ],
+      [
+        "Invoice",
+        "Maintenance Works"
+      ],
+      [
+        "Invoice",
+        "Price"
+      ],
+      [
+        "Economic Operator",
+        "Invoice"
+      ],
+      [
+        "Article Fourteen",
+        "Consumer"
+      ],
+      [
+        "Article Fourteen",
+        "Economic Operator"
+      ],
+      [
+        "Address",
+        "Invoice"
+      ],
+      [
+        "Invoice",
+        "Product Description"
+      ],
+      [
+        "Commercial Name",
+        "Invoice"
+      ],
+      [
+        "Article Fourteen",
+        "Service And Maintenance Centers"
+      ],
+      [
+        "Consumer",
+        "Invoice"
+      ],
+      [
+        "Invoice",
+        "Service And Maintenance Centers"
+      ],
+      [
+        "Economic Operator",
+        "Electronic Invoice"
+      ],
+      [
+        "Consumer",
+        "Proof Methods"
+      ],
+      [
+        "Invoice",
+        "Total Payable Price"
+      ],
+      [
+        "Contract Date",
+        "Invoice"
+      ],
+      [
+        "Consumer",
+        "Economic Operator"
+      ],
+      [
+        "Contact Means",
+        "Invoice"
+      ],
+      [
+        "Consumer",
+        "Service And Maintenance Centers"
+      ]
+    ],
+    "count": 20,
+    "create_time": 1776813891,
+    "update_time": 1776813891,
+    "_id": "مشروع_نظام_حماية_المستهلك_المادة الرابعة عشرة: تقديم الفاتورة"
+  },
+  "مشروع_نظام_حماية_المستهلك_المادة الخامسة عشرة: تقديم العقد": {
+    "relation_pairs": [
+      [
+        "Consumer",
+        "Economic Operator"
+      ],
+      [
+        "No Charge",
+        "Pre-formulated Contract"
+      ],
+      [
+        "Article Fifteen",
+        "Economic Operator"
+      ],
+      [
+        "Economic Operator",
+        "Pre-formulated Contract"
+      ],
+      [
+        "Economic Operator",
+        "On Request"
+      ],
+      [
+        "Consumer",
+        "Pre-formulated Contract"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1776813898,
+    "update_time": 1776813898,
+    "_id": "مشروع_نظام_حماية_المستهلك_المادة الخامسة عشرة: تقديم العقد"
+  },
+  "مشروع_نظام_حماية_المستهلك_المادة السادسة عشرة: عبء الإثبات": {
+    "relation_pairs": [
+      [
+        "Burden Of Proof",
+        "Economic Operator"
+      ],
+      [
+        "Consumer",
+        "Economic Operator"
+      ],
+      [
+        "Article Sixteen",
+        "Burden Of Proof"
+      ],
+      [
+        "Burden Of Proof",
+        "Information Disclosure Obligation"
+      ]
+    ],
+    "count": 4,
+    "create_time": 1776813902,
+    "update_time": 1776813902,
+    "_id": "مشروع_نظام_حماية_المستهلك_المادة السادسة عشرة: عبء الإثبات"
+  },
+  "مشروع_نظام_حماية_المستهلك_المادة السابعة عشرة: الممارسات التجارية المجحفة": {
+    "relation_pairs": [
+      [
+        "Economic Operator",
+        "Unjustified Conditions"
+      ],
+      [
+        "Consumer",
+        "Economic Operator"
+      ],
+      [
+        "Economic Operator",
+        "Product"
+      ],
+      [
+        "Economic Operator",
+        "Media Outlet"
+      ],
+      [
+        "Consumer",
+        "Unfair Commercial Practices"
+      ],
+      [
+        "Direct Marketing",
+        "Economic Operator"
+      ],
+      [
+        "Economic Operator",
+        "Service"
+      ],
+      [
+        "Deceptive Advertising",
+        "Economic Operator"
+      ],
+      [
+        "Discrimination",
+        "Economic Operator"
+      ],
+      [
+        "Economic Operator",
+        "Product Lifecycle Manipulation"
+      ],
+      [
+        "Economic Operator",
+        "Unfair Commercial Practices"
+      ]
+    ],
+    "count": 11,
+    "create_time": 1776813917,
+    "update_time": 1776813917,
+    "_id": "مشروع_نظام_حماية_المستهلك_المادة السابعة عشرة: الممارسات التجارية المجحفة"
+  },
+  "مشروع_نظام_حماية_المستهلك_المادة الثامنة عشرة: الممارسات التجارية المضللة": {
+    "relation_pairs": [
+      [
+        "Consumer",
+        "Misleading Commercial Practices"
+      ],
+      [
+        "Misleading Commercial Practices",
+        "Trademarks"
+      ],
+      [
+        "Certifications",
+        "Misleading Commercial Practices"
+      ],
+      [
+        "False Discounts",
+        "Misleading Commercial Practices"
+      ],
+      [
+        "Misleading Commercial Practices",
+        "Quality Marks"
+      ],
+      [
+        "Service",
+        "Warranty"
+      ],
+      [
+        "Awards",
+        "Misleading Commercial Practices"
+      ],
+      [
+        "Price",
+        "Product"
+      ],
+      [
+        "Logos",
+        "Misleading Commercial Practices"
+      ],
+      [
+        "Misleading Commercial Practices",
+        "Product"
+      ],
+      [
+        "Economic Operator",
+        "Misleading Commercial Practices"
+      ],
+      [
+        "Misleading Commercial Practices",
+        "Service"
+      ]
+    ],
+    "count": 12,
+    "create_time": 1776813928,
+    "update_time": 1776813928,
+    "_id": "مشروع_نظام_حماية_المستهلك_المادة الثامنة عشرة: الممارسات التجارية المضللة"
+  },
+  "مشروع_نظام_حماية_المستهلك_المادة التاسعة عشرة: الإعلان المقارن": {
+    "relation_pairs": [
+      [
+        "Comparative Advertising",
+        "Key Advantages"
+      ],
+      [
+        "Article Nineteen",
+        "Misleading Practice"
+      ],
+      [
+        "Comparative Advertising",
+        "Misleading Practice"
+      ],
+      [
+        "Article Nineteen",
+        "Comparative Advertising"
+      ],
+      [
+        "Comparative Advertising",
+        "Competitor Reputation"
+      ],
+      [
+        "Comparative Advertising",
+        "Economic Operator"
+      ],
+      [
+        "Comparative Advertising",
+        "Consumer Needs"
+      ]
+    ],
+    "count": 7,
+    "create_time": 1776813936,
+    "update_time": 1776813936,
+    "_id": "مشروع_نظام_حماية_المستهلك_المادة التاسعة عشرة: الإعلان المقارن"
+  },
+  "مشروع_نظام_حماية_المستهلك_المادة العشرون: الإعلان الإلكتروني": {
+    "relation_pairs": [
+      [
+        "Economic Operator",
+        "Sender Identity Disclosure"
+      ],
+      [
+        "Consumer",
+        "Economic Operator"
+      ],
+      [
+        "Article 20 Electronic Advertising",
+        "Consumer"
+      ],
+      [
+        "Economic Operator",
+        "Email Address"
+      ],
+      [
+        "Article 20 Electronic Advertising",
+        "Economic Operator"
+      ],
+      [
+        "Advertisement",
+        "Opt-Out Mechanism"
+      ],
+      [
+        "Article 20 Electronic Advertising",
+        "Implementing Regulations"
+      ],
+      [
+        "Advertisement",
+        "Advertising Content Requirements"
+      ],
+      [
+        "Economic Operator",
+        "Prior Explicit Consent"
+      ]
+    ],
+    "count": 9,
+    "create_time": 1776813943,
+    "update_time": 1776813943,
+    "_id": "مشروع_نظام_حماية_المستهلك_المادة العشرون: الإعلان الإلكتروني"
+  },
+  "مشروع_نظام_حماية_المستهلك_المادة الحادية والعشرون: المحتوى الإعلاني الموجه إلى الأطفال": {
+    "relation_pairs": [
+      [
+        "Article Twenty-One",
+        "Child Safety"
+      ],
+      [
+        "Age-Inappropriate Products",
+        "Article Twenty-One"
+      ],
+      [
+        "Article Twenty-One",
+        "Children Advertising"
+      ]
+    ],
+    "count": 3,
+    "create_time": 1776813947,
+    "update_time": 1776813947,
+    "_id": "مشروع_نظام_حماية_المستهلك_المادة الحادية والعشرون: المحتوى الإعلاني الموجه إلى الأطفال"
+  },
+  "مشروع_نظام_حماية_المستهلك_المادة الثانية والعشرون: التواصل مع المشغل الاقتصادي": {
+    "relation_pairs": [
+      [
+        "Consumer",
+        "Economic Operator"
+      ],
+      [
+        "Economic Operator",
+        "Websites"
+      ],
+      [
+        "Artificial Intelligence",
+        "Economic Operator"
+      ],
+      [
+        "Consumer",
+        "Consumer Protection Law Article 22"
+      ],
+      [
+        "Economic Operator",
+        "Electronic Communication Means"
+      ],
+      [
+        "Economic Operator",
+        "Telephone Communications"
+      ],
+      [
+        "Consumer Protection Law Article 22",
+        "Telephone Communications"
+      ],
+      [
+        "Approved Communication Tariff",
+        "Economic Operator"
+      ],
+      [
+        "Consumer Protection Law Article 22",
+        "Economic Operator"
+      ]
+    ],
+    "count": 9,
+    "create_time": 1776813956,
+    "update_time": 1776813956,
+    "_id": "مشروع_نظام_حماية_المستهلك_المادة الثانية والعشرون: التواصل مع المشغل الاقتصادي"
+  },
+  "مشروع_نظام_حماية_المستهلك_المادة الثالثة والعشرون: التخفيضات": {
+    "relation_pairs": [
+      [
+        "Bylaws",
+        "Reduction Campaigns"
+      ],
+      [
+        "Article 23: Reductions",
+        "Misleading Practices"
+      ],
+      [
+        "Article 23: Reductions",
+        "Reduction Campaigns"
+      ],
+      [
+        "Article 23: Reductions",
+        "The Regulations"
+      ],
+      [
+        "Article 23: Reductions",
+        "Bylaws"
+      ]
+    ],
+    "count": 5,
+    "create_time": 1776813960,
+    "update_time": 1776813960,
+    "_id": "مشروع_نظام_حماية_المستهلك_المادة الثالثة والعشرون: التخفيضات"
+  },
+  "مشروع_نظام_حماية_المستهلك_المادة الرابعة والعشرون: المسابقات": {
+    "relation_pairs": [
+      [
+        "Economic Operator",
+        "Product Or Service Purchase Requirement"
+      ],
+      [
+        "Competitions",
+        "Economic Operator"
+      ],
+      [
+        "Competition License",
+        "Economic Operator"
+      ],
+      [
+        "Competitions",
+        "The Fourteenth Article"
+      ],
+      [
+        "Economic Operator",
+        "Prizes"
+      ],
+      [
+        "Competition Coupon",
+        "Economic Operator"
+      ],
+      [
+        "Competent Authority",
+        "Competitions"
+      ],
+      [
+        "Competent Authority",
+        "The Fourteenth Article"
+      ],
+      [
+        "Competition Details",
+        "Economic Operator"
+      ]
+    ],
+    "count": 9,
+    "create_time": 1776813967,
+    "update_time": 1776813967,
+    "_id": "مشروع_نظام_حماية_المستهلك_المادة الرابعة والعشرون: المسابقات"
+  },
+  "مشروع_نظام_حماية_المستهلك_المادة الخامسة والعشرون: إخفاء المنتجات أو الخدمات والامتناع عن توفيرها": {
+    "relation_pairs": [
+      [
+        "Holders Of Strategic Products",
+        "Personal Use"
+      ],
+      [
+        "Competent Authority",
+        "Holders Of Strategic Products"
+      ],
+      [
+        "Article Twenty-Five",
+        "Strategic Products And Services"
+      ],
+      [
+        "Strategic Products And Services",
+        "Trade"
+      ],
+      [
+        "Head Of The Competent Authority",
+        "Strategic Products And Services"
+      ]
+    ],
+    "count": 5,
+    "create_time": 1776813972,
+    "update_time": 1776813972,
+    "_id": "مشروع_نظام_حماية_المستهلك_المادة الخامسة والعشرون: إخفاء المنتجات أو الخدمات والامتناع عن توفيرها"
+  },
+  "مشروع_نظام_حماية_المستهلك_المادة السادسة والعشرون: الزيادة غير العادية في الأسعار": {
+    "relation_pairs": [
+      [
+        "Implementing Regulations",
+        "Temporary Measures"
+      ],
+      [
+        "Cabinet Council",
+        "Competent Authority President"
+      ],
+      [
+        "Competent Authority President",
+        "Temporary Measures"
+      ],
+      [
+        "Article 26",
+        "Implementing Regulations"
+      ],
+      [
+        "Article 26",
+        "Consumer Interests"
+      ],
+      [
+        "Article 26",
+        "Competent Authority President"
+      ],
+      [
+        "Emergency Circumstances",
+        "Extraordinary Price Increases"
+      ],
+      [
+        "Article 26",
+        "Extraordinary Price Increases"
+      ]
+    ],
+    "count": 8,
+    "create_time": 1776813979,
+    "update_time": 1776813979,
+    "_id": "مشروع_نظام_حماية_المستهلك_المادة السادسة والعشرون: الزيادة غير العادية في الأسعار"
+  },
+  "مشروع_نظام_حماية_المستهلك_المادة السابعة والعشرون: شروط العقد": {
+    "relation_pairs": [
+      [
+        "Article Twenty-Seven",
+        "Economic Operator"
+      ],
+      [
+        "Burden of Proof",
+        "Economic Operator"
+      ],
+      [
+        "Economic Operator",
+        "Standard Contract"
+      ],
+      [
+        "Article Twenty-Seven",
+        "Consumer Contracts"
+      ],
+      [
+        "Negotiated Contract",
+        "Standard Contract"
+      ]
+    ],
+    "count": 5,
+    "create_time": 1776813984,
+    "update_time": 1776813984,
+    "_id": "مشروع_نظام_حماية_المستهلك_المادة السابعة والعشرون: شروط العقد"
+  },
+  "مشروع_نظام_حماية_المستهلك_المادة الثامنة والعشرون: توفير المعلومات عند التعاقد": {
+    "relation_pairs": [
+      [
+        "Economic Operator",
+        "Installation and Maintenance Conditions"
+      ],
+      [
+        "Technical Report",
+        "Vehicle Maintenance Service Provider"
+      ],
+      [
+        "Contract Information Disclosure",
+        "Economic Operator"
+      ],
+      [
+        "Economic Operator",
+        "Payment and Delivery Terms"
+      ],
+      [
+        "Economic Operator",
+        "Product or Service Description"
+      ],
+      [
+        "Consumer",
+        "Economic Operator"
+      ],
+      [
+        "Complaint Handling Procedure",
+        "Economic Operator"
+      ],
+      [
+        "Economic Operator",
+        "Usage Risks and Prevention"
+      ],
+      [
+        "Economic Operator",
+        "Economic Operator Identity Data"
+      ],
+      [
+        "Consumer",
+        "Technical Report"
+      ],
+      [
+        "Contact Information",
+        "Economic Operator"
+      ],
+      [
+        "Economic Operator",
+        "Return and Exchange Policy"
+      ],
+      [
+        "Dispute Resolution Platforms",
+        "Economic Operator"
+      ],
+      [
+        "Contract Duration and Termination",
+        "Economic Operator"
+      ],
+      [
+        "Economic Operator",
+        "Vehicle Maintenance Service Provider"
+      ],
+      [
+        "Economic Operator",
+        "Used Product Sale Regulations"
+      ]
+    ],
+    "count": 16,
+    "create_time": 1776813996,
+    "update_time": 1776813996,
+    "_id": "مشروع_نظام_حماية_المستهلك_المادة الثامنة والعشرون: توفير المعلومات عند التعاقد"
+  },
+  "مشروع_نظام_حماية_المستهلك_المادة التاسعة والعشرون: تزويد المستهلك بشروط العقد": {
+    "relation_pairs": [
+      [
+        "Contract Terms",
+        "Electronic Medium"
+      ],
+      [
+        "Contract Terms",
+        "Oral Communication"
+      ],
+      [
+        "Article 29",
+        "Contract Terms"
+      ],
+      [
+        "Consumer",
+        "Contract Terms"
+      ],
+      [
+        "Article 29",
+        "Consumer"
+      ],
+      [
+        "Contract Terms",
+        "Written Document"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1776814001,
+    "update_time": 1776814001,
+    "_id": "مشروع_نظام_حماية_المستهلك_المادة التاسعة والعشرون: تزويد المستهلك بشروط العقد"
+  },
+  "مشروع_نظام_حماية_المستهلك_المادة الثلاثون: حظر الشروط المجحفة": {
+    "relation_pairs": [
+      [
+        "Article 30",
+        "Contract"
+      ],
+      [
+        "Consumer",
+        "Unfair Terms"
+      ],
+      [
+        "Contractual Obligations",
+        "Unfair Terms"
+      ],
+      [
+        "Contract",
+        "Unfair Terms"
+      ],
+      [
+        "Contractual Rights",
+        "Unfair Terms"
+      ],
+      [
+        "Article 30",
+        "Unfair Terms"
+      ],
+      [
+        "Economic Operator",
+        "Unfair Terms"
+      ]
+    ],
+    "count": 7,
+    "create_time": 1776814007,
+    "update_time": 1776814007,
+    "_id": "مشروع_نظام_حماية_المستهلك_المادة الثلاثون: حظر الشروط المجحفة"
+  },
+  "مشروع_نظام_حماية_المستهلك_المادة الحادية والثلاثون: الشروط المحظورة في العقود": {
+    "relation_pairs": [
+      [
+        "Economic Operator",
+        "Liability Exemption"
+      ],
+      [
+        "Consumer",
+        "Dispute Resolution Clause"
+      ],
+      [
+        "Article 31",
+        "Unilateral Modification Right"
+      ],
+      [
+        "Consumer",
+        "Economic Operator"
+      ],
+      [
+        "Article 31",
+        "Dispute Resolution Clause"
+      ],
+      [
+        "Contract",
+        "Unilateral Modification Right"
+      ],
+      [
+        "Contract",
+        "Dispute Resolution Clause"
+      ],
+      [
+        "Article 31",
+        "Contract"
+      ],
+      [
+        "Article 31",
+        "Liability Exemption"
+      ],
+      [
+        "Contract",
+        "Other Country Law"
+      ],
+      [
+        "Consumer",
+        "Judicial System"
+      ],
+      [
+        "Economic Operator",
+        "Unilateral Modification Right"
+      ],
+      [
+        "Contract",
+        "Liability Exemption"
+      ],
+      [
+        "Economic Operator",
+        "Regulations"
+      ],
+      [
+        "Contract",
+        "Kingdom"
+      ]
+    ],
+    "count": 15,
+    "create_time": 1776814021,
+    "update_time": 1776814021,
+    "_id": "مشروع_نظام_حماية_المستهلك_المادة الحادية والثلاثون: الشروط المحظورة في العقود"
+  },
+  "مشروع_نظام_حماية_المستهلك_المادة الثانية والثلاثون: تسليم المنتج": {
+    "relation_pairs": [
+      [
+        "Delivery Period",
+        "Economic Operator"
+      ],
+      [
+        "Consumer",
+        "Economic Operator"
+      ],
+      [
+        "Economic Operator",
+        "Product"
+      ],
+      [
+        "Consumer",
+        "Contract"
+      ],
+      [
+        "Contract Conclusion Date",
+        "Delivery Period"
+      ],
+      [
+        "Contract",
+        "Economic Operator"
+      ],
+      [
+        "Delay Notification",
+        "Economic Operator"
+      ],
+      [
+        "Cancellation Notification Date",
+        "Refund Period"
+      ]
+    ],
+    "count": 8,
+    "create_time": 1776814028,
+    "update_time": 1776814028,
+    "_id": "مشروع_نظام_حماية_المستهلك_المادة الثانية والثلاثون: تسليم المنتج"
+  },
+  "مشروع_نظام_حماية_المستهلك_المادة الثالثة والثلاثون: تبعة الهلاك": {
+    "relation_pairs": [
+      [
+        "Delivery",
+        "Economic Operator"
+      ],
+      [
+        "Consumer",
+        "Economic Operator"
+      ],
+      [
+        "Consumer",
+        "Delivery"
+      ],
+      [
+        "Article Thirty-Three: Liability for Loss",
+        "Consumer"
+      ],
+      [
+        "Article Thirty-Three: Liability for Loss",
+        "Economic Operator"
+      ],
+      [
+        "Article Thirty-Three: Liability for Loss",
+        "Carrier"
+      ],
+      [
+        "Article Thirty-Three: Liability for Loss",
+        "Product"
+      ],
+      [
+        "Article Thirty-Three: Liability for Loss",
+        "Delivery"
+      ],
+      [
+        "Carrier",
+        "Economic Operator"
+      ],
+      [
+        "Carrier",
+        "Consumer"
+      ]
+    ],
+    "count": 10,
+    "create_time": 1776814035,
+    "update_time": 1776814035,
+    "_id": "مشروع_نظام_حماية_المستهلك_المادة الثالثة والثلاثون: تبعة الهلاك"
+  },
+  "مشروع_نظام_حماية_المستهلك_المادة الرابعة والثلاثون: تفسير شروط العقد": {
+    "relation_pairs": [
+      [
+        "Article 34",
+        "Consumer"
+      ],
+      [
+        "Article 34",
+        "Clause"
+      ],
+      [
+        "Article 34",
+        "Contract Terms"
+      ]
+    ],
+    "count": 3,
+    "create_time": 1776814041,
+    "update_time": 1776814041,
+    "_id": "مشروع_نظام_حماية_المستهلك_المادة الرابعة والثلاثون: تفسير شروط العقد"
+  },
+  "مشروع_نظام_حماية_المستهلك_المادة الخامسة والثلاثون: العقد المبرم خارج محل المشغل الاقتصادي": {
+    "relation_pairs": [
+      [
+        "Consumer",
+        "Visit Outside Premises"
+      ],
+      [
+        "Consumer Workplace",
+        "Visit Outside Premises"
+      ],
+      [
+        "Consumer Residence",
+        "Visit Outside Premises"
+      ],
+      [
+        "Contract Outside Business Premises",
+        "Visit Outside Premises"
+      ],
+      [
+        "Contract Outside Business Premises",
+        "Economic Operator"
+      ],
+      [
+        "Consumer",
+        "Contract Outside Business Premises"
+      ],
+      [
+        "Article Thirty-Five",
+        "Contract Outside Business Premises"
+      ],
+      [
+        "Contract Outside Business Premises",
+        "Sale Of Product Or Service Provision"
+      ],
+      [
+        "Economic Operator",
+        "Visit Outside Premises"
+      ]
+    ],
+    "count": 9,
+    "create_time": 1776814048,
+    "update_time": 1776814048,
+    "_id": "مشروع_نظام_حماية_المستهلك_المادة الخامسة والثلاثون: العقد المبرم خارج محل المشغل الاقتصادي"
+  },
+  "مشروع_نظام_حماية_المستهلك_المادة السادسة والثلاثون: حق فسخ العقد": {
+    "relation_pairs": [
+      [
+        "Contract Cancellation",
+        "Subcontract"
+      ],
+      [
+        "Article 36",
+        "Consumer"
+      ],
+      [
+        "Consumer",
+        "Economic Operator"
+      ],
+      [
+        "Article 42",
+        "Consumer"
+      ],
+      [
+        "Product",
+        "Seven-Day Period"
+      ],
+      [
+        "Burden of Proof",
+        "Contract Cancellation"
+      ],
+      [
+        "Article 36",
+        "Regulation"
+      ],
+      [
+        "Consumer",
+        "Seven-Day Period"
+      ]
+    ],
+    "count": 8,
+    "create_time": 1776814060,
+    "update_time": 1776814060,
+    "_id": "مشروع_نظام_حماية_المستهلك_المادة السادسة والثلاثون: حق فسخ العقد"
+  },
+  "مشروع_نظام_حماية_المستهلك_المادة السابعة والثلاثون: التزامات الأطراف عند فسخ العقد": {
+    "relation_pairs": [
+      [
+        "Consumer",
+        "Economic Operator"
+      ],
+      [
+        "Economic Operator",
+        "Product"
+      ],
+      [
+        "Consumer",
+        "Systematic Warranty"
+      ],
+      [
+        "Consumer",
+        "Product"
+      ],
+      [
+        "Article 37",
+        "Consumer"
+      ],
+      [
+        "Article 37",
+        "Economic Operator"
+      ],
+      [
+        "Contract Termination",
+        "Economic Operator"
+      ],
+      [
+        "Consumer",
+        "Contract Termination"
+      ]
+    ],
+    "count": 8,
+    "create_time": 1776814068,
+    "update_time": 1776814068,
+    "_id": "مشروع_نظام_حماية_المستهلك_المادة السابعة والثلاثون: التزامات الأطراف عند فسخ العقد"
+  },
+  "مشروع_نظام_حماية_المستهلك_المادة الثامنة والثلاثون: إبلاغ المستهلك بحق فسخ العقد وأحكامه": {
+    "relation_pairs": [
+      [
+        "Consumer",
+        "Economic Operator"
+      ],
+      [
+        "Article 38",
+        "Burden of Proof"
+      ],
+      [
+        "Article 38",
+        "Contract Termination Right"
+      ],
+      [
+        "Article 28",
+        "Article 38"
+      ],
+      [
+        "Article 38",
+        "Economic Operator"
+      ],
+      [
+        "Article 38",
+        "Consumer"
+      ],
+      [
+        "Article 38",
+        "Electronic Mediator"
+      ],
+      [
+        "Article 36",
+        "Contract Termination Right"
+      ]
+    ],
+    "count": 8,
+    "create_time": 1776814075,
+    "update_time": 1776814075,
+    "_id": "مشروع_نظام_حماية_المستهلك_المادة الثامنة والثلاثون: إبلاغ المستهلك بحق فسخ العقد وأحكامه"
+  },
+  "مشروع_نظام_حماية_المستهلك_المادة التاسعة والثلاثون: العقد المبرم عن بعد": {
+    "relation_pairs": [
+      [
+        "Communication Media",
+        "Website"
+      ],
+      [
+        "Communication Media",
+        "Telephone"
+      ],
+      [
+        "Economic Operator",
+        "Service Provision"
+      ],
+      [
+        "Consumer",
+        "System Regulations"
+      ],
+      [
+        "Communication Media",
+        "Remote Sales Contract"
+      ],
+      [
+        "Communication Media",
+        "Mail"
+      ],
+      [
+        "Economic Operator",
+        "Product Sale"
+      ],
+      [
+        "Article Thirty-Nine",
+        "Remote Sales Contract"
+      ],
+      [
+        "Economic Operator",
+        "Remote Sales Contract"
+      ],
+      [
+        "Article Thirty-Nine",
+        "Consumer"
+      ],
+      [
+        "Communication Media",
+        "Fax"
+      ],
+      [
+        "Consumer",
+        "Remote Sales Contract"
+      ]
+    ],
+    "count": 12,
+    "create_time": 1776814086,
+    "update_time": 1776814086,
+    "_id": "مشروع_نظام_حماية_المستهلك_المادة التاسعة والثلاثون: العقد المبرم عن بعد"
+  },
+  "مشروع_نظام_حماية_المستهلك_المادة الأربعون: الاستثناءات": {
+    "relation_pairs": [
+      [
+        "Off-Premises Contracts",
+        "Remote Contracts"
+      ],
+      [
+        "Article Forty",
+        "Off-Premises Contracts"
+      ],
+      [
+        "Article Forty",
+        "Financial Service Contracts"
+      ],
+      [
+        "Article Forty",
+        "Automatic Vending Machines"
+      ],
+      [
+        "Article Forty",
+        "Regulation"
+      ]
+    ],
+    "count": 5,
+    "create_time": 1776814091,
+    "update_time": 1776814091,
+    "_id": "مشروع_نظام_حماية_المستهلك_المادة الأربعون: الاستثناءات"
+  },
+  "مشروع_نظام_حماية_المستهلك_المادة الحادية والأربعون: حق فسخ العقد المبرم عن بعد": {
+    "relation_pairs": [
+      [
+        "Authorized Representative",
+        "Product Delivery Date"
+      ],
+      [
+        "Burden of Proof",
+        "Consumer"
+      ],
+      [
+        "Authorized Representative",
+        "Consumer"
+      ],
+      [
+        "Consumer",
+        "Remote Contract"
+      ],
+      [
+        "Consumer",
+        "Economic Operator"
+      ],
+      [
+        "Contract Conclusion Date",
+        "Remote Contract"
+      ],
+      [
+        "Product Delivery Date",
+        "Remote Contract"
+      ],
+      [
+        "Subcontract",
+        "Termination of Remote Contract"
+      ],
+      [
+        "Article 41",
+        "Termination Regulation"
+      ],
+      [
+        "Remote Contract",
+        "Seven-Day Period"
+      ],
+      [
+        "Article 41",
+        "Consumer"
+      ]
+    ],
+    "count": 11,
+    "create_time": 1776814100,
+    "update_time": 1776814100,
+    "_id": "مشروع_نظام_حماية_المستهلك_المادة الحادية والأربعون: حق فسخ العقد المبرم عن بعد"
+  },
+  "مشروع_نظام_حماية_المستهلك_المادة الثانية والأربعون: الاستثناءات من حق فسخ العقد": {
+    "relation_pairs": [
+      [
+        "Improper Use",
+        "Product"
+      ],
+      [
+        "Consumer",
+        "Service Contracts"
+      ],
+      [
+        "Article Forty-Two",
+        "Right To Cancel Contract"
+      ],
+      [
+        "Consumer",
+        "Digital Content"
+      ],
+      [
+        "Defective Products",
+        "Right To Cancel Contract"
+      ],
+      [
+        "Accommodation And Transport Services",
+        "Consumer"
+      ],
+      [
+        "Consumer",
+        "Software Programs"
+      ],
+      [
+        "Consumer",
+        "Periodical Publications"
+      ],
+      [
+        "Consumer",
+        "Right To Cancel Contract"
+      ]
+    ],
+    "count": 9,
+    "create_time": 1776814110,
+    "update_time": 1776814110,
+    "_id": "مشروع_نظام_حماية_المستهلك_المادة الثانية والأربعون: الاستثناءات من حق فسخ العقد"
+  },
+  "مشروع_نظام_حماية_المستهلك_المادة الثالثة والأربعون: التزامات الأطراف عند فسخ العقد": {
+    "relation_pairs": [
+      [
+        "Consumer",
+        "Economic Operator"
+      ],
+      [
+        "Economic Operator",
+        "Product"
+      ],
+      [
+        "Consumer",
+        "Product"
+      ],
+      [
+        "Economic Operator",
+        "Refund Amounts"
+      ],
+      [
+        "Consumer",
+        "Refund Amounts"
+      ],
+      [
+        "Consumer",
+        "Contract Termination"
+      ],
+      [
+        "Consumer",
+        "Statutory Warranty"
+      ],
+      [
+        "Economic Operator",
+        "Refund Method"
+      ]
+    ],
+    "count": 8,
+    "create_time": 1776814118,
+    "update_time": 1776814118,
+    "_id": "مشروع_نظام_حماية_المستهلك_المادة الثالثة والأربعون: التزامات الأطراف عند فسخ العقد"
+  },
+  "مشروع_نظام_حماية_المستهلك_المادة الرابعة والأربعون: المعلومات الواجب تزويد المستهلك بها مسبقا": {
+    "relation_pairs": [
+      [
+        "Consumer",
+        "Economic Operator"
+      ],
+      [
+        "Burden of Proof",
+        "Economic Operator"
+      ],
+      [
+        "Article Forty-One",
+        "Right of Withdrawal"
+      ],
+      [
+        "Electronic Platforms",
+        "Remote Contract"
+      ],
+      [
+        "Consumer",
+        "Right of Withdrawal"
+      ],
+      [
+        "Direct Communication Means",
+        "Economic Operator"
+      ],
+      [
+        "Consumer",
+        "Payment Methods Information"
+      ],
+      [
+        "Economic Operator",
+        "Identity Data"
+      ],
+      [
+        "Consumer",
+        "Contract Formation Commitment"
+      ],
+      [
+        "Electronic Platforms",
+        "Implementing Regulations"
+      ],
+      [
+        "Article Forty-Four",
+        "Economic Operator"
+      ],
+      [
+        "Contract Formation Commitment",
+        "Economic Operator"
+      ]
+    ],
+    "count": 12,
+    "create_time": 1776814128,
+    "update_time": 1776814128,
+    "_id": "مشروع_نظام_حماية_المستهلك_المادة الرابعة والأربعون: المعلومات الواجب تزويد المستهلك بها مسبقا"
+  },
+  "مشروع_نظام_حماية_المستهلك_المادة الخامسة والأربعون: الحق في تعديل الطلب": {
+    "relation_pairs": [
+      [
+        "Implementing Regulations",
+        "Remote Contract Agreement"
+      ],
+      [
+        "Consumer",
+        "Implementing Regulations"
+      ],
+      [
+        "Article Forty-Five",
+        "Consumer"
+      ],
+      [
+        "Consumer",
+        "Twenty-Four Hour Period"
+      ],
+      [
+        "Consumer",
+        "Remote Contract Agreement"
+      ]
+    ],
+    "count": 5,
+    "create_time": 1776814133,
+    "update_time": 1776814133,
+    "_id": "مشروع_نظام_حماية_المستهلك_المادة الخامسة والأربعون: الحق في تعديل الطلب"
+  },
+  "مشروع_نظام_حماية_المستهلك_المادة السادسة والأربعون: مطابقة المنتج أو الخدمة للمعايير والمواصفات": {
+    "relation_pairs": [
+      [
+        "Economic Operator",
+        "Product Or Service"
+      ],
+      [
+        "Economic Operator",
+        "Standards And Specifications"
+      ],
+      [
+        "Article Forty-Six",
+        "Economic Operator"
+      ],
+      [
+        "Product Or Service",
+        "Standards And Specifications"
+      ],
+      [
+        "Economic Operator",
+        "Quality Standards"
+      ]
+    ],
+    "count": 5,
+    "create_time": 1776814137,
+    "update_time": 1776814137,
+    "_id": "مشروع_نظام_حماية_المستهلك_المادة السادسة والأربعون: مطابقة المنتج أو الخدمة للمعايير والمواصفات"
+  },
+  "مشروع_نظام_حماية_المستهلك_المادة السابعة والأربعون: الإبلاغ": {
+    "relation_pairs": [
+      [
+        "Economic Operator",
+        "Product Or Service"
+      ],
+      [
+        "Article Forty-Seven",
+        "Competent Authority"
+      ],
+      [
+        "Article Forty-Six",
+        "Economic Operator"
+      ],
+      [
+        "Economic Operator",
+        "Ten Days"
+      ],
+      [
+        "Economic Operator",
+        "Product Or Service Non-Compliance"
+      ],
+      [
+        "Corrective Measures",
+        "Economic Operator"
+      ],
+      [
+        "Article Forty-Seven",
+        "Economic Operator"
+      ],
+      [
+        "Competent Authority",
+        "Economic Operator"
+      ]
+    ],
+    "count": 8,
+    "create_time": 1776814144,
+    "update_time": 1776814144,
+    "_id": "مشروع_نظام_حماية_المستهلك_المادة السابعة والأربعون: الإبلاغ"
+  },
+  "مشروع_نظام_حماية_المستهلك_المادة الثامنة والأربعون: العقود والمنتجات المستثناة من الضمان النظامي": {
+    "relation_pairs": [
+      [
+        "Digital Content Contracts",
+        "Third Party"
+      ],
+      [
+        "Regulation",
+        "Statutory Warranty"
+      ],
+      [
+        "Regulation",
+        "Used Products"
+      ],
+      [
+        "Live Animals",
+        "Statutory Warranty"
+      ],
+      [
+        "Article 48",
+        "Statutory Warranty"
+      ],
+      [
+        "Compulsory Execution Products",
+        "Regulation"
+      ],
+      [
+        "Public Auction",
+        "Used Products"
+      ],
+      [
+        "Digital Content Contracts",
+        "Statutory Warranty"
+      ],
+      [
+        "Statutory Warranty",
+        "Used Products"
+      ],
+      [
+        "Compulsory Execution Products",
+        "Statutory Warranty"
+      ],
+      [
+        "Digital Services",
+        "Statutory Warranty"
+      ],
+      [
+        "Compulsory Execution Products",
+        "Specialized Authority"
+      ],
+      [
+        "Digital Content Contracts",
+        "Economic Operator"
+      ],
+      [
+        "Article 48",
+        "Statutory Warranty Chapter"
+      ]
+    ],
+    "count": 14,
+    "create_time": 1776814154,
+    "update_time": 1776814154,
+    "_id": "مشروع_نظام_حماية_المستهلك_المادة الثامنة والأربعون: العقود والمنتجات المستثناة من الضمان النظامي"
+  },
+  "مشروع_نظام_حماية_المستهلك_المادة التاسعة والأربعون: الضمان النظامي": {
+    "relation_pairs": [
+      [
+        "Regulatory Regulation",
+        "Statutory Warranty"
+      ],
+      [
+        "Consumer",
+        "Economic Operator"
+      ],
+      [
+        "Product Specifications",
+        "Statutory Warranty"
+      ],
+      [
+        "Digital Product Updates",
+        "Economic Operator"
+      ],
+      [
+        "Sample Or Model",
+        "Statutory Warranty"
+      ],
+      [
+        "Article Forty-Nine",
+        "Statutory Warranty"
+      ],
+      [
+        "Contract Terms",
+        "Statutory Warranty"
+      ],
+      [
+        "Economic Operator",
+        "Statutory Warranty"
+      ],
+      [
+        "Advertising And Labels",
+        "Statutory Warranty"
+      ],
+      [
+        "Last Consumer Owner",
+        "Statutory Warranty"
+      ]
+    ],
+    "count": 10,
+    "create_time": 1776814170,
+    "update_time": 1776814170,
+    "_id": "مشروع_نظام_حماية_المستهلك_المادة التاسعة والأربعون: الضمان النظامي"
+  },
+  "مشروع_نظام_حماية_المستهلك_المادة الخمسون: الخطأ في التركيب": {
+    "relation_pairs": [
+      [
+        "Article 50",
+        "Warranty Breach"
+      ],
+      [
+        "Assembly Instructions",
+        "Economic Operator"
+      ],
+      [
+        "Assembly Instructions",
+        "Consumer"
+      ],
+      [
+        "Economic Operator",
+        "Sales Contract"
+      ],
+      [
+        "Article 50",
+        "Product Assembly Error"
+      ],
+      [
+        "Consumer",
+        "Product Assembly Error"
+      ],
+      [
+        "Economic Operator",
+        "Economic Operator's Supervision"
+      ],
+      [
+        "Article 50",
+        "Economic Operator's Supervision"
+      ]
+    ],
+    "count": 8,
+    "create_time": 1776814176,
+    "update_time": 1776814176,
+    "_id": "مشروع_نظام_حماية_المستهلك_المادة الخمسون: الخطأ في التركيب"
+  },
+  "مشروع_نظام_حماية_المستهلك_المادة الحادية والخمسون: مدة الضمان النظامي": {
+    "relation_pairs": [
+      [
+        "Consumer",
+        "Economic Operator"
+      ],
+      [
+        "Digital Service",
+        "Economic Operator"
+      ],
+      [
+        "Article 51",
+        "Economic Operator"
+      ],
+      [
+        "One-Year Period",
+        "Service Warranty"
+      ],
+      [
+        "Regulatory Authority",
+        "Service Warranty"
+      ],
+      [
+        "Economic Operator",
+        "Service Warranty"
+      ],
+      [
+        "One-Year Period",
+        "Product Warranty"
+      ],
+      [
+        "Digital Content",
+        "Two-Year Period"
+      ],
+      [
+        "Product Warranty",
+        "Regulatory Authority"
+      ],
+      [
+        "Economic Operator",
+        "Product Warranty"
+      ],
+      [
+        "Product Warranty",
+        "Two-Year Period"
+      ],
+      [
+        "Digital Service",
+        "Two-Year Period"
+      ],
+      [
+        "Digital Content",
+        "Economic Operator"
+      ]
+    ],
+    "count": 13,
+    "create_time": 1776814185,
+    "update_time": 1776814185,
+    "_id": "مشروع_نظام_حماية_المستهلك_المادة الحادية والخمسون: مدة الضمان النظامي"
+  },
+  "مشروع_نظام_حماية_المستهلك_المادة الثانية والخمسون: الإعفاء من الضمان النظامي": {
+    "relation_pairs": [
+      [
+        "Economic Operator",
+        "Product Or Service"
+      ],
+      [
+        "Consumer",
+        "Economic Operator"
+      ],
+      [
+        "Consumer",
+        "Contract Conclusion"
+      ],
+      [
+        "Article 49",
+        "Economic Operator"
+      ],
+      [
+        "Consumer",
+        "Product Or Service"
+      ],
+      [
+        "Article 52",
+        "Statutory Warranty"
+      ],
+      [
+        "Consumer",
+        "Misuse"
+      ]
+    ],
+    "count": 7,
+    "create_time": 1776814195,
+    "update_time": 1776814195,
+    "_id": "مشروع_نظام_حماية_المستهلك_المادة الثانية والخمسون: الإعفاء من الضمان النظامي"
+  },
+  "مشروع_نظام_حماية_المستهلك_المادة الثالثة والخمسون: حقوق المستهلك عند الإخلال بالضمان النظامي": {
+    "relation_pairs": [
+      [
+        "Article 53",
+        "Consumer Rights"
+      ],
+      [
+        "Article 53",
+        "Statutory Warranty"
+      ],
+      [
+        "Economic Operator",
+        "Product"
+      ],
+      [
+        "Economic Operator",
+        "Regulation"
+      ],
+      [
+        "Regulation",
+        "Service Provider"
+      ],
+      [
+        "Compensation",
+        "Consumer Rights"
+      ],
+      [
+        "Service",
+        "Service Provider"
+      ],
+      [
+        "Damages",
+        "Statutory Warranty"
+      ]
+    ],
+    "count": 8,
+    "create_time": 1776814203,
+    "update_time": 1776814203,
+    "_id": "مشروع_نظام_حماية_المستهلك_المادة الثالثة والخمسون: حقوق المستهلك عند الإخلال بالضمان النظامي"
+  },
+  "مشروع_نظام_حماية_المستهلك_المادة الرابعة والخمسون: الضمان الإضافي": {
+    "relation_pairs": [
+      [
+        "Additional Warranty",
+        "Economic Operator"
+      ],
+      [
+        "Consumer",
+        "Economic Operator"
+      ],
+      [
+        "Economic Operator",
+        "Electronic Intermediary"
+      ],
+      [
+        "Additional Warranty",
+        "Statutory Warranty"
+      ],
+      [
+        "Additional Warranty",
+        "Warranty Document"
+      ],
+      [
+        "Consumer",
+        "Statutory Warranty"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1776814208,
+    "update_time": 1776814208,
+    "_id": "مشروع_نظام_حماية_المستهلك_المادة الرابعة والخمسون: الضمان الإضافي"
+  },
+  "مشروع_نظام_حماية_المستهلك_المادة الخامسة والخمسون: توفير قطع الغيار وخدمات الصيانة": {
+    "relation_pairs": [
+      [
+        "Regulation",
+        "Spare Parts And Maintenance Services"
+      ],
+      [
+        "Consumer",
+        "Economic Operator"
+      ],
+      [
+        "Duration Of Availability",
+        "Economic Operator"
+      ],
+      [
+        "Economic Operator",
+        "Spare Parts And Maintenance Services"
+      ],
+      [
+        "Article 55",
+        "Economic Operator"
+      ]
+    ],
+    "count": 5,
+    "create_time": 1776814214,
+    "update_time": 1776814214,
+    "_id": "مشروع_نظام_حماية_المستهلك_المادة الخامسة والخمسون: توفير قطع الغيار وخدمات الصيانة"
+  },
+  "مشروع_نظام_حماية_المستهلك_المادة السادسة والخمسون: الإبلاغ بالمدة اللازمة لتوفير قطع الغيار": {
+    "relation_pairs": [
+      [
+        "Economic Operator",
+        "Spare Parts"
+      ],
+      [
+        "Consumer",
+        "Economic Operator"
+      ],
+      [
+        "Article 56",
+        "Consumer"
+      ],
+      [
+        "Article 56",
+        "Economic Operator"
+      ]
+    ],
+    "count": 4,
+    "create_time": 1776814223,
+    "update_time": 1776814223,
+    "_id": "مشروع_نظام_حماية_المستهلك_المادة السادسة والخمسون: الإبلاغ بالمدة اللازمة لتوفير قطع الغيار"
+  },
+  "مشروع_نظام_حماية_المستهلك_المادة السابعة والخمسون: إجراءات مراقبة السوق": {
+    "relation_pairs": [
+      [
+        "Economic Operators",
+        "System And Regulations"
+      ],
+      [
+        "Competent Authority",
+        "Economic Operators"
+      ],
+      [
+        "Competent Authority",
+        "Consumer Protection Rules"
+      ],
+      [
+        "Article Fifty-Seven",
+        "Competent Authority"
+      ],
+      [
+        "Competent Authority",
+        "Market Surveillance"
+      ]
+    ],
+    "count": 5,
+    "create_time": 1776814227,
+    "update_time": 1776814227,
+    "_id": "مشروع_نظام_حماية_المستهلك_المادة السابعة والخمسون: إجراءات مراقبة السوق"
+  },
+  "مشروع_نظام_حماية_المستهلك_المادة الثامنة والخمسون: أدوات المراقبة": {
+    "relation_pairs": [
+      [
+        "Complaints",
+        "Surveillance Systems"
+      ],
+      [
+        "Relevant Authorities",
+        "Surveillance Systems"
+      ],
+      [
+        "Penalties",
+        "Relevant Authorities"
+      ],
+      [
+        "Article 58",
+        "Relevant Authorities"
+      ],
+      [
+        "Database Systems",
+        "Surveillance Systems"
+      ],
+      [
+        "Facts",
+        "Surveillance Systems"
+      ],
+      [
+        "Database Systems",
+        "Relevant Authorities"
+      ],
+      [
+        "Corrective Measures",
+        "Relevant Authorities"
+      ],
+      [
+        "Corrective Measures",
+        "Surveillance Systems"
+      ],
+      [
+        "Consumer Protection",
+        "Surveillance Systems"
+      ],
+      [
+        "Market Surveillance",
+        "Relevant Authorities"
+      ],
+      [
+        "Behaviors",
+        "Surveillance Systems"
+      ],
+      [
+        "Information Exchange",
+        "Relevant Authorities"
+      ],
+      [
+        "Information Exchange",
+        "Surveillance Systems"
+      ]
+    ],
+    "count": 14,
+    "create_time": 1776814236,
+    "update_time": 1776814236,
+    "_id": "مشروع_نظام_حماية_المستهلك_المادة الثامنة والخمسون: أدوات المراقبة"
+  },
+  "مشروع_نظام_حماية_المستهلك_المادة التاسعة والخمسون: تعيين المفتشين ومهماتهم": {
+    "relation_pairs": [
+      [
+        "Criminal Police Status",
+        "Inspectors"
+      ],
+      [
+        "Article Fifty-Nine",
+        "Inspectors"
+      ],
+      [
+        "Competent Authority",
+        "Inspectors"
+      ],
+      [
+        "Consumer",
+        "Economic Operator"
+      ],
+      [
+        "Inspectors",
+        "Workplaces And Premises"
+      ],
+      [
+        "Inspectors",
+        "Relevant Authorities"
+      ],
+      [
+        "Financial Rewards",
+        "Head Of The Competent Authority"
+      ],
+      [
+        "Inspectors",
+        "Surveillance Recordings"
+      ],
+      [
+        "Inspectors",
+        "System And Regulation"
+      ],
+      [
+        "Documents And Data",
+        "Inspectors"
+      ],
+      [
+        "Economic Operator",
+        "Inspectors"
+      ],
+      [
+        "Inspectors",
+        "Products And Services"
+      ],
+      [
+        "Inspectors",
+        "Other Persons"
+      ],
+      [
+        "Inspectors",
+        "Representative Of Economic Operator"
+      ],
+      [
+        "Financial Rewards",
+        "Inspectors"
+      ],
+      [
+        "Inspection Powers",
+        "Inspectors"
+      ],
+      [
+        "Confidentiality Principles",
+        "Inspectors"
+      ]
+    ],
+    "count": 17,
+    "create_time": 1776814250,
+    "update_time": 1776814250,
+    "_id": "مشروع_نظام_حماية_المستهلك_المادة التاسعة والخمسون: تعيين المفتشين ومهماتهم"
+  },
+  "مشروع_نظام_حماية_المستهلك_المادة الستون: محضر التفتيش": {
+    "relation_pairs": [
+      [
+        "Economic Operator",
+        "Inspection Report"
+      ],
+      [
+        "Inspection Activities",
+        "Inspector"
+      ],
+      [
+        "Anyone",
+        "False Information"
+      ],
+      [
+        "Facts Of Inspection",
+        "Inspection Report"
+      ],
+      [
+        "Article Sixty",
+        "Inspection Report"
+      ],
+      [
+        "Anyone",
+        "Inspector"
+      ],
+      [
+        "Inspection Report",
+        "Inspector"
+      ],
+      [
+        "Facts Of Inspection",
+        "Inspector"
+      ],
+      [
+        "Inspection Report",
+        "Inspection Results"
+      ],
+      [
+        "Inspection Report",
+        "Supporting Documents"
+      ],
+      [
+        "Inspection Results",
+        "Inspector"
+      ],
+      [
+        "Inspection Report",
+        "Person At Location"
+      ],
+      [
+        "Inspection Report",
+        "Statements"
+      ]
+    ],
+    "count": 13,
+    "create_time": 1776814258,
+    "update_time": 1776814258,
+    "_id": "مشروع_نظام_حماية_المستهلك_المادة الستون: محضر التفتيش"
+  },
+  "مشروع_نظام_حماية_المستهلك_المادة الحادية والستون: الجزاءات الإدارية": {
+    "relation_pairs": [
+      [
+        "Economic Operator",
+        "Warning"
+      ],
+      [
+        "Economic Operator",
+        "Fine"
+      ],
+      [
+        "Economic Operator",
+        "Inspector"
+      ],
+      [
+        "Minor Violations",
+        "Regulation"
+      ],
+      [
+        "Administrative Penalties",
+        "Order To Correct"
+      ],
+      [
+        "Administrative Penalties",
+        "Article 61"
+      ],
+      [
+        "Inspector",
+        "Order To Correct"
+      ],
+      [
+        "Regulation",
+        "System"
+      ],
+      [
+        "Administrative Penalties",
+        "Warning"
+      ],
+      [
+        "Order To Correct",
+        "System"
+      ],
+      [
+        "Fine",
+        "Five Thousand Riyals"
+      ],
+      [
+        "Fine",
+        "Inspector"
+      ],
+      [
+        "Administrative Penalties",
+        "Inspector"
+      ],
+      [
+        "Economic Operator",
+        "Order To Correct"
+      ],
+      [
+        "Administrative Penalties",
+        "Fine"
+      ],
+      [
+        "Inspector",
+        "Minor Violations"
+      ],
+      [
+        "Inspector",
+        "Warning"
+      ]
+    ],
+    "count": 17,
+    "create_time": 1776814268,
+    "update_time": 1776814268,
+    "_id": "مشروع_نظام_حماية_المستهلك_المادة الحادية والستون: الجزاءات الإدارية"
+  },
+  "مشروع_نظام_حماية_المستهلك_المادة الثانية والستون: الحق في الاعتراض": {
+    "relation_pairs": [
+      [
+        "Competent Court",
+        "Economic Operator"
+      ],
+      [
+        "Committee",
+        "Economic Operator"
+      ],
+      [
+        "Article Seventy-Five",
+        "Committee"
+      ],
+      [
+        "Administrative Penalty Notice",
+        "Economic Operator"
+      ],
+      [
+        "Administrative Penalty Notice",
+        "Committee"
+      ]
+    ],
+    "count": 5,
+    "create_time": 1776814273,
+    "update_time": 1776814273,
+    "_id": "مشروع_نظام_حماية_المستهلك_المادة الثانية والستون: الحق في الاعتراض"
+  },
+  "مشروع_نظام_حماية_المستهلك_المادة الثالثة والستون: دعاوى منع الممارسات المخالفة": {
+    "relation_pairs": [
+      [
+        "Competent Court",
+        "Corrosive Judgment"
+      ],
+      [
+        "Economic Operator",
+        "Non-Compliant Practices"
+      ],
+      [
+        "Individual Consumer",
+        "Plaintiff"
+      ],
+      [
+        "Competent Court",
+        "Employers' Associations"
+      ],
+      [
+        "Compensation For Consumers",
+        "Economic Operator"
+      ],
+      [
+        "Corrosive Judgment",
+        "Non-Compliant Practices"
+      ],
+      [
+        "Chambers of Commerce",
+        "Competent Court"
+      ],
+      [
+        "Compensation For Consumers",
+        "Non-Compliant Practices"
+      ],
+      [
+        "Competent Court",
+        "Temporary Order"
+      ],
+      [
+        "Competent Court",
+        "Interested Party"
+      ],
+      [
+        "Compensation For Consumers",
+        "Competent Court"
+      ],
+      [
+        "Article Sixty-Three",
+        "Regulation"
+      ],
+      [
+        "Competent Court",
+        "Consumer Associations"
+      ]
+    ],
+    "count": 13,
+    "create_time": 1776814284,
+    "update_time": 1776814284,
+    "_id": "مشروع_نظام_حماية_المستهلك_المادة الثالثة والستون: دعاوى منع الممارسات المخالفة"
+  },
+  "مشروع_نظام_حماية_المستهلك_المادة الرابعة والستون: تفويض أنشطة مراقبة السوق": {
+    "relation_pairs": [
+      [
+        "Competent Authority",
+        "Sanctions"
+      ],
+      [
+        "Competent Authority",
+        "Market Surveillance Activities"
+      ],
+      [
+        "Market Surveillance Activities",
+        "System Regulations"
+      ],
+      [
+        "Article 64",
+        "Market Surveillance Activities"
+      ],
+      [
+        "Corrective Measures",
+        "Private Sector"
+      ],
+      [
+        "Private Sector",
+        "Warnings"
+      ],
+      [
+        "Competent Authority",
+        "Concerned Parties"
+      ],
+      [
+        "Private Sector",
+        "Sanctions"
+      ],
+      [
+        "Penalties",
+        "Private Sector"
+      ],
+      [
+        "Market Surveillance Activities",
+        "Private Sector"
+      ],
+      [
+        "Bylaws",
+        "Private Sector"
+      ],
+      [
+        "Corrective Measures",
+        "Market Surveillance Activities"
+      ]
+    ],
+    "count": 12,
+    "create_time": 1776814294,
+    "update_time": 1776814294,
+    "_id": "مشروع_نظام_حماية_المستهلك_المادة الرابعة والستون: تفويض أنشطة مراقبة السوق"
+  },
+  "مشروع_نظام_حماية_المستهلك_المادة الخامسة والستون: رفع الضرر عن المستهلك": {
+    "relation_pairs": [
+      [
+        "Consumer",
+        "Economic Operator"
+      ],
+      [
+        "Consumer",
+        "Product Replacement"
+      ],
+      [
+        "Article Sixty-Five",
+        "Consumer"
+      ],
+      [
+        "Article Sixty-Five",
+        "Economic Operator"
+      ],
+      [
+        "Consumer",
+        "Damage Compensation"
+      ],
+      [
+        "Consumer",
+        "Contract Termination"
+      ],
+      [
+        "Economic Operator",
+        "Penalties And Punishments"
+      ],
+      [
+        "Consumer",
+        "Price Reduction"
+      ]
+    ],
+    "count": 8,
+    "create_time": 1776814304,
+    "update_time": 1776814304,
+    "_id": "مشروع_نظام_حماية_المستهلك_المادة الخامسة والستون: رفع الضرر عن المستهلك"
+  },
+  "مشروع_نظام_حماية_المستهلك_المادة السادسة والستون: المطالبات اليسيرة": {
+    "relation_pairs": [
+      [
+        "Competent Court",
+        "Economic Operator"
+      ],
+      [
+        "Article Sixty-Six",
+        "Competent Court"
+      ],
+      [
+        "Consumer",
+        "Economic Operator"
+      ],
+      [
+        "Competent Court",
+        "Minor Claims"
+      ],
+      [
+        "Minor Claims",
+        "Relevant Regulations"
+      ],
+      [
+        "Competent Court",
+        "Simplified Procedures"
+      ],
+      [
+        "Competent Court",
+        "Consumer"
+      ]
+    ],
+    "count": 7,
+    "create_time": 1776814316,
+    "update_time": 1776814316,
+    "_id": "مشروع_نظام_حماية_المستهلك_المادة السادسة والستون: المطالبات اليسيرة"
+  },
+  "مشروع_نظام_حماية_المستهلك_المادة السابعة والستون: الوسائل البديلة لتسوية المنازعات": {
+    "relation_pairs": [
+      [
+        "Dispute Resolution Providers",
+        "Unified Network"
+      ],
+      [
+        "Economic Operator",
+        "Unified Network"
+      ],
+      [
+        "Alternative Means For Dispute Resolution",
+        "Dispute Resolution Providers"
+      ],
+      [
+        "Regulation",
+        "Unified Network"
+      ],
+      [
+        "Electronic Platforms",
+        "Unified Network"
+      ],
+      [
+        "Alternative Means For Dispute Resolution",
+        "Consumer"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1776814326,
+    "update_time": 1776814326,
+    "_id": "مشروع_نظام_حماية_المستهلك_المادة السابعة والستون: الوسائل البديلة لتسوية المنازعات"
+  },
+  "مشروع_نظام_حماية_المستهلك_المادة الثامنة والستون: الإشراف على مقدمي الوسائل البديلة والمنصات الإلكترونية لتسوية المنازعات": {
+    "relation_pairs": [
+      [
+        "Committee For Alternative Means And Electronic Platforms",
+        "Quality Guidelines"
+      ],
+      [
+        "Committee For Alternative Means And Electronic Platforms",
+        "Training Requirements"
+      ],
+      [
+        "Alternative Dispute Resolution Providers",
+        "Consumers"
+      ],
+      [
+        "Competent Authority",
+        "Ministry of Justice"
+      ],
+      [
+        "Competent Authority",
+        "Electronic Platforms For Dispute Resolution"
+      ],
+      [
+        "Committee For Alternative Means And Electronic Platforms",
+        "Competent Authority"
+      ],
+      [
+        "General Public",
+        "Operational Reports"
+      ],
+      [
+        "Alternative Dispute Resolution Providers",
+        "Competent Authority"
+      ],
+      [
+        "Alternative Dispute Resolution Providers",
+        "Economic Operators"
+      ],
+      [
+        "Economic Operators",
+        "Electronic Platforms For Dispute Resolution"
+      ],
+      [
+        "Committee For Alternative Means And Electronic Platforms",
+        "Operational Reports"
+      ],
+      [
+        "Quality Guidelines",
+        "System"
+      ],
+      [
+        "Consumers",
+        "Electronic Platforms For Dispute Resolution"
+      ]
+    ],
+    "count": 13,
+    "create_time": 1776814335,
+    "update_time": 1776814335,
+    "_id": "مشروع_نظام_حماية_المستهلك_المادة الثامنة والستون: الإشراف على مقدمي الوسائل البديلة والمنصات الإلكترونية لتسوية المنازعات"
+  },
+  "مشروع_نظام_حماية_المستهلك_المادة التاسعة والستون: متطلبات مقدمي الوسائل البديلة والمنصات الإلكترونية لتسوية المنازعات": {
+    "relation_pairs": [
+      [
+        "Alternative Dispute Resolution Providers",
+        "Experts"
+      ],
+      [
+        "Electronic Platforms For Dispute Resolution",
+        "Regulation"
+      ],
+      [
+        "Alternative Dispute Resolution Providers",
+        "Arbitrators"
+      ],
+      [
+        "Alternative Dispute Resolution Providers",
+        "Regulation"
+      ],
+      [
+        "Article Ninety-Nine",
+        "Electronic Platforms For Dispute Resolution"
+      ],
+      [
+        "Alternative Dispute Resolution Providers",
+        "Mediators"
+      ],
+      [
+        "Alternative Dispute Resolution Providers",
+        "Article Ninety-Nine"
+      ],
+      [
+        "Alternative Dispute Resolution Providers",
+        "Dispute Resolution Procedures"
+      ],
+      [
+        "Dispute Resolution Procedures",
+        "Electronic Platforms For Dispute Resolution"
+      ]
+    ],
+    "count": 9,
+    "create_time": 1776814343,
+    "update_time": 1776814343,
+    "_id": "مشروع_نظام_حماية_المستهلك_المادة التاسعة والستون: متطلبات مقدمي الوسائل البديلة والمنصات الإلكترونية لتسوية المنازعات"
+  },
+  "مشروع_نظام_حماية_المستهلك_المادة السبعون: إجراءات التأسيس والتشغيل لمقدمي الوسائل البديلة والمنصات الإلكترونية لتسوية المنازعات": {
+    "relation_pairs": [
+      [
+        "Arbitrators",
+        "Competent Authority"
+      ],
+      [
+        "Alternative Dispute Resolution Providers",
+        "Consumers"
+      ],
+      [
+        "Competent Authority",
+        "Ministry of Justice"
+      ],
+      [
+        "Article 70",
+        "Dispute Resolution"
+      ],
+      [
+        "Economic Operators",
+        "Electronic Dispute Resolution Platforms"
+      ],
+      [
+        "Competent Authority",
+        "Economic Operators"
+      ],
+      [
+        "Competent Authority",
+        "Mediators"
+      ],
+      [
+        "Alternative Dispute Resolution Providers",
+        "Competent Authority"
+      ],
+      [
+        "Consumers",
+        "Electronic Dispute Resolution Platforms"
+      ],
+      [
+        "Alternative Dispute Resolution Providers",
+        "Economic Operators"
+      ],
+      [
+        "Competent Authority",
+        "Experts"
+      ],
+      [
+        "Competent Authority",
+        "Electronic Dispute Resolution Platforms"
+      ],
+      [
+        "Competent Authority",
+        "Consumers"
+      ]
+    ],
+    "count": 13,
+    "create_time": 1776814352,
+    "update_time": 1776814352,
+    "_id": "مشروع_نظام_حماية_المستهلك_المادة السبعون: إجراءات التأسيس والتشغيل لمقدمي الوسائل البديلة والمنصات الإلكترونية لتسوية المنازعات"
+  },
+  "مشروع_نظام_حماية_المستهلك_المادة الحادية والسبعون: متطلبات الشفافية": {
+    "relation_pairs": [
+      [
+        "Alternative Dispute Resolution Providers",
+        "Procedural Rules"
+      ],
+      [
+        "Electronic Platforms For Dispute Resolution",
+        "Ministry Of Justice"
+      ],
+      [
+        "Activity Reports",
+        "Compliance Rate"
+      ],
+      [
+        "Alternative Dispute Resolution Providers",
+        "Competent Authority"
+      ],
+      [
+        "Article Seventy One",
+        "Electronic Platforms For Dispute Resolution"
+      ],
+      [
+        "Alternative Dispute Resolution Providers",
+        "Cost Of Procedure"
+      ],
+      [
+        "Alternative Dispute Resolution Providers",
+        "Mediators"
+      ],
+      [
+        "Electronic Platforms For Dispute Resolution",
+        "Public"
+      ],
+      [
+        "Consumer",
+        "Electronic Platforms For Dispute Resolution"
+      ],
+      [
+        "Activity Reports",
+        "Dispute Statistics"
+      ],
+      [
+        "Activity Reports",
+        "Electronic Platforms For Dispute Resolution"
+      ],
+      [
+        "Alternative Dispute Resolution Providers",
+        "Ministry Of Justice"
+      ],
+      [
+        "Alternative Dispute Resolution Providers",
+        "Consumer Waiver Right"
+      ],
+      [
+        "Activity Reports",
+        "Waiver Rates And Reasons"
+      ],
+      [
+        "Alternative Dispute Resolution Providers",
+        "Article Seventy One"
+      ],
+      [
+        "Activity Reports",
+        "Defined Compensation"
+      ],
+      [
+        "Alternative Dispute Resolution Providers",
+        "Public"
+      ],
+      [
+        "Alternative Dispute Resolution Providers",
+        "Binding Nature Of Results"
+      ],
+      [
+        "Alternative Dispute Resolution Providers",
+        "Arbitrators"
+      ],
+      [
+        "Activity Reports",
+        "Alternative Dispute Resolution Providers"
+      ],
+      [
+        "Alternative Dispute Resolution Providers",
+        "Contact Information"
+      ],
+      [
+        "Alternative Dispute Resolution Providers",
+        "Enforceability Of Results"
+      ],
+      [
+        "Alternative Dispute Resolution Providers",
+        "Natural Persons Responsible"
+      ],
+      [
+        "Competent Authority",
+        "Electronic Platforms For Dispute Resolution"
+      ],
+      [
+        "Activity Reports",
+        "Average Duration"
+      ],
+      [
+        "Alternative Dispute Resolution Providers",
+        "Average Duration"
+      ],
+      [
+        "Alternative Dispute Resolution Providers",
+        "Consumer"
+      ],
+      [
+        "Activity Reports",
+        "Beneficiary"
+      ]
+    ],
+    "count": 28,
+    "create_time": 1776814369,
+    "update_time": 1776814369,
+    "_id": "مشروع_نظام_حماية_المستهلك_المادة الحادية والسبعون: متطلبات الشفافية"
+  },
+  "مشروع_نظام_حماية_المستهلك_المادة الثانية والسبعون: ضمان الجودة": {
+    "relation_pairs": [
+      [
+        "Electronic Dispute Settlement Platforms",
+        "Regulation"
+      ],
+      [
+        "Alternative Dispute Resolution Providers Network",
+        "Regulation"
+      ],
+      [
+        "Article Seventy-Two",
+        "Quality Assurance"
+      ]
+    ],
+    "count": 3,
+    "create_time": 1776814373,
+    "update_time": 1776814373,
+    "_id": "مشروع_نظام_حماية_المستهلك_المادة الثانية والسبعون: ضمان الجودة"
+  },
+  "مشروع_نظام_حماية_المستهلك_المادة الثالثة والسبعون: الدعاوى الجماعية": {
+    "relation_pairs": [
+      [
+        "Competent Authority",
+        "Ministry Of Justice"
+      ],
+      [
+        "Collective Lawsuits",
+        "Consumer Associations"
+      ],
+      [
+        "Article Seventy-Three",
+        "Consumers"
+      ],
+      [
+        "Article Seventy-Three",
+        "Consumer Associations"
+      ],
+      [
+        "Consumer Associations",
+        "System And Regulations"
+      ],
+      [
+        "Consumer Associations",
+        "Courts"
+      ],
+      [
+        "Collective Lawsuits",
+        "Competent Authority"
+      ],
+      [
+        "Consumers",
+        "Individual Consumers"
+      ],
+      [
+        "Consumer Associations",
+        "Consumers"
+      ]
+    ],
+    "count": 9,
+    "create_time": 1776814380,
+    "update_time": 1776814380,
+    "_id": "مشروع_نظام_حماية_المستهلك_المادة الثالثة والسبعون: الدعاوى الجماعية"
+  },
+  "مشروع_نظام_حماية_المستهلك_المادة الرابعة والسبعون: المحكمة المختصة": {
+    "relation_pairs": [
+      [
+        "Article Seventy-Four",
+        "Remote Contracts"
+      ],
+      [
+        "Article Seventy-Four",
+        "Consumer Disputes"
+      ],
+      [
+        "Consumer Domicile",
+        "Specialized Court"
+      ],
+      [
+        "Consumer Disputes",
+        "Specialized Court"
+      ],
+      [
+        "Article Seventy-Four",
+        "Specialized Court"
+      ],
+      [
+        "Remote Contracts",
+        "Specialized Court"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1776814386,
+    "update_time": 1776814386,
+    "_id": "مشروع_نظام_حماية_المستهلك_المادة الرابعة والسبعون: المحكمة المختصة"
+  },
+  "مشروع_نظام_حماية_المستهلك_المادة الخامسة والسبعون: لجنة النظر في المخالفات": {
+    "relation_pairs": [
+      [
+        "Review Committee For Violations",
+        "System And Regulation Provisions"
+      ],
+      [
+        "Competent Authority President",
+        "Review Committee For Violations"
+      ],
+      [
+        "Article Sixty-Two",
+        "Objections Under Article Sixty-Two"
+      ],
+      [
+        "Objections Under Article Sixty-Two",
+        "Review Committee For Violations"
+      ],
+      [
+        "Permanent Advisor",
+        "Review Committee For Violations"
+      ],
+      [
+        "Administrative Penalties",
+        "Article Eighty-Eight"
+      ],
+      [
+        "Corrective Measures",
+        "Review Committee For Violations"
+      ],
+      [
+        "Administrative Penalties",
+        "Review Committee For Violations"
+      ],
+      [
+        "Article Seventy-Seven",
+        "Corrective Measures"
+      ],
+      [
+        "Competent Authority President",
+        "System And Regulation Provisions"
+      ]
+    ],
+    "count": 10,
+    "create_time": 1776814394,
+    "update_time": 1776814394,
+    "_id": "مشروع_نظام_حماية_المستهلك_المادة الخامسة والسبعون: لجنة النظر في المخالفات"
+  },
+  "مشروع_نظام_حماية_المستهلك_المادة السادسة والسبعون: معايير تحديد العقوبة": {
+    "relation_pairs": [
+      [
+        "Article Seventy-Six",
+        "Duration Of Activity"
+      ],
+      [
+        "Article Seventy-Six",
+        "Violation Severity"
+      ],
+      [
+        "Article Seventy-Six",
+        "Circumstances"
+      ],
+      [
+        "Article Seventy-Six",
+        "Consequences"
+      ],
+      [
+        "Article Seventy-Six",
+        "Recurrence"
+      ],
+      [
+        "Article Seventy-Six",
+        "The Committee"
+      ],
+      [
+        "Activity Volume",
+        "Article Seventy-Six"
+      ],
+      [
+        "Article Seventy-Six",
+        "Damage"
+      ]
+    ],
+    "count": 8,
+    "create_time": 1776814405,
+    "update_time": 1776814405,
+    "_id": "مشروع_نظام_حماية_المستهلك_المادة السادسة والسبعون: معايير تحديد العقوبة"
+  },
+  "مشروع_نظام_حماية_المستهلك_المادة السابعة والسبعون: التدابير التصحيحية": {
+    "relation_pairs": [
+      [
+        "Committee For Examining Violations",
+        "Contract Or Terms"
+      ],
+      [
+        "Committee For Examining Violations",
+        "Consumer Protection System And Regulation"
+      ],
+      [
+        "Committee For Examining Violations",
+        "Judicial Decision"
+      ],
+      [
+        "Corrective Measures",
+        "Judicial Decision"
+      ],
+      [
+        "Committee For Examining Violations",
+        "Confiscated Products"
+      ],
+      [
+        "Committee For Examining Violations",
+        "Consumer"
+      ],
+      [
+        "Committee For Examining Violations",
+        "Economic Operator"
+      ],
+      [
+        "Corrective Measures",
+        "Electronic Platform"
+      ],
+      [
+        "Committee For Examining Violations",
+        "Product Or Service"
+      ],
+      [
+        "Domain Name Registrars",
+        "Electronic Platform"
+      ],
+      [
+        "Committee For Examining Violations",
+        "Corrective Measures"
+      ],
+      [
+        "Advertisement",
+        "Committee For Examining Violations"
+      ],
+      [
+        "Electronic Platform",
+        "Hosting Service Providers"
+      ],
+      [
+        "Consumer Protection System And Regulation",
+        "Economic Operator"
+      ]
+    ],
+    "count": 14,
+    "create_time": 1776814417,
+    "update_time": 1776814417,
+    "_id": "مشروع_نظام_حماية_المستهلك_المادة السابعة والسبعون: التدابير التصحيحية"
+  },
+  "مشروع_نظام_حماية_المستهلك_المادة الثامنة والسبعون: العقوبات الإدارية": {
+    "relation_pairs": [
+      [
+        "Article Seventy-Eight",
+        "Product Recall"
+      ],
+      [
+        "Activity Suspension",
+        "Article Seventy-Eight"
+      ],
+      [
+        "Competent Court",
+        "Economic Operator"
+      ],
+      [
+        "Article Seventy-Eight",
+        "Product Seizure"
+      ],
+      [
+        "Article Seventy-Eight",
+        "Service Prohibition"
+      ],
+      [
+        "Appropriate Means",
+        "Article Seventy-Eight"
+      ],
+      [
+        "Article Seventy-Eight",
+        "Local Newspapers"
+      ],
+      [
+        "Administrative Penalties",
+        "Article Seventy-Eight"
+      ],
+      [
+        "Administrative Penalties",
+        "Economic Operator"
+      ],
+      [
+        "Administrative Warning",
+        "Article Seventy-Eight"
+      ],
+      [
+        "Article Seventy-Eight",
+        "Monetary Fine"
+      ],
+      [
+        "Article Seventy-Eight",
+        "Economic Operator"
+      ],
+      [
+        "Economic Operator",
+        "Regulations"
+      ],
+      [
+        "Economic Operator",
+        "The System"
+      ]
+    ],
+    "count": 14,
+    "create_time": 1776814428,
+    "update_time": 1776814428,
+    "_id": "مشروع_نظام_حماية_المستهلك_المادة الثامنة والسبعون: العقوبات الإدارية"
+  },
+  "مشروع_نظام_حماية_المستهلك_المادة التاسعة والسبعون: العقوبات الجزائية": {
+    "relation_pairs": [
+      [
+        "Article Ninety-Seven",
+        "Twenty-Fifth Article"
+      ],
+      [
+        "Article Ninety-Seven",
+        "Forty-Seventh Article"
+      ],
+      [
+        "Judicial Orders And Rulings",
+        "Penalties"
+      ],
+      [
+        "Article Ninety-Seven",
+        "Public Prosecution"
+      ],
+      [
+        "Article Ninety-Seven",
+        "Seventeenth Article"
+      ],
+      [
+        "Article Ninety-Seven",
+        "Twenty-First Article"
+      ],
+      [
+        "Penalties",
+        "Three Million Riyals"
+      ],
+      [
+        "Article Ninety-Seven",
+        "Seventy-Seventh Article"
+      ],
+      [
+        "Article Ninety-Seven",
+        "Sixty-Third Article Clause 3"
+      ],
+      [
+        "Article Ninety-Seven",
+        "Thirtieth Article"
+      ],
+      [
+        "Article Ninety-Seven",
+        "Three Million Riyals"
+      ],
+      [
+        "Corrective Measures",
+        "Penalties"
+      ],
+      [
+        "Article Ninety-Seven",
+        "Criminal Penalties"
+      ],
+      [
+        "Article Ninety-Seven",
+        "Competent Court"
+      ],
+      [
+        "Article Ninety-Seven",
+        "Twenty-Sixth Article"
+      ],
+      [
+        "Competent Court",
+        "Judicial Orders And Rulings"
+      ]
+    ],
+    "count": 16,
+    "create_time": 1776814440,
+    "update_time": 1776814440,
+    "_id": "مشروع_نظام_حماية_المستهلك_المادة التاسعة والسبعون: العقوبات الجزائية"
+  },
+  "مشروع_نظام_حماية_المستهلك_المادة الثمانون: توفيق الأوضاع": {
+    "relation_pairs": [
+      [
+        "Article 80",
+        "Regulation"
+      ],
+      [
+        "Article 80",
+        "Reconciling Situations"
+      ],
+      [
+        "Article 80",
+        "Economic Operators"
+      ]
+    ],
+    "count": 3,
+    "create_time": 1776814446,
+    "update_time": 1776814446,
+    "_id": "مشروع_نظام_حماية_المستهلك_المادة الثمانون: توفيق الأوضاع"
+  },
+  "مشروع_نظام_حماية_المستهلك_المادة الحادية والثمانون: اللائحة": {
+    "relation_pairs": [
+      [
+        "Article Eighty-One",
+        "The Regulation"
+      ],
+      [
+        "Enforcement Date",
+        "The Regulation"
+      ],
+      [
+        "Official Gazette",
+        "System"
+      ],
+      [
+        "Head Of The Competent Authority",
+        "The Regulation"
+      ],
+      [
+        "Head Of The Competent Authority",
+        "System"
+      ]
+    ],
+    "count": 5,
+    "create_time": 1776814452,
+    "update_time": 1776814452,
+    "_id": "مشروع_نظام_حماية_المستهلك_المادة الحادية والثمانون: اللائحة"
+  },
+  "مشروع_نظام_حماية_المستهلك_المادة الثانية والثمانون: النفاذ": {
+    "relation_pairs": [
+      [
+        "Anti-Commercial Fraud System",
+        "Royal Decree No. M/19"
+      ],
+      [
+        "Article Eighty-Two",
+        "Current System"
+      ],
+      [
+        "Anti-Commercial Fraud System",
+        "Article Eighty-Two"
+      ],
+      [
+        "Article Eighty-Two",
+        "Eighteen Months Period"
+      ],
+      [
+        "Article Eighty-Two",
+        "Electronic Commerce System"
+      ],
+      [
+        "Electronic Commerce System",
+        "Royal Decree No. M/126"
+      ],
+      [
+        "Article Eighty-Two",
+        "Official Gazette"
+      ]
+    ],
+    "count": 7,
+    "create_time": 1776814459,
+    "update_time": 1776814459,
+    "_id": "مشروع_نظام_حماية_المستهلك_المادة الثانية والثمانون: النفاذ"
+  },
+  "نظام_التجارة_الإلكترونية_المادة الأولى: التعريفات": {
+    "relation_pairs": [
+      [
+        "Data",
+        "Electronic Commerce"
+      ],
+      [
+        "Minister of Commerce and Investment",
+        "Ministry of Commerce and Investment"
+      ],
+      [
+        "Electronic Correspondence",
+        "Electronic Means"
+      ],
+      [
+        "E-Commerce System",
+        "Executive Regulation"
+      ],
+      [
+        "Merchant",
+        "Service Provider"
+      ],
+      [
+        "Electronic Location",
+        "Service Provider"
+      ],
+      [
+        "Consumer",
+        "Electronic Commerce"
+      ],
+      [
+        "Practitioner",
+        "Service Provider"
+      ],
+      [
+        "E-Commerce System",
+        "Ministry of Commerce and Investment"
+      ],
+      [
+        "Electronic Advertisement",
+        "Electronic Means"
+      ],
+      [
+        "Electronic Advertisement",
+        "Service Provider"
+      ],
+      [
+        "Contract",
+        "Electronic Means"
+      ],
+      [
+        "Electronic Location Verification Entities",
+        "Ministry of Commerce and Investment"
+      ],
+      [
+        "Contract",
+        "Electronic Correspondence"
+      ],
+      [
+        "Electronic Commerce",
+        "Service Provider"
+      ]
+    ],
+    "count": 15,
+    "create_time": 1776814479,
+    "update_time": 1776814479,
+    "_id": "نظام_التجارة_الإلكترونية_المادة الأولى: التعريفات"
+  },
+  "نظام_التجارة_الإلكترونية_المادة الثانية: نطاق التطبيق": {
+    "relation_pairs": [
+      [
+        "Practitioner Outside The Kingdom",
+        "The System"
+      ],
+      [
+        "Article Two",
+        "The System"
+      ],
+      [
+        "Service Provider Within The Kingdom",
+        "The System"
+      ],
+      [
+        "Practitioner Outside The Kingdom",
+        "The Kingdom"
+      ],
+      [
+        "Consumer",
+        "Practitioner Outside The Kingdom"
+      ],
+      [
+        "Consumer",
+        "The System"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1776814484,
+    "update_time": 1776814484,
+    "_id": "نظام_التجارة_الإلكترونية_المادة الثانية: نطاق التطبيق"
+  },
+  "نظام_التجارة_الإلكترونية_المادة الثالثة: مقر العمل": {
+    "relation_pairs": [
+      [
+        "Electronic Office",
+        "Service Provider"
+      ],
+      [
+        "Natural Person",
+        "Regulations"
+      ],
+      [
+        "Electronic Office",
+        "Practitioner"
+      ],
+      [
+        "Country",
+        "Email Address"
+      ],
+      [
+        "Merchant",
+        "Service Provider"
+      ],
+      [
+        "Habitual Residence",
+        "Practitioner"
+      ],
+      [
+        "Article Three",
+        "Service Provider"
+      ],
+      [
+        "Practitioner",
+        "Service Provider"
+      ],
+      [
+        "Habitual Residence",
+        "Natural Person"
+      ],
+      [
+        "Natural Person",
+        "Practitioner"
+      ],
+      [
+        "Contract",
+        "Service Provider"
+      ],
+      [
+        "Commercial Register",
+        "Merchant"
+      ],
+      [
+        "Country",
+        "Domain Name"
+      ],
+      [
+        "Information System",
+        "Place of Business"
+      ]
+    ],
+    "count": 14,
+    "create_time": 1776814495,
+    "update_time": 1776814495,
+    "_id": "نظام_التجارة_الإلكترونية_المادة الثالثة: مقر العمل"
+  },
+  "نظام_التجارة_الإلكترونية_المادة الرابعة: الخطأ في المعاملات الإلكترونية": {
+    "relation_pairs": [
+      [
+        "Consumer",
+        "Service Provider"
+      ],
+      [
+        "Consumer",
+        "Electronic Correspondence"
+      ],
+      [
+        "Consumer",
+        "Error Correction Notice"
+      ],
+      [
+        "Error Correction Notice",
+        "Product Benefit"
+      ],
+      [
+        "Consumer",
+        "Regulation"
+      ],
+      [
+        "Product Benefit",
+        "Service Provider"
+      ],
+      [
+        "Communication Technology",
+        "Consumer"
+      ]
+    ],
+    "count": 7,
+    "create_time": 1776814501,
+    "update_time": 1776814501,
+    "_id": "نظام_التجارة_الإلكترونية_المادة الرابعة: الخطأ في المعاملات الإلكترونية"
+  },
+  "نظام_التجارة_الإلكترونية_المادة الخامسة: حماية البيانات الشخصية": {
+    "relation_pairs": [
+      [
+        "E-Commerce Transactions",
+        "Service Provider"
+      ],
+      [
+        "Consumer",
+        "Personal Data"
+      ],
+      [
+        "Consumer",
+        "Service Provider"
+      ],
+      [
+        "Personal Data",
+        "Service Provider"
+      ],
+      [
+        "Article 5",
+        "Consumer"
+      ],
+      [
+        "Article 5",
+        "Service Provider"
+      ],
+      [
+        "Service Provider",
+        "Third Parties"
+      ],
+      [
+        "Consumer",
+        "Electronic Communications"
+      ],
+      [
+        "Electronic Communications",
+        "Service Provider"
+      ],
+      [
+        "Regulatory Framework",
+        "Service Provider"
+      ]
+    ],
+    "count": 10,
+    "create_time": 1776814509,
+    "update_time": 1776814509,
+    "_id": "نظام_التجارة_الإلكترونية_المادة الخامسة: حماية البيانات الشخصية"
+  },
+  "نظام_التجارة_الإلكترونية_المادة السادسة: الإفصاح عن بيانات المحل الإلكتروني": {
+    "relation_pairs": [
+      [
+        "Registration Authority",
+        "Service Provider"
+      ],
+      [
+        "Article Six",
+        "Service Provider"
+      ],
+      [
+        "Electronic Location",
+        "Service Provider"
+      ],
+      [
+        "Commercial Registry",
+        "Service Provider"
+      ],
+      [
+        "Article Six",
+        "Contact Means"
+      ],
+      [
+        "Article Six",
+        "Regulation"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1776814516,
+    "update_time": 1776814516,
+    "_id": "نظام_التجارة_الإلكترونية_المادة السادسة: الإفصاح عن بيانات المحل الإلكتروني"
+  },
+  "نظام_التجارة_الإلكترونية_المادة السابعة: الالتزام بتقديم بيان للمستهلك قبل إبرام العقد": {
+    "relation_pairs": [
+      [
+        "Contract Statement",
+        "Service Provider Data"
+      ],
+      [
+        "Contract Statement",
+        "Service Provider"
+      ],
+      [
+        "Contract Statement",
+        "Product or Service Characteristics"
+      ],
+      [
+        "Consumer",
+        "Contract Statement"
+      ],
+      [
+        "Article Seven",
+        "Service Provider"
+      ],
+      [
+        "Contract Statement",
+        "Warranty Information"
+      ],
+      [
+        "Contract Statement",
+        "Total Price"
+      ],
+      [
+        "Contract Statement",
+        "Payment and Delivery Arrangements"
+      ],
+      [
+        "Article Seven",
+        "Regulation"
+      ]
+    ],
+    "count": 9,
+    "create_time": 1776814526,
+    "update_time": 1776814526,
+    "_id": "نظام_التجارة_الإلكترونية_المادة السابعة: الالتزام بتقديم بيان للمستهلك قبل إبرام العقد"
+  },
+  "نظام_التجارة_الإلكترونية_المادة الثامنة: الفاتورة": {
+    "relation_pairs": [
+      [
+        "Invoice",
+        "Product Costs"
+      ],
+      [
+        "Contract",
+        "Invoice"
+      ],
+      [
+        "Consumer",
+        "Service Provider"
+      ],
+      [
+        "Article Eight",
+        "Service Provider"
+      ],
+      [
+        "Invoice",
+        "Regulation"
+      ],
+      [
+        "Invoice",
+        "Service Provider"
+      ],
+      [
+        "Article Eight",
+        "Consumer"
+      ],
+      [
+        "Delivery Date And Location",
+        "Invoice"
+      ],
+      [
+        "Invoice",
+        "Total Price"
+      ]
+    ],
+    "count": 9,
+    "create_time": 1776814533,
+    "update_time": 1776814533,
+    "_id": "نظام_التجارة_الإلكترونية_المادة الثامنة: الفاتورة"
+  },
+  "نظام_التجارة_الإلكترونية_المادة التاسعة: المهن المنظمة": {
+    "relation_pairs": [
+      [
+        "Registration Authority",
+        "Service Provider"
+      ],
+      [
+        "Professional Title",
+        "Service Provider"
+      ],
+      [
+        "Granting Country",
+        "Professional Title"
+      ],
+      [
+        "Regulatory Bylaws",
+        "Service Provider"
+      ],
+      [
+        "License Or Permit",
+        "Service Provider"
+      ],
+      [
+        "Regulated Profession",
+        "Service Provider"
+      ],
+      [
+        "Ninth Article",
+        "Service Provider"
+      ]
+    ],
+    "count": 7,
+    "create_time": 1776814539,
+    "update_time": 1776814539,
+    "_id": "نظام_التجارة_الإلكترونية_المادة التاسعة: المهن المنظمة"
+  },
+  "نظام_التجارة_الإلكترونية_المادة العاشرة: التوقيع الإلكتروني": {
+    "relation_pairs": [
+      [
+        "Electronic Declaration",
+        "Service Provider"
+      ],
+      [
+        "Electronic Declaration",
+        "Regulatory Bylaws"
+      ],
+      [
+        "Electronic Declaration",
+        "Product Or Service Name"
+      ],
+      [
+        "Communication Channels",
+        "Electronic Declaration"
+      ],
+      [
+        "Contract Parties",
+        "Electronic Declaration"
+      ],
+      [
+        "Electronics Business Authentication Authorities",
+        "Service Provider"
+      ],
+      [
+        "Electronic Contracts",
+        "Electronic Declaration"
+      ]
+    ],
+    "count": 7,
+    "create_time": 1776814545,
+    "update_time": 1776814545,
+    "_id": "نظام_التجارة_الإلكترونية_المادة العاشرة: التوقيع الإلكتروني"
+  },
+  "نظام_التجارة_الإلكترونية_المادة الحادية عشرة: المحتوى المحظور في الإعلانات الإلكترونية": {
+    "relation_pairs": [
+      [
+        "Article Eleven",
+        "Electronic Advertisement"
+      ],
+      [
+        "Service Provider",
+        "Trademark"
+      ],
+      [
+        "Consumer",
+        "False Representation"
+      ],
+      [
+        "Article Eleven",
+        "Trademark"
+      ],
+      [
+        "Article Eleven",
+        "False Representation"
+      ]
+    ],
+    "count": 5,
+    "create_time": 1776814549,
+    "update_time": 1776814549,
+    "_id": "نظام_التجارة_الإلكترونية_المادة الحادية عشرة: المحتوى المحظور في الإعلانات الإلكترونية"
+  },
+  "نظام_التجارة_الإلكترونية_المادة الثانية عشرة: الإيقاف المؤقت للمحل الإلكتروني": {
+    "relation_pairs": [
+      [
+        "Advertisement Withdrawal",
+        "Service Provider"
+      ],
+      [
+        "Service Provider",
+        "Violations of Article 11"
+      ],
+      [
+        "Ministry",
+        "Service Provider"
+      ],
+      [
+        "One-Day Deadline",
+        "Service Provider"
+      ],
+      [
+        "Administrative Penalties Regime",
+        "Article 12"
+      ],
+      [
+        "Service Provider",
+        "Violations of Paragraph (2) of Article 10"
+      ],
+      [
+        "Advertisement Withdrawal",
+        "Ministry"
+      ],
+      [
+        "Ministry",
+        "Violation Removal"
+      ]
+    ],
+    "count": 8,
+    "create_time": 1776814557,
+    "update_time": 1776814557,
+    "_id": "نظام_التجارة_الإلكترونية_المادة الثانية عشرة: الإيقاف المؤقت للمحل الإلكتروني"
+  },
+  "نظام_التجارة_الإلكترونية_المادة الثالثة عشرة: حق المستهلك في فسخ العقد": {
+    "relation_pairs": [
+      [
+        "Consumer",
+        "Custom-Produced Products"
+      ],
+      [
+        "Consumer",
+        "Regulations"
+      ],
+      [
+        "Consumer",
+        "Online Downloaded Products"
+      ],
+      [
+        "Consumer",
+        "Periodicals"
+      ],
+      [
+        "Consumer",
+        "Product Delivery Date"
+      ],
+      [
+        "Consumer",
+        "Service Providers"
+      ],
+      [
+        "Consumer",
+        "Contract"
+      ],
+      [
+        "Consumer",
+        "Defects"
+      ],
+      [
+        "Contracting Date",
+        "Seven-Day Period"
+      ],
+      [
+        "Product Delivery Date",
+        "Seven-Day Period"
+      ],
+      [
+        "Article 13",
+        "Regulations"
+      ],
+      [
+        "Article 13",
+        "Consumer"
+      ],
+      [
+        "Consumer",
+        "Used Media And Software"
+      ],
+      [
+        "Consumer",
+        "Contracting Date"
+      ],
+      [
+        "Consumer",
+        "Seven-Day Period"
+      ],
+      [
+        "Consumer",
+        "Costs"
+      ]
+    ],
+    "count": 16,
+    "create_time": 1776814571,
+    "update_time": 1776814571,
+    "_id": "نظام_التجارة_الإلكترونية_المادة الثالثة عشرة: حق المستهلك في فسخ العقد"
+  },
+  "نظام_التجارة_الإلكترونية_المادة الرابعة عشرة: حق المستهلك عند التأخر في التسليم": {
+    "relation_pairs": [
+      [
+        "Consumer",
+        "Delay Costs"
+      ],
+      [
+        "Force Majeure",
+        "Service Provider"
+      ],
+      [
+        "Consumer",
+        "Service Provider"
+      ],
+      [
+        "Expected Delay Notification",
+        "Service Provider"
+      ],
+      [
+        "Consumer",
+        "Product Or Service"
+      ],
+      [
+        "Consumer",
+        "Contract"
+      ],
+      [
+        "Article Fourteen",
+        "Consumer"
+      ],
+      [
+        "Article Fourteen",
+        "Service Provider"
+      ],
+      [
+        "Consumer",
+        "Fifteen-Day Period"
+      ]
+    ],
+    "count": 9,
+    "create_time": 1776814581,
+    "update_time": 1776814581,
+    "_id": "نظام_التجارة_الإلكترونية_المادة الرابعة عشرة: حق المستهلك عند التأخر في التسليم"
+  },
+  "نظام_التجارة_الإلكترونية_المادة الخامسة عشرة: توثيق محل التاجر الإلكتروني": {
+    "relation_pairs": [
+      [
+        "Commercial Registry",
+        "Trader"
+      ],
+      [
+        "Article Fifteen",
+        "Trader"
+      ],
+      [
+        "Commercial Registry",
+        "Regulations"
+      ],
+      [
+        "Electronic Premises",
+        "Trader"
+      ]
+    ],
+    "count": 4,
+    "create_time": 1776814586,
+    "update_time": 1776814586,
+    "_id": "نظام_التجارة_الإلكترونية_المادة الخامسة عشرة: توثيق محل التاجر الإلكتروني"
+  },
+  "نظام_التجارة_الإلكترونية_المادة السادسة عشرة: الرقابة والإشراف": {
+    "relation_pairs": [
+      [
+        "Electronic Verification Entities",
+        "The Ministry"
+      ],
+      [
+        "Electronic Platforms",
+        "The Ministry"
+      ],
+      [
+        "The Ministry",
+        "Transaction Integrity"
+      ],
+      [
+        "E-Commerce Sector",
+        "The Ministry"
+      ]
+    ],
+    "count": 4,
+    "create_time": 1776814590,
+    "update_time": 1776814590,
+    "_id": "نظام_التجارة_الإلكترونية_المادة السادسة عشرة: الرقابة والإشراف"
+  },
+  "نظام_التجارة_الإلكترونية_المادة السابعة عشرة: صلاحيات الوزارة عند المخالفة": {
+    "relation_pairs": [
+      [
+        "Committee",
+        "Electronic Premises"
+      ],
+      [
+        "Article Seventeen",
+        "Service Provider"
+      ],
+      [
+        "Committee",
+        "Violation"
+      ],
+      [
+        "Article Nineteen",
+        "Committee"
+      ],
+      [
+        "Committee",
+        "Minister"
+      ],
+      [
+        "Article Seventeen",
+        "Minister"
+      ],
+      [
+        "Minister",
+        "Service Provider"
+      ],
+      [
+        "Electronic Premises",
+        "Minister"
+      ],
+      [
+        "Competent Authority",
+        "Minister"
+      ]
+    ],
+    "count": 9,
+    "create_time": 1776814598,
+    "update_time": 1776814598,
+    "_id": "نظام_التجارة_الإلكترونية_المادة السابعة عشرة: صلاحيات الوزارة عند المخالفة"
+  },
+  "نظام_التجارة_الإلكترونية_المادة الثامنة عشرة: العقوبات الإدارية": {
+    "relation_pairs": [
+      [
+        "Article Eighteen",
+        "Monetary Fine"
+      ],
+      [
+        "Blocking Of Electronic Premises",
+        "Competent Authority"
+      ],
+      [
+        "Article Eighteen",
+        "Blocking Of Electronic Premises"
+      ],
+      [
+        "Article Eighteen",
+        "Suspension Of Electronic Commerce"
+      ],
+      [
+        "Article Eighteen",
+        "Other Regulations"
+      ],
+      [
+        "Blocking Of Electronic Premises",
+        "Electronic Premises"
+      ],
+      [
+        "Article Eighteen",
+        "Warning"
+      ],
+      [
+        "Electronic Commerce Practice",
+        "Suspension Of Electronic Commerce"
+      ]
+    ],
+    "count": 8,
+    "create_time": 1776814604,
+    "update_time": 1776814604,
+    "_id": "نظام_التجارة_الإلكترونية_المادة الثامنة عشرة: العقوبات الإدارية"
+  },
+  "نظام_التجارة_الإلكترونية_المادة التاسعة عشرة: لجنة النظر في المخالفات": {
+    "relation_pairs": [
+      [
+        "Article Eighteen",
+        "Committee"
+      ],
+      [
+        "Penalties",
+        "Violation Severity"
+      ],
+      [
+        "Committee",
+        "System"
+      ],
+      [
+        "Bylaw",
+        "Committee"
+      ],
+      [
+        "Penalties",
+        "Recidivism"
+      ],
+      [
+        "Committee",
+        "Committee Decision"
+      ],
+      [
+        "Penalties",
+        "Service Provider Size"
+      ],
+      [
+        "Committee",
+        "Minister"
+      ],
+      [
+        "Penalties",
+        "Third-Party Harm"
+      ],
+      [
+        "Administrative Advisor",
+        "Committee"
+      ],
+      [
+        "Penalties",
+        "Service Provider Activity"
+      ]
+    ],
+    "count": 11,
+    "create_time": 1776814612,
+    "update_time": 1776814612,
+    "_id": "نظام_التجارة_الإلكترونية_المادة التاسعة عشرة: لجنة النظر في المخالفات"
+  },
+  "نظام_التجارة_الإلكترونية_المادة العشرون: حق الاعتراض على العقوبات": {
+    "relation_pairs": [
+      [
+        "System",
+        "المادة العشرون"
+      ],
+      [
+        "Administrative Court",
+        "Diwan Al-Muzalim Litigation System"
+      ],
+      [
+        "Administrative Court",
+        "المادة العشرون"
+      ],
+      [
+        "Administrative Court",
+        "Diwan Al-Muzalim"
+      ],
+      [
+        "Administrative Decision",
+        "المادة العشرون"
+      ],
+      [
+        "Diwan Al-Muzalim Litigation System",
+        "المادة العشرون"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1776814618,
+    "update_time": 1776814618,
+    "_id": "نظام_التجارة_الإلكترونية_المادة العشرون: حق الاعتراض على العقوبات"
+  },
+  "نظام_التجارة_الإلكترونية_المادة الحادية والعشرون: نشر قرار العقوبة": {
+    "relation_pairs": [
+      [
+        "Penalty Decision",
+        "Publication"
+      ],
+      [
+        "Article Twenty-One",
+        "Penalty Decision"
+      ],
+      [
+        "Final Judgment",
+        "Penalty Decision"
+      ],
+      [
+        "Legal Period",
+        "Penalty Decision"
+      ],
+      [
+        "Publication",
+        "Violator"
+      ],
+      [
+        "Local Newspapers",
+        "Publication"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1776814627,
+    "update_time": 1776814627,
+    "_id": "نظام_التجارة_الإلكترونية_المادة الحادية والعشرون: نشر قرار العقوبة"
+  },
+  "نظام_التجارة_الإلكترونية_المادة الثانية والعشرون: المحكمة المختصة": {
+    "relation_pairs": [
+      [
+        "System Regulations",
+        "المحكمة المختصة"
+      ],
+      [
+        "المادة الثانية والعشرون",
+        "المحكمة المختصة"
+      ]
+    ],
+    "count": 2,
+    "create_time": 1776814629,
+    "update_time": 1776814629,
+    "_id": "نظام_التجارة_الإلكترونية_المادة الثانية والعشرون: المحكمة المختصة"
+  },
+  "نظام_التجارة_الإلكترونية_المادة الثالثة والعشرون: موظفو الرقابة والتفتيش": {
+    "relation_pairs": [
+      [
+        "Article Twenty-Three",
+        "Employees"
+      ],
+      [
+        "E-Commerce Transactions",
+        "Employees"
+      ],
+      [
+        "Employees",
+        "Regulation Bylaws"
+      ],
+      [
+        "Article Twenty-Three",
+        "E-Commerce Transactions"
+      ],
+      [
+        "Employees",
+        "The Minister"
+      ],
+      [
+        "Employees",
+        "System Provisions"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1776814634,
+    "update_time": 1776814634,
+    "_id": "نظام_التجارة_الإلكترونية_المادة الثالثة والعشرون: موظفو الرقابة والتفتيش"
+  },
+  "نظام_التجارة_الإلكترونية_المادة الرابعة والعشرون: الأحكام التكميلية": {
+    "relation_pairs": [
+      [
+        "Article Twenty-Four",
+        "System"
+      ],
+      [
+        "Article Twenty-Four",
+        "Related Systems"
+      ],
+      [
+        "E-Commerce",
+        "Electronic Transactions Law"
+      ],
+      [
+        "Article Twenty-Four",
+        "Electronic Transactions Law"
+      ],
+      [
+        "E-Commerce",
+        "Related Systems"
+      ],
+      [
+        "Article Twenty-Four",
+        "E-Commerce"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1776814639,
+    "update_time": 1776814639,
+    "_id": "نظام_التجارة_الإلكترونية_المادة الرابعة والعشرون: الأحكام التكميلية"
+  },
+  "نظام_التجارة_الإلكترونية_المادة الخامسة والعشرون: إصدار اللائحة": {
+    "relation_pairs": [
+      [
+        "Ninety Days",
+        "The Minister"
+      ],
+      [
+        "The Minister",
+        "The System"
+      ],
+      [
+        "Regulation",
+        "The Minister"
+      ],
+      [
+        "Official Gazette",
+        "The System"
+      ]
+    ],
+    "count": 4,
+    "create_time": 1776814643,
+    "update_time": 1776814643,
+    "_id": "نظام_التجارة_الإلكترونية_المادة الخامسة والعشرون: إصدار اللائحة"
+  },
+  "نظام_التجارة_الإلكترونية_المادة السادسة والعشرون: النفاذ": {
+    "relation_pairs": [
+      [
+        "Article Twenty-Six",
+        "Ninety Days"
+      ],
+      [
+        "Article Twenty-Six",
+        "Official Gazette"
+      ],
+      [
+        "Article Twenty-Six",
+        "System"
+      ]
+    ],
+    "count": 3,
+    "create_time": 1776814646,
+    "update_time": 1776814646,
+    "_id": "نظام_التجارة_الإلكترونية_المادة السادسة والعشرون: النفاذ"
+  }
+}
