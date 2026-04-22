@@ -1,11 +1,13 @@
-# Python-generated files
-__pycache__/
-*.py[oc]
-build/
-dist/
-wheels/
-*.egg-info
+# Secrets
+.env
 
-# Virtual environments
-.venv
-lightrag_storage/
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+*.Zone.Identifier
+
