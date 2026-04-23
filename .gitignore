@@ -21,3 +21,4 @@ lightrag_storage/
 # Raw source PDFs — not redistributed
 data/raw/
 *:Zone.Identifier
+lightrag.log
