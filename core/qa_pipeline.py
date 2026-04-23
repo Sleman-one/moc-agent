@@ -108,11 +108,21 @@ async def generate(question: str, context: str) -> str:
                     {"role": "user", "content": user_message},
                 ],
                 "temperature": 0.3,
-                "max_tokens": 1024,
+                "max_tokens": 10240,
+                "extra_body": {
+                    "chat_template_kwargs": {"enable_thinking": True},
+                    "thinking_budget": 8192,
+                },
             },
         )
         r.raise_for_status()
-        return r.json()["choices"][0]["message"]["content"]
+        content = r.json()["choices"][0]["message"]["content"]
+
+    # Strip <think>...</think> block — return only the answer
+    import re
+
+    content = re.sub(r"<think>.*?</think>", "", content, flags=re.DOTALL).strip()
+    return content
 
 
 # ------------------------------------------------------------------ #
