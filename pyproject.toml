@@ -11,6 +11,7 @@ dependencies = [
     "ollama>=0.6.1",
     "openai>=2.32.0",
     "openpyxl>=3.1.5",
+    "psycopg2-binary>=2.9.12",
     "pymupdf>=1.27.2.2",
     "python-dotenv>=1.2.2",
 ]
