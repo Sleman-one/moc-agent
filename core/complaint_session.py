@@ -92,7 +92,7 @@ async def _llm_call(system: str, user: str) -> str:
                     {"role": "user", "content": user},
                 ],
                 "temperature": 0.1,
-                "max_tokens": 2048,
+                "max_tokens": 512,
                 "extra_body": {
                     "chat_template_kwargs": {"enable_thinking": False},
                 },
@@ -212,14 +212,39 @@ class ComplaintSession:
                     "active",
                     f"لم أفهم إجابتك. {FIELD_QUESTIONS[self.current_field]}",
                 )
-            await self._store_field(self.current_field, value)
+            success = await self._store_field(self.current_field, value)
+            if not success:
+                if self.current_field == "order_date":
+                    return (
+                        "active",
+                        "لم أستطع تحديد التاريخ بدقة. "
+                        "يرجى كتابة التاريخ بهذا الشكل: YYYY-MM-DD\n"
+                        "مثال: 2026-04-23",
+                    )
+                # Generic fallback for any future field that might fail
+                return (
+                    "active",
+                    f"لم أتمكن من حفظ هذه القيمة. {FIELD_QUESTIONS[self.current_field]}",
+                )
             return await self._advance()
 
         elif intent == "correction":
             field = intent_data.get("field")
             value = intent_data.get("value", "").strip()
             if field in self.fields and value:
-                await self._store_field(field, value)
+                success = await self._store_field(field, value)
+                if not success:
+                    if field == "order_date":
+                        return (
+                            "active",
+                            "لم أستطع تحديد التاريخ بدقة. "
+                            "يرجى كتابة التاريخ بهذا الشكل: YYYY-MM-DD\n"
+                            "مثال: 2026-04-23",
+                        )
+                    return (
+                        "active",
+                        f"لم أتمكن من حفظ هذه القيمة. {FIELD_QUESTIONS[self.current_field]}",
+                    )
                 return await self._advance()
             return ("active", f"لم أفهم التصحيح. {FIELD_QUESTIONS[self.current_field]}")
 
@@ -258,18 +283,28 @@ class ComplaintSession:
     # Field management
     # ------------------------------------------------------------------ #
 
-    async def _store_field(self, field: str, value: str) -> None:
+    async def _store_field(self, field: str, value: str) -> bool:
         """
-        Store a field value.
+        Store a field value. Returns True if stored successfully, False if not.
+
         For order_date: attempt ISO resolution via LLM.
-        For all other fields: store the raw value directly.
+            - Returns True if resolved to a valid ISO date.
+            - Returns False if resolution failed — field stays None,
+              caller must re-ask the user with a clearer prompt.
+            - We never store the raw Arabic string — PostgreSQL DATE
+              type will reject it and crash the save.
+        For all other fields: store the raw value directly, always True.
         """
         if field == "order_date":
             resolved = await self._resolve_date(value)
-            # If resolution fails, store the raw string — better than losing the data
-            self.fields[field] = resolved if resolved else value
+            if resolved:
+                self.fields[field] = resolved
+                return True
+            # Resolution failed — leave field as None so collection re-asks
+            return False
         else:
             self.fields[field] = value
+            return True
 
     async def _advance(self) -> tuple[str, str]:
         """
