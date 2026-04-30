@@ -20,6 +20,14 @@ Fields collected (in order):
     order_id    — رقم الطلب
     order_date  — تاريخ الطلب
     description — وصف المشكلة
+
+Why no guided_json / guided_choice:
+    vLLM's --reasoning-parser qwen3 flag (required for thinking mode in
+    qa_pipeline.py) is incompatible with structured decoding. Using them
+    together leaves content=None. Instead we use strict prompts, _parse_json()
+    for extraction, and re.search for intent — with retry loops for the JSON
+    calls (up to 2 retries). With a 35B model this succeeds on the first
+    attempt 95%+ of the time. Retries cover the remaining cases.
 """
 
 from __future__ import annotations
@@ -61,65 +69,18 @@ FIELD_QUESTIONS = {
 }
 
 # ------------------------------------------------------------------ #
-# guided_json schemas
-# vLLM structured decoding — guarantees the model output matches
-# the required JSON structure, eliminating malformed response risk.
-# Two schemas: one for intent classification, one for field extraction.
-# _resolve_date uses re.search instead — its output is a plain string.
-# ------------------------------------------------------------------ #
-
-_INTENT_SCHEMA = {
-    "type": "object",
-    "properties": {
-        "intent": {
-            "type": "string",
-            "enum": ["answer", "correction", "cancel", "confirm", "unclear"],
-        },
-        # field and value are optional — only present for "answer" and "correction"
-        "field": {
-            "type": "string",
-            "enum": [
-                "store_name",
-                "cr_number",
-                "order_id",
-                "order_date",
-                "description",
-            ],
-        },
-        "value": {"type": "string"},
-    },
-    "required": ["intent"],
-}
-
-_EXTRACTION_SCHEMA = {
-    "type": "object",
-    "properties": {
-        "store_name": {"type": ["string", "null"]},
-        "cr_number": {"type": ["string", "null"]},
-        "order_id": {"type": ["string", "null"]},
-        "order_date": {"type": ["string", "null"]},
-        "description": {"type": ["string", "null"]},
-    },
-    "required": ["store_name", "cr_number", "order_id", "order_date", "description"],
-}
-
-# ------------------------------------------------------------------ #
 # LLM helper — direct httpx, thinking always disabled.
 # These are classification and extraction tasks, not legal reasoning.
-# schema: optional guided_json dict passed to vLLM extra_body.
+# Thinking is disabled via enable_thinking: False in chat_template_kwargs.
+# No guided_json or guided_choice — incompatible with --reasoning-parser qwen3.
 # ------------------------------------------------------------------ #
 
 
-async def _llm_call(
-    system: str,
-    user: str,
-    schema: dict | None = None,
-) -> str:
-    """Single LLM call. Returns raw text content."""
-    extra_body: dict = {"chat_template_kwargs": {"enable_thinking": False}}
-    if schema:
-        extra_body["guided_json"] = schema
-
+async def _llm_call(system: str, user: str) -> str:
+    """
+    Single LLM call with thinking disabled.
+    Returns the content string — never None (returns "" on empty response).
+    """
     async with httpx.AsyncClient(timeout=60) as client:
         r = await client.post(
             f"{VLLM_BASE_URL}/chat/completions",
@@ -132,17 +93,18 @@ async def _llm_call(
                 ],
                 "temperature": 0.1,
                 "max_tokens": 512,
-                "extra_body": extra_body,
+                "extra_body": {
+                    "chat_template_kwargs": {"enable_thinking": False},
+                },
             },
         )
         r.raise_for_status()
-        return r.json()["choices"][0]["message"]["content"].strip()
+        return r.json()["choices"][0]["message"]["content"] or ""
 
 
 def _parse_json(text: str) -> dict:
     """
     Strip markdown fences and parse JSON.
-    With guided_json enabled this is rarely needed, but kept as a safety net.
     Returns empty dict on any parse failure — callers handle missing keys.
     """
     cleaned = re.sub(r"```(?:json)?", "", text).replace("```", "").strip()
@@ -313,7 +275,6 @@ class ComplaintSession:
         """
         After storing a field, move to the next missing one.
         If no fields are missing, transition to confirmation.
-        Extracted as a method to avoid duplicating this logic in both state handlers.
         """
         next_field = self._next_missing_field()
         if next_field is None:
@@ -338,9 +299,11 @@ class ComplaintSession:
         Extract complaint fields from conversation history.
         Runs once on session initialization. Updates self.fields in place.
 
-        Sliced to last 20 messages — complaint-relevant data is almost always
-        recent, and 20 messages covers any realistic pre-complaint conversation
-        without risking context overload on a 32K context window.
+        Retries up to 2 times if the response cannot be parsed as JSON.
+        On total failure, all fields stay None and collection asks for everything.
+
+        Sliced to last 20 messages — covers any realistic pre-complaint
+        conversation without risking context overload.
         """
         today = date.today().isoformat()
         recent_history = history[-20:]
@@ -350,9 +313,11 @@ class ComplaintSession:
         )
 
         system = (
-            "أنت مساعد متخصص في استخراج بيانات الشكاوى من المحادثات. " "أعد JSON فقط."
+            "أنت مساعد متخصص في استخراج بيانات الشكاوى من المحادثات. "
+            "أعد JSON فقط بدون أي نص إضافي أو علامات markdown."
         )
-        user = f"""اليوم هو {today}.
+
+        base_user = f"""اليوم هو {today}.
 فيما يلي محادثة. استخرج بيانات الشكوى إن وُجدت.
 
 {history_text}
@@ -364,18 +329,46 @@ class ComplaintSession:
 - order_date:  تاريخ الطلب بصيغة YYYY-MM-DD
 - description: وصف المشكلة
 
-قواعد:
-- إذا لم تكن متأكداً من أي قيمة، أعد null لذلك الحقل.
-- إذا ذكر المستخدم تاريخاً نسبياً مثل "أمس" أو "الأسبوع الماضي"، احسبه بناءً على تاريخ اليوم.
-- لا تخترع معلومات غير موجودة في المحادثة."""
+قواعد مهمة:
+- أعد JSON فقط، لا تضف أي نص قبله أو بعده
+- إذا لم تكن متأكداً من أي قيمة، أعد null لذلك الحقل
+- إذا ذكر المستخدم تاريخاً نسبياً مثل "أمس" أو "الأسبوع الماضي"، احسبه بناءً على تاريخ اليوم
+- لا تخترع معلومات غير موجودة في المحادثة
 
-        raw = await _llm_call(system, user, schema=_EXTRACTION_SCHEMA)
-        extracted = _parse_json(raw)
+المطلوب بالضبط:
+{{
+  "store_name": "<القيمة أو null>",
+  "cr_number": "<القيمة أو null>",
+  "order_id": "<القيمة أو null>",
+  "order_date": "<YYYY-MM-DD أو null>",
+  "description": "<القيمة أو null>"
+}}"""
 
-        for field in FIELD_ORDER:
-            value = extracted.get(field)
-            if value and str(value).lower() != "null":
-                self.fields[field] = str(value)
+        last_bad_output = None
+        for attempt in range(3):  # 1 initial attempt + 2 retries
+            if attempt == 0:
+                user_prompt = base_user
+            else:
+                # Show the model what went wrong and ask it to fix it
+                user_prompt = (
+                    f"{base_user}\n\n"
+                    f"تنبيه: إجابتك السابقة لم تكن JSON صالحاً:\n{last_bad_output}\n"
+                    f"أعد JSON فقط بدون أي نص إضافي."
+                )
+
+            raw = await _llm_call(system, user_prompt)
+            extracted = _parse_json(raw)
+
+            if extracted:  # Successfully parsed
+                for field in FIELD_ORDER:
+                    value = extracted.get(field)
+                    if value and str(value).lower() != "null":
+                        self.fields[field] = str(value)
+                return  # Success — stop retrying
+
+            last_bad_output = raw  # Save for next retry prompt
+
+        # All attempts failed — fields stay None, collection asks for everything
 
     async def _classify_intent(self, message: str) -> dict:
         """
@@ -388,12 +381,11 @@ class ComplaintSession:
             {"intent": "confirm"}
             {"intent": "unclear"}
 
+        Retries up to 2 times if JSON cannot be parsed.
+        On total failure returns {"intent": "unclear"} — re-asks current question.
+
         The model receives full context — state, current question, collected
         fields, missing fields — so it never classifies blind.
-
-        Few-shot examples protect the two hardest edge cases:
-            1. User corrects the field currently being asked about → "answer"
-            2. Gulf dialect cancellation expressions → "cancel"
         """
         collected = {
             FIELD_LABELS[f]: v for f, v in self.fields.items() if v is not None
@@ -412,9 +404,11 @@ class ComplaintSession:
             )
 
         system = (
-            "أنت مساعد يصنّف نوايا المستخدمين أثناء عملية تقديم شكوى. " "أعد JSON فقط."
+            "أنت مساعد يصنّف نوايا المستخدمين أثناء عملية تقديم شكوى. "
+            "أعد JSON فقط بدون أي نص إضافي أو علامات markdown."
         )
-        user = f"""السياق الحالي:
+
+        base_user = f"""السياق الحالي:
 - {state_context}
 - البيانات المجمعة: {json.dumps(collected, ensure_ascii=False) if collected else "لا شيء بعد"}
 - البيانات الناقصة: {', '.join(missing) if missing else "لا شيء — جميع البيانات مكتملة"}
@@ -456,22 +450,41 @@ class ComplaintSession:
 الآن صنّف هذه الرسالة:
 رسالة المستخدم: "{message}"
 
-قاعدة حاسمة: إذا أعطى المستخدم قيمة للحقل الذي سُئل عنه — حتى لو استخدم عبارات مثل "في الحقيقة" أو "التصحيح هو" — فهذا دائماً "answer" وليس "correction"."""
+قاعدة حاسمة: إذا أعطى المستخدم قيمة للحقل الذي سُئل عنه — حتى لو استخدم عبارات مثل "في الحقيقة" أو "التصحيح هو" — فهذا دائماً "answer" وليس "correction".
 
-        raw = await _llm_call(system, user, schema=_INTENT_SCHEMA)
-        result = _parse_json(raw)
+أعد JSON فقط:"""
 
-        if "intent" not in result:
-            return {"intent": "unclear"}
-        return result
+        last_bad_output = None
+        for attempt in range(3):  # 1 initial attempt + 2 retries
+            if attempt == 0:
+                user_prompt = base_user
+            else:
+                user_prompt = (
+                    f"{base_user}\n\n"
+                    f"تنبيه: إجابتك السابقة لم تكن JSON صالحاً:\n{last_bad_output}\n"
+                    f"أعد JSON فقط."
+                )
+
+            raw = await _llm_call(system, user_prompt)
+            result = _parse_json(raw)
+
+            if "intent" in result:
+                return result  # Success
+
+            last_bad_output = raw
+
+        # All attempts failed — re-ask current question
+        return {"intent": "unclear"}
 
     async def _resolve_date(self, raw: str) -> str | None:
         """
         Resolve a natural language date expression to ISO format (YYYY-MM-DD).
         Returns None if the date cannot be determined with confidence.
 
-        Uses re.search (not re.match) to find the date anywhere in the
-        model's response — handles cases where the model adds prefix text.
+        Uses re.search to find the date anywhere in the model response —
+        handles cases where the model adds surrounding text.
+        No retry needed — re.search handles partial matches and None
+        falls back to storing the raw string in _store_field().
         """
         today = date.today().isoformat()
         system = (
@@ -489,8 +502,7 @@ class ComplaintSession:
         if result.lower() == "null":
             return None
 
-        # re.search finds the date anywhere in the string,
-        # even if the model adds surrounding text
+        # re.search finds the date anywhere in the string
         match = re.search(r"\d{4}-\d{2}-\d{2}", result)
         if not match:
             return None

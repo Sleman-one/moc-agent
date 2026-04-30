@@ -8,32 +8,38 @@ Only called by the router when no complaint session is active.
 Once a session is active, the router bypasses this entirely and sends
 the message directly to ComplaintSession.handle().
 
-guided_choice constrains vLLM to output exactly one of the two valid
-strings — no JSON parsing, no fallback handling needed.
+Why no guided_choice:
+    vLLM's --reasoning-parser qwen3 flag (required for thinking mode in
+    qa_pipeline.py) is incompatible with guided_choice and guided_json.
+    Using them together leaves content=None. Instead we use a strict
+    prompt and re.search to extract the label from the response.
+    With a 35B model and clear instructions this is reliable. The fallback
+    is "legal_question" — safer to answer a Q&A than to misroute.
 """
 
 from __future__ import annotations
+
+import re
 
 import httpx
 
 from core.rag_config import LLM_MODEL, VLLM_API_KEY, VLLM_BASE_URL
 
 # ------------------------------------------------------------------ #
-# Valid outputs — passed to guided_choice
+# Valid outputs
 # ------------------------------------------------------------------ #
 
 LEGAL_QUESTION = "legal_question"
 START_COMPLAINT = "start_complaint"
 
 # ------------------------------------------------------------------ #
-# Classifier
+# Prompts
 # ------------------------------------------------------------------ #
 
-SYSTEM_PROMPT = """أنت مساعد يصنّف رسائل المستخدمين إلى نوعين فقط:
-- legal_question: المستخدم يريد معرفة حقوقه أو يسأل سؤالاً قانونياً
-- start_complaint: المستخدم يريد تقديم شكوى ضد متجر أو تاجر
-
-أعد الكلمة المناسبة فقط."""
+SYSTEM_PROMPT = """أنت مساعد يصنّف رسائل المستخدمين إلى نوعين فقط.
+يجب أن تنتهي إجابتك دائماً بأحد هذين التصنيفين بالضبط:
+legal_question — إذا كان المستخدم يريد معرفة حقوقه أو يسأل سؤالاً قانونياً
+start_complaint — إذا كان المستخدم يريد تقديم شكوى ضد متجر أو تاجر"""
 
 USER_PROMPT = """أمثلة:
 
@@ -55,11 +61,19 @@ USER_PROMPT = """أمثلة:
 رسالة: "أريد الإبلاغ عن تاجر"
 التصنيف: start_complaint
 
+رسالة: "اشتريت من noon منتجاً معطوباً الأسبوع الماضي وعندي سؤال قانوني"
+التصنيف: legal_question
+
 ---
 
-الآن صنّف هذه الرسالة:
+الآن صنّف هذه الرسالة وأنهِ إجابتك بالتصنيف المناسب:
 رسالة: "{message}"
 التصنيف:"""
+
+
+# ------------------------------------------------------------------ #
+# Classifier
+# ------------------------------------------------------------------ #
 
 
 async def classify(message: str) -> str:
@@ -70,8 +84,9 @@ async def classify(message: str) -> str:
         "legal_question"  — route to qa_pipeline.ask()
         "start_complaint" — create a ComplaintSession
 
-    Uses guided_choice to guarantee the output is one of the two valid
-    strings — no parsing or fallback needed.
+    Uses re.search to find the label anywhere in the model response —
+    forgiving enough to handle any surrounding text the model adds.
+    Fallback is "legal_question" — safer failure mode.
     """
     async with httpx.AsyncClient(timeout=30) as client:
         r = await client.post(
@@ -83,13 +98,20 @@ async def classify(message: str) -> str:
                     {"role": "system", "content": SYSTEM_PROMPT},
                     {"role": "user", "content": USER_PROMPT.format(message=message)},
                 ],
-                "temperature": 0.0,  # classification must be deterministic
-                "max_tokens": 10,  # output is at most one short string
+                "temperature": 0.0,
+                "max_tokens": 256,
                 "extra_body": {
                     "chat_template_kwargs": {"enable_thinking": False},
-                    "guided_choice": [LEGAL_QUESTION, START_COMPLAINT],
                 },
             },
         )
         r.raise_for_status()
-        return r.json()["choices"][0]["message"]["content"].strip()
+        content = r.json()["choices"][0]["message"]["content"] or ""
+
+    # Search for either valid label anywhere in the response
+    match = re.search(r"legal_question|start_complaint", content)
+    if match:
+        return match.group(0)
+
+    # Fallback — answering a Q&A question is safer than misrouting to complaint
+    return LEGAL_QUESTION
