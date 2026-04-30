@@ -99,7 +99,7 @@ async def classify(message: str) -> str:
                     {"role": "user", "content": USER_PROMPT.format(message=message)},
                 ],
                 "temperature": 0.0,
-                "max_tokens": 256,
+                "max_tokens": 2048,
                 "extra_body": {
                     "chat_template_kwargs": {"enable_thinking": False},
                 },

@@ -92,7 +92,7 @@ async def _llm_call(system: str, user: str) -> str:
                     {"role": "user", "content": user},
                 ],
                 "temperature": 0.1,
-                "max_tokens": 512,
+                "max_tokens": 2048,
                 "extra_body": {
                     "chat_template_kwargs": {"enable_thinking": False},
                 },
