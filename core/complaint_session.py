@@ -71,8 +71,8 @@ FIELD_QUESTIONS = {
 # ------------------------------------------------------------------ #
 # LLM helper — direct httpx, thinking always disabled.
 # These are classification and extraction tasks, not legal reasoning.
-# Thinking is disabled via enable_thinking: False in chat_template_kwargs.
-# No guided_json or guided_choice — incompatible with --reasoning-parser qwen3.
+# max_tokens=2048 required — reasoning-parser qwen3 needs larger budget
+# even when thinking is disabled.
 # ------------------------------------------------------------------ #
 
 
@@ -92,7 +92,7 @@ async def _llm_call(system: str, user: str) -> str:
                     {"role": "user", "content": user},
                 ],
                 "temperature": 0.1,
-                "max_tokens": 512,
+                "max_tokens": 2048,
                 "extra_body": {
                     "chat_template_kwargs": {"enable_thinking": False},
                 },
@@ -272,7 +272,19 @@ class ComplaintSession:
             field = intent_data.get("field")
             value = intent_data.get("value", "").strip()
             if field in self.fields and value:
-                await self._store_field(field, value)
+                success = await self._store_field(field, value)
+                if not success:
+                    if field == "order_date":
+                        return (
+                            "active",
+                            "لم أستطع تحديد التاريخ بدقة. "
+                            "يرجى كتابة التاريخ بهذا الشكل: YYYY-MM-DD\n"
+                            "مثال: 2026-04-23",
+                        )
+                    return (
+                        "active",
+                        f"لم أتمكن من حفظ هذه القيمة.\n\n{self._build_summary()}",
+                    )
                 return ("active", self._build_summary())
             return ("active", f"لم أفهم التصحيح.\n\n{self._build_summary()}")
 
@@ -384,7 +396,6 @@ class ComplaintSession:
             if attempt == 0:
                 user_prompt = base_user
             else:
-                # Show the model what went wrong and ask it to fix it
                 user_prompt = (
                     f"{base_user}\n\n"
                     f"تنبيه: إجابتك السابقة لم تكن JSON صالحاً:\n{last_bad_output}\n"
@@ -394,14 +405,14 @@ class ComplaintSession:
             raw = await _llm_call(system, user_prompt)
             extracted = _parse_json(raw)
 
-            if extracted:  # Successfully parsed
+            if extracted:
                 for field in FIELD_ORDER:
                     value = extracted.get(field)
                     if value and str(value).lower() != "null":
                         self.fields[field] = str(value)
-                return  # Success — stop retrying
+                return
 
-            last_bad_output = raw  # Save for next retry prompt
+            last_bad_output = raw
 
         # All attempts failed — fields stay None, collection asks for everything
 
@@ -419,8 +430,13 @@ class ComplaintSession:
         Retries up to 2 times if JSON cannot be parsed.
         On total failure returns {"intent": "unclear"} — re-asks current question.
 
-        The model receives full context — state, current question, collected
-        fields, missing fields — so it never classifies blind.
+        Few-shot examples cover all edge cases including:
+            1. Short answers (store names, IDs, numbers)
+            2. Long descriptive answers (description field)
+            3. Correcting the field currently being asked → always "answer"
+            4. Correcting a different field → "correction"
+            5. Gulf dialect cancellation
+            6. Confirmation at summary step
         """
         collected = {
             FIELD_LABELS[f]: v for f, v in self.fields.items() if v is not None
@@ -480,12 +496,18 @@ class ComplaintSession:
 رسالة المستخدم: "نعم صح كل شيء"
 الناتج: {{"intent": "confirm"}}
 
+مثال ٧ — المستخدم يصف مشكلته بجملة طويلة (هذا دائماً "answer"):
+السؤال المطروح: صف المشكلة بالتفصيل — ماذا حدث بالضبط؟
+رسالة المستخدم: "استلمت منتجاً معطوباً ولم يرد المتجر على شكواي بعد أسبوعين"
+الناتج: {{"intent": "answer", "value": "استلمت منتجاً معطوباً ولم يرد المتجر على شكواي بعد أسبوعين"}}
+
 ---
 
 الآن صنّف هذه الرسالة:
 رسالة المستخدم: "{message}"
 
 قاعدة حاسمة: إذا أعطى المستخدم قيمة للحقل الذي سُئل عنه — حتى لو استخدم عبارات مثل "في الحقيقة" أو "التصحيح هو" — فهذا دائماً "answer" وليس "correction".
+قاعدة إضافية: أي رسالة تُعدّ إجابةً مباشرةً على السؤال المطروح — بغض النظر عن طولها أو لغتها — هي دائماً "answer".
 
 أعد JSON فقط:"""
 
@@ -504,7 +526,7 @@ class ComplaintSession:
             result = _parse_json(raw)
 
             if "intent" in result:
-                return result  # Success
+                return result
 
             last_bad_output = raw
 
@@ -519,7 +541,7 @@ class ComplaintSession:
         Uses re.search to find the date anywhere in the model response —
         handles cases where the model adds surrounding text.
         No retry needed — re.search handles partial matches and None
-        falls back to storing the raw string in _store_field().
+        falls back to re-asking the user in _store_field().
         """
         today = date.today().isoformat()
         system = (
