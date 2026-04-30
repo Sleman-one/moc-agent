@@ -5,11 +5,20 @@ Tests three scenarios against the live RunPod stack.
 Requires: PostgreSQL running locally, vLLM + BGE-M3 running on RunPod.
 
 Run with:
-    uv run python tests/test_complaint.py
+    uv run -m tests.test_complaint
 
 Assertions verify state machine correctness — session created, destroyed,
 and transitioned at the right moments. Response text is printed for manual
 review — LLM output is not asserted because it varies between runs.
+
+Scenarios:
+    1. Direct complaint — all fields collected one by one, including a
+       date retry (user gives vague date, system asks for clarification,
+       user provides ISO format), confirmed and saved to DB.
+    2. Mid-conversation switch — Q&A first, then complaint with extraction
+       from history, then cancel, then verify back to Q&A mode.
+    3. Cancel at confirmation — reach summary step, correct a field,
+       then cancel.
 """
 
 from __future__ import annotations
@@ -41,12 +50,12 @@ def ok(msg: str) -> None:
 
 
 # ------------------------------------------------------------------ #
-# Scenario 1 — Direct complaint, all fields, confirmed and saved
+# Scenario 1 — Direct complaint, date retry, confirmed and saved
 # ------------------------------------------------------------------ #
 
 
 async def scenario_direct_complaint() -> None:
-    header("Scenario 1 — Direct complaint, confirmed and saved")
+    header("Scenario 1 — Direct complaint, date retry, confirmed and saved")
 
     state = init_state()
 
@@ -76,26 +85,37 @@ async def scenario_direct_complaint() -> None:
     r = await handle(msg, state)
     turn(4, "assistant", r)
 
-    # Turn 5: order date (natural language — tests _resolve_date)
+    # Turn 5: vague date — system should ask for clarification
     msg = "الأسبوع الماضي"
     turn(5, "user", msg)
     r = await handle(msg, state)
     turn(5, "assistant", r)
+    assert state["complaint_session"] is not None
+    assert state["complaint_session"].fields["order_date"] is None
+    ok("Date resolution failed correctly — field still None")
 
-    # Turn 6: description — this should trigger the confirmation summary
-    msg = "استلمت منتجاً معطوباً ولم يرد المتجر على شكواي بعد أسبوعين"
+    # Turn 6: proper ISO date after clarification
+    msg = "2026-04-23"
     turn(6, "user", msg)
     r = await handle(msg, state)
     turn(6, "assistant", r)
+    assert state["complaint_session"].fields["order_date"] == "2026-04-23"
+    ok("Date accepted after retry")
+
+    # Turn 7: description — should trigger confirmation summary
+    msg = "استلمت منتجاً معطوباً ولم يرد المتجر على شكواي بعد أسبوعين"
+    turn(7, "user", msg)
+    r = await handle(msg, state)
+    turn(7, "assistant", r)
     assert state["complaint_session"] is not None
     assert state["complaint_session"].state == "confirming"
     ok("Reached confirmation step")
 
-    # Turn 7: confirm
+    # Turn 8: confirm
     msg = "نعم، تأكيد"
-    turn(7, "user", msg)
+    turn(8, "user", msg)
     r = await handle(msg, state)
-    turn(7, "assistant", r)
+    turn(8, "assistant", r)
     assert state["complaint_session"] is None
     ok("Session destroyed after save")
     ok("Scenario 1 passed")
@@ -120,28 +140,28 @@ async def scenario_mid_conversation() -> None:
     assert state["complaint_session"] is None
     ok("Routed to Q&A — no session created")
 
-    # Turn 2: switch to complaint with store name in the message
-    # extraction should pick up "amazon" from this message
+    # Turn 2: switch to complaint with store name and CR in the message
+    # extraction should pick up fields from this message
     msg = "أبي أشتكي على متجر amazon، رقم سجله 1010654321 ورقم طلبي ORD-999"
     turn(2, "user", msg)
     r = await handle(msg, state)
     turn(2, "assistant", r)
     assert state["complaint_session"] is not None
     ok("Switched to complaint mode — session created")
-    ok(f"Fields extracted from message: {state['complaint_session'].fields}")
+    ok(f"Fields extracted: {state['complaint_session'].fields}")
 
     # Continue collecting remaining missing fields
     n = 3
     session = state["complaint_session"]
+    answers = {
+        "store_name": "amazon",
+        "cr_number": "1010654321",
+        "order_id": "ORD-999",
+        "order_date": "2026-04-15",
+        "description": "دفعت مقابل المنتج ولم يصلني",
+    }
     while session is not None and session.state == "collecting":
         field = session.current_field
-        answers = {
-            "store_name": "amazon",
-            "cr_number": "1010654321",
-            "order_id": "ORD-999",
-            "order_date": "2026-04-15",
-            "description": "دفعت مقابل المنتج ولم يصلني",
-        }
         msg = answers.get(field, "لا أعرف")
         turn(n, "user", msg)
         r = await handle(msg, state)
@@ -181,17 +201,17 @@ async def scenario_cancel_at_confirmation() -> None:
 
     state = init_state()
 
-    # Collect all fields quickly
+    # Collect all fields quickly with valid data
     exchanges = [
-        ("أريد تقديم شكوى", None),
-        ("jarir", None),
-        ("1010987654", None),
-        ("ORD-555", None),
-        ("أمس", None),
-        ("المنتج لم يصل في الوقت المحدد وانتهت المناسبة", None),
+        "أريد تقديم شكوى",
+        "jarir",
+        "1010987654",
+        "ORD-555",
+        "2026-04-10",
+        "المنتج لم يصل في الوقت المحدد وانتهت المناسبة",
     ]
 
-    for n, (msg, _) in enumerate(exchanges, start=1):
+    for n, msg in enumerate(exchanges, start=1):
         turn(n, "user", msg)
         r = await handle(msg, state)
         turn(n, "assistant", r)
@@ -208,8 +228,9 @@ async def scenario_cancel_at_confirmation() -> None:
     turn(n, "assistant", r)
     assert state["complaint_session"] is not None
     assert state["complaint_session"].state == "confirming"
-    ok("Correction applied — still in confirming state")
-    ok(f"store_name is now: {state['complaint_session'].fields['store_name']}")
+    ok(
+        f"Correction applied — store_name: {state['complaint_session'].fields['store_name']}"
+    )
 
     # Cancel
     n += 1
