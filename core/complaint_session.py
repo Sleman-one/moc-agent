@@ -35,7 +35,7 @@ from __future__ import annotations
 import json
 import re
 import traceback
-from datetime import date
+from datetime import date, timedelta
 
 import httpx
 
@@ -57,6 +57,12 @@ FIELD_LABELS = {
     "order_date": "تاريخ الطلب",
     "description": "وصف المشكلة",
 }
+
+# Reverse lookup — Arabic label → English key. Used in correction handlers
+# because the classifier sometimes returns the Arabic label as the `field`
+# value (since the prompt displays field options in Arabic). We accept either
+# form and normalize to the English key before looking up in self.fields.
+FIELD_LABEL_TO_KEY = {label: key for key, label in FIELD_LABELS.items()}
 
 FIELD_QUESTIONS = {
     "store_name": ("ما هو اسم المتجر الذي تريد تقديم الشكوى ضده؟"),
@@ -316,6 +322,9 @@ class ComplaintSession:
 
         elif intent == "correction":
             field = intent_data.get("field")
+            # Classifier may return either the English key ("order_date")
+            # or the Arabic label ("تاريخ الطلب"). Normalize to the key.
+            field = FIELD_LABEL_TO_KEY.get(field, field)
             value = intent_data.get("value", "").strip()
             if field in self.fields and value:
                 success = await self._store_field(field, value)
@@ -361,6 +370,9 @@ class ComplaintSession:
 
         elif intent == "correction":
             field = intent_data.get("field")
+            # Classifier may return either the English key ("order_date")
+            # or the Arabic label ("تاريخ الطلب"). Normalize to the key.
+            field = FIELD_LABEL_TO_KEY.get(field, field)
             value = intent_data.get("value", "").strip()
             if field in self.fields and value:
                 success = await self._store_field(field, value)
@@ -535,18 +547,32 @@ class ComplaintSession:
     @staticmethod
     def _slice_history_for_extraction(history: list[dict]) -> list[dict]:
         """
-        Take the last 3 user messages from history (current trigger + 2 before).
-        Skip assistant replies. Ignore the `source` tag.
+        Take the last 3 user messages from history that did NOT originate
+        inside a previous complaint session (current trigger + 2 before).
+        Skip assistant replies.
 
-        This window is short enough that we won't accidentally reach into
-        a previous complaint, while still capturing the common case where
-        the user describes their problem across a few messages before
-        asking to file.
+        Why filter by source:
+            When a user files complaint A, then immediately starts
+            complaint B, the most recent user messages include A's
+            description (e.g. "تأخر التوصيل") and A's confirmation
+            ("تأكيد"). Without filtering, the extractor for B reads
+            these and may pull the previous description into the new
+            complaint. Filtering by source="qa" excludes anything that
+            happened inside a complaint session, while still preserving
+            pre-complaint Q&A turns that may contain real complaint data
+            ("اشتريت من نون وما وصلني الطلب").
+
+        Backward-compat: messages without a `source` field default to "qa"
+        (this matches the rewriter's behavior in qa_pipeline.py).
 
         Returns a list of user-message dicts, oldest first. Empty list
-        if history has no user messages.
+        if history has no qualifying user messages.
         """
-        user_messages = [m for m in history if m.get("role") == "user"]
+        user_messages = [
+            m
+            for m in history
+            if m.get("role") == "user" and m.get("source", "qa") != "complaint"
+        ]
         return user_messages[-3:]
 
     # ------------------------------------------------------------------ #
@@ -768,17 +794,44 @@ class ComplaintSession:
         handles cases where the model adds surrounding text.
         No retry needed — re.search handles partial matches and None
         falls back to re-asking the user in _store_field().
+
+        The prompt uses explicit few-shot examples — including several "null"
+        cases — to anchor the model away from over-eagerly returning today's
+        date when the input is gibberish. Without these anchors, qwen3
+        defaults to today when it can't parse the input, which silently
+        accepts garbage instead of triggering the retry-and-cancel flow.
         """
-        today = date.today().isoformat()
+        today_obj = date.today()
+        today = today_obj.isoformat()
+        yesterday = (today_obj - timedelta(days=1)).isoformat()
+        last_week = (today_obj - timedelta(days=7)).isoformat()
+
         system = (
             "أنت مساعد يحوّل عبارات التاريخ إلى صيغة ISO. "
             "أعد التاريخ فقط بصيغة YYYY-MM-DD أو كلمة null."
         )
         user = f"""اليوم هو {today}.
-المستخدم ذكر: "{raw}"
 
-أعد التاريخ بصيغة YYYY-MM-DD فقط.
-إذا لم تستطع تحديد التاريخ بدقة، أعد الكلمة: null"""
+مهمتك:
+- إذا كان النص يحتوي على تاريخ واضح أو عبارة زمنية يمكن تحديدها (مثل "أمس"، "2026-04-15"، "الأسبوع الماضي")، أعده بصيغة YYYY-MM-DD.
+- إذا كان النص لا يحتوي على تاريخ، أو يحتوي على نص عشوائي/غير مفهوم، أعد الكلمة: null
+- لا تخترع تاريخاً. لا تعد تاريخ اليوم إذا لم يطلبه المستخدم صراحةً.
+
+أمثلة:
+- "أمس" → {yesterday}
+- "الأسبوع الماضي" → {last_week}
+- "2026-04-15" → 2026-04-15
+- "asdfasdf" → null
+- "qwerty" → null
+- "xyz" → null
+- "ما اذكر" → null
+- "بدون تاريخ" → null
+- "" → null
+
+---
+
+المستخدم ذكر: "{raw}"
+الإجابة:"""
 
         result = (await _llm_call(system, user)).strip()
 
