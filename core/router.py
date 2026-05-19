@@ -6,9 +6,18 @@ between Q&A and complaint collection, and manages session state.
 
 State dict (lives in Streamlit's session_state):
     {
-        "history":           [],    # list of {"role": str, "content": str}
+        "history":           [],    # list of {"role": str, "content": str, "source": str}
         "complaint_session": None,  # ComplaintSession instance or None
     }
+
+Each history entry carries a `source` tag:
+    "qa"        — message processed by the Q&A path
+    "complaint" — message processed inside a complaint session
+
+The user message is tagged based on whether a complaint session was
+active when it arrived. The assistant message is tagged based on
+which path produced the response — _route() returns the source so
+handle() can apply it.
 
 The router receives this dict, modifies it in place, and returns
 the response text. Streamlit displays whatever is returned.
@@ -38,7 +47,8 @@ async def handle(message: str, state: dict) -> str:
     Process one user message and return the response text.
 
     Updates state in place:
-        - always appends user message and assistant response to history
+        - always appends user message and assistant response to history,
+          each tagged with a `source` field
         - creates ComplaintSession when complaint intent detected
         - destroys ComplaintSession when status is "cancelled" or "saved"
 
@@ -49,21 +59,32 @@ async def handle(message: str, state: dict) -> str:
     Returns:
         response_text to display in the UI
     """
-    # Always append the user message to history first.
-    # This means initialize() always receives the full conversation
-    # including the message that triggered the complaint flow.
-    state["history"].append({"role": "user", "content": message})
+    # Tag the user message based on whether a complaint session is active
+    # at the moment of arrival. This is fixed at arrival time — even if the
+    # message ends up triggering a new complaint session, the message itself
+    # arrived while no session was active, so it's tagged "qa".
+    user_source = "complaint" if state["complaint_session"] is not None else "qa"
+    state["history"].append({"role": "user", "content": message, "source": user_source})
 
-    response = await _route(message, state)
+    response, response_source = await _route(message, state)
 
-    # Append assistant response to history so future turns have full context
-    state["history"].append({"role": "assistant", "content": response})
+    # Tag the assistant message based on which path produced the response.
+    state["history"].append(
+        {"role": "assistant", "content": response, "source": response_source}
+    )
 
     return response
 
 
-async def _route(message: str, state: dict) -> str:
-    """Internal routing logic — separated from handle() for clarity."""
+async def _route(message: str, state: dict) -> tuple[str, str]:
+    """
+    Internal routing logic — separated from handle() for clarity.
+
+    Returns:
+        (response_text, source) where source is "qa" or "complaint".
+        The source identifies which path produced the response, so the
+        caller can tag the assistant message in history correctly.
+    """
 
     # ------------------------------------------------------------------ #
     # Active complaint session — bypass classifier entirely
@@ -71,12 +92,14 @@ async def _route(message: str, state: dict) -> str:
 
     if state["complaint_session"] is not None:
         session: ComplaintSession = state["complaint_session"]
-        status, response = await session.handle(message)
+        # Pass history so the session can route a mid-complaint legal
+        # question through the Q&A pipeline (with rewriter context).
+        status, response = await session.handle(message, state["history"])
 
         if status in ("cancelled", "saved"):
             state["complaint_session"] = None
 
-        return response
+        return response, "complaint"
 
     # ------------------------------------------------------------------ #
     # No active session — classify and route
@@ -87,11 +110,11 @@ async def _route(message: str, state: dict) -> str:
     if intent == START_COMPLAINT:
         session = ComplaintSession()
         # Pass the full history — includes the triggering message.
-        # initialize() extracts whatever fields it can find before asking
-        # for the first missing one.
+        # initialize() decides how much of it to actually use.
         response = await session.initialize(state["history"])
         state["complaint_session"] = session
-        return response
+        return response, "complaint"
 
-    # Default: legal question — route to Q&A pipeline
-    return await ask(message)
+    # Default: legal question — route to Q&A pipeline.
+    # Pass history so the rewriter can resolve follow-ups using prior turns.
+    return await ask(message, state["history"]), "qa"

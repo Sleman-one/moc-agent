@@ -40,6 +40,7 @@ from datetime import date
 import httpx
 
 from core.db import save_complaint
+from core.qa_pipeline import ask as qa_ask
 from core.rag_config import LLM_MODEL, VLLM_API_KEY, VLLM_BASE_URL
 
 # ------------------------------------------------------------------ #
@@ -67,6 +68,40 @@ FIELD_QUESTIONS = {
     "order_date": ("ما هو تاريخ الطلب؟"),
     "description": ("صف المشكلة بالتفصيل — ماذا حدث بالضبط؟"),
 }
+
+# ------------------------------------------------------------------ #
+# Validation retry policy
+#
+# Fields with validation (order_date, cr_number) can fail to parse.
+# Each failure increments a per-field counter. After MAX_FIELD_ATTEMPTS
+# failures on the same field, the session is cancelled and the user is
+# directed to the Ministry of Commerce app.
+#
+# VALIDATION_REASK holds the format-specific message shown on each
+# failure BEFORE the limit is reached. VALIDATION_LIMIT_MESSAGE is the
+# cancellation message shown when the limit is hit.
+# ------------------------------------------------------------------ #
+
+MAX_FIELD_ATTEMPTS = 3
+
+VALIDATION_REASK = {
+    "order_date": (
+        "لم أستطع تحديد التاريخ بدقة. "
+        "يرجى كتابة التاريخ بهذا الشكل: YYYY-MM-DD\n"
+        "مثال: 2026-04-23"
+    ),
+    "cr_number": (
+        "رقم السجل التجاري يجب أن يكون 10 أرقام بالضبط. "
+        "يمكنك إيجاده في أسفل الموقع الإلكتروني للمتجر "
+        "أو في صفحة 'من نحن'. ما هو رقم السجل التجاري؟"
+    ),
+}
+
+VALIDATION_LIMIT_MESSAGE = (
+    "عذراً، لم أتمكن من فهم المعلومة بعد عدة محاولات. "
+    "لتقديم شكواك بشكل أدق، يمكنك تقديمها مباشرة من خلال "
+    "تطبيق وزارة التجارة. كيف يمكنني مساعدتك بشيء آخر؟"
+)
 
 # ------------------------------------------------------------------ #
 # LLM helper — direct httpx, thinking always disabled.
@@ -144,6 +179,17 @@ class ComplaintSession:
         self.state: str = "collecting"
         self.current_field: str | None = None  # set by initialize()
 
+        # Failed-attempt counters for fields that have validation.
+        # Incremented on each validation failure, reset to 0 on success.
+        # At 3 failures on the same field, the session is cancelled and
+        # the user is directed to the Ministry of Commerce app.
+        # The counter is on the field, not the state — it persists when
+        # the session moves from "collecting" to "confirming".
+        self.field_attempts: dict[str, int] = {
+            "order_date": 0,
+            "cr_number": 0,
+        }
+
     # ------------------------------------------------------------------ #
     # Public interface
     # ------------------------------------------------------------------ #
@@ -153,11 +199,35 @@ class ComplaintSession:
         Extract fields from conversation history and return the first message.
         Called once by the router immediately after creating the session.
 
+        We do NOT pass the full history to the extractor. We pass only the
+        last 3 user messages (the current trigger + the 2 before it). This
+        prevents data from previous complaints or unrelated Q&A turns from
+        polluting the extraction.
+
+        Why this slice is safe:
+            - The trigger message is the last entry in history (router
+              appends before calling initialize).
+            - 2 user messages back is enough to capture the case where
+              the user described their problem before asking to file
+              ("I bought from Jarir, my order didn't arrive, I want to
+              file a complaint" — three messages).
+            - Anything older than 3 user messages is almost certainly
+              about something else.
+            - Assistant replies are skipped — the bot's own text never
+              contains complaint data.
+            - The `source` tag is ignored. The 2-message window is the
+              protection, not tag filtering. This handles the case where
+              the user described a complaint in a Q&A-shaped message
+              before a complaint session was active.
+
         Args:
-            history: list of {"role": "user"|"assistant", "content": str} dicts
+            history: list of {"role": str, "content": str, "source": str}
+                     dicts (source field is optional for backward compat).
         """
-        if history:
-            await self._extract_from_history(history)
+        sliced = self._slice_history_for_extraction(history)
+
+        if sliced:
+            await self._extract_from_history(sliced)
 
         next_field = self._next_missing_field()
 
@@ -169,7 +239,9 @@ class ComplaintSession:
         self.current_field = next_field
         return self._build_intro()
 
-    async def handle(self, message: str) -> tuple[str, str]:
+    async def handle(
+        self, message: str, history: list[dict] | None = None
+    ) -> tuple[str, str]:
         """
         Process a user message and return (status, response_text).
 
@@ -177,12 +249,17 @@ class ComplaintSession:
             "active"    — complaint still in progress
             "cancelled" — user cancelled, router destroys the session
             "saved"     — complaint saved to DB, router destroys the session
+
+        The `history` argument is passed through to qa_pipeline.ask() when
+        the user asks a mid-complaint legal question (intent "legal_question").
+        Optional for backward compatibility — if omitted, the rewriter
+        won't have prior Q&A context but will still run.
         """
         try:
             if self.state == "collecting":
-                return await self._handle_collecting(message)
+                return await self._handle_collecting(message, history)
             elif self.state == "confirming":
-                return await self._handle_confirming(message)
+                return await self._handle_confirming(message, history)
             else:
                 return (
                     "active",
@@ -197,13 +274,23 @@ class ComplaintSession:
     # State handlers
     # ------------------------------------------------------------------ #
 
-    async def _handle_collecting(self, message: str) -> tuple[str, str]:
-        """Handle a message while in field collection mode."""
+    async def _handle_collecting(
+        self, message: str, history: list[dict] | None = None
+    ) -> tuple[str, str]:
+        """
+        Handle a message while in field collection mode.
+
+        `history` is forwarded to the legal-question handler so the Q&A
+        rewriter can use prior turns as context. Optional for back-compat.
+        """
         intent_data = await self._classify_intent(message)
         intent = intent_data.get("intent", "unclear")
 
         if intent == "cancel":
             return ("cancelled", "تم إلغاء الشكوى. كيف يمكنني مساعدتك؟")
+
+        elif intent == "legal_question":
+            return await self._handle_legal_question(message, history)
 
         elif intent == "answer":
             value = intent_data.get("value", "").strip()
@@ -214,14 +301,13 @@ class ComplaintSession:
                 )
             success = await self._store_field(self.current_field, value)
             if not success:
-                if self.current_field == "order_date":
-                    return (
-                        "active",
-                        "لم أستطع تحديد التاريخ بدقة. "
-                        "يرجى كتابة التاريخ بهذا الشكل: YYYY-MM-DD\n"
-                        "مثال: 2026-04-23",
-                    )
-                # Generic fallback for any future field that might fail
+                # Validated field failed to parse. The helper increments
+                # the attempt counter and either re-asks or cancels the
+                # session if the limit is reached.
+                if self.current_field in self.field_attempts:
+                    return self._handle_validation_failure(self.current_field)
+                # Generic fallback for a non-validated field (should not
+                # happen — only order_date and cr_number can fail).
                 return (
                     "active",
                     f"لم أتمكن من حفظ هذه القيمة. {FIELD_QUESTIONS[self.current_field]}",
@@ -234,13 +320,8 @@ class ComplaintSession:
             if field in self.fields and value:
                 success = await self._store_field(field, value)
                 if not success:
-                    if field == "order_date":
-                        return (
-                            "active",
-                            "لم أستطع تحديد التاريخ بدقة. "
-                            "يرجى كتابة التاريخ بهذا الشكل: YYYY-MM-DD\n"
-                            "مثال: 2026-04-23",
-                        )
+                    if field in self.field_attempts:
+                        return self._handle_validation_failure(field)
                     return (
                         "active",
                         f"لم أتمكن من حفظ هذه القيمة. {FIELD_QUESTIONS[self.current_field]}",
@@ -251,8 +332,15 @@ class ComplaintSession:
         else:  # unclear
             return ("active", f"لم أفهم. {FIELD_QUESTIONS[self.current_field]}")
 
-    async def _handle_confirming(self, message: str) -> tuple[str, str]:
-        """Handle a message while in confirmation mode."""
+    async def _handle_confirming(
+        self, message: str, history: list[dict] | None = None
+    ) -> tuple[str, str]:
+        """
+        Handle a message while in confirmation mode.
+
+        `history` is forwarded to the legal-question handler so the Q&A
+        rewriter can use prior turns as context. Optional for back-compat.
+        """
         intent_data = await self._classify_intent(message)
         intent = intent_data.get("intent", "unclear")
 
@@ -268,19 +356,22 @@ class ComplaintSession:
         elif intent == "cancel":
             return ("cancelled", "تم إلغاء الشكوى. كيف يمكنني مساعدتك؟")
 
+        elif intent == "legal_question":
+            return await self._handle_legal_question(message, history)
+
         elif intent == "correction":
             field = intent_data.get("field")
             value = intent_data.get("value", "").strip()
             if field in self.fields and value:
                 success = await self._store_field(field, value)
                 if not success:
-                    if field == "order_date":
-                        return (
-                            "active",
-                            "لم أستطع تحديد التاريخ بدقة. "
-                            "يرجى كتابة التاريخ بهذا الشكل: YYYY-MM-DD\n"
-                            "مثال: 2026-04-23",
-                        )
+                    if field in self.field_attempts:
+                        status, msg = self._handle_validation_failure(field)
+                        # If cancelled, return as-is. If still active,
+                        # re-show the summary so the user keeps full context.
+                        if status == "cancelled":
+                            return (status, msg)
+                        return ("active", f"{msg}\n\n{self._build_summary()}")
                     return (
                         "active",
                         f"لم أتمكن من حفظ هذه القيمة.\n\n{self._build_summary()}",
@@ -291,6 +382,60 @@ class ComplaintSession:
         else:  # unclear
             return ("active", f"هل تريد تأكيد تقديم الشكوى؟\n\n{self._build_summary()}")
 
+    async def _handle_legal_question(
+        self, message: str, history: list[dict] | None
+    ) -> tuple[str, str]:
+        """
+        Handle a mid-complaint legal question without interrupting the complaint.
+
+        Flow:
+            1. Call qa_pipeline.ask() with the user's message + history.
+            2. Build a combined response: legal answer + separator + a
+               re-prompt of the current question (field question if
+               collecting, summary if confirming).
+            3. Return ("active", combined_response).
+
+        No field is stored. No state change. The session continues where
+        it left off after the user reads the answer.
+
+        On failure (network error, qa_ask raises): return a brief apology
+        and re-prompt. The complaint stays alive — the user just loses
+        the legal answer.
+        """
+        try:
+            legal_answer = await qa_ask(message, history or [])
+        except Exception:
+            traceback.print_exc()
+            # Failure fallback — apologize and re-prompt without crashing
+            return (
+                "active",
+                "عذراً، لم أتمكن من الإجابة على سؤالك الآن. "
+                f"نعود إلى الشكوى — {self._current_reprompt()}",
+            )
+
+        # Build combined response: answer + separator + re-prompt.
+        # The separator visually marks where the legal answer ends and the
+        # complaint flow resumes.
+        return (
+            "active",
+            f"{legal_answer}\n\n---\n\nنعود إلى الشكوى. {self._current_reprompt()}",
+        )
+
+    def _current_reprompt(self) -> str:
+        """
+        Return the text we should show after a legal-question pivot to
+        bring the user back to where they were:
+
+            - In "collecting" state → the current field's question.
+            - In "confirming" state → the full summary again.
+        """
+        if self.state == "collecting" and self.current_field:
+            return FIELD_QUESTIONS[self.current_field]
+        if self.state == "confirming":
+            return self._build_summary()
+        # Defensive fallback — shouldn't be reachable in practice.
+        return "كيف يمكنني مساعدتك؟"
+
     # ------------------------------------------------------------------ #
     # Field management
     # ------------------------------------------------------------------ #
@@ -299,24 +444,74 @@ class ComplaintSession:
         """
         Store a field value. Returns True if stored successfully, False if not.
 
-        For order_date: attempt ISO resolution via LLM.
+        Validation rules per field:
+
+        order_date — attempt ISO resolution via LLM.
             - Returns True if resolved to a valid ISO date.
             - Returns False if resolution failed — field stays None,
-              caller must re-ask the user with a clearer prompt.
+              caller re-asks with a clearer prompt.
             - We never store the raw Arabic string — PostgreSQL DATE
               type will reject it and crash the save.
-        For all other fields: store the raw value directly, always True.
+
+        cr_number — must be exactly 10 digits after stripping non-digits.
+            - Arabic-Indic digits (٠-٩) are normalized to Western.
+            - Surrounding text and separators (dashes, spaces) are stripped.
+            - Returns True with the cleaned 10-digit string if valid.
+            - Returns False if not exactly 10 digits — caller re-asks
+              with a format-specific message.
+
+        All other fields: store the raw value directly, always True.
+
+        On successful storage of a validated field, that field's attempt
+        counter is reset to 0 — a user who later corrects the field gets
+        a fresh set of attempts.
         """
         if field == "order_date":
             resolved = await self._resolve_date(value)
             if resolved:
                 self.fields[field] = resolved
+                self.field_attempts["order_date"] = 0
                 return True
             # Resolution failed — leave field as None so collection re-asks
             return False
-        else:
-            self.fields[field] = value
+
+        if field == "cr_number":
+            cleaned = self._clean_cr_number(value)
+            if cleaned is None:
+                # Not 10 digits after cleaning — leave field as None
+                return False
+            self.fields[field] = cleaned
+            self.field_attempts["cr_number"] = 0
             return True
+
+        # All other fields: store raw, no validation
+        self.fields[field] = value
+        return True
+
+    def _handle_validation_failure(self, field: str) -> tuple[str, str]:
+        """
+        Called when _store_field() returns False for a validated field.
+
+        Increments that field's failure counter, then:
+            - If the counter has reached MAX_FIELD_ATTEMPTS, cancels the
+              session and returns the app-referral message.
+            - Otherwise, returns the field-specific re-ask message so the
+              user can try again.
+
+        The counter is on the field and persists across the collecting
+        and confirming states. It is reset to 0 in _store_field() when
+        the field is eventually stored successfully.
+
+        Returns:
+            ("cancelled", message) if the attempt limit is reached,
+            ("active", reask_message) otherwise.
+        """
+        self.field_attempts[field] += 1
+
+        if self.field_attempts[field] >= MAX_FIELD_ATTEMPTS:
+            return ("cancelled", VALIDATION_LIMIT_MESSAGE)
+
+        return ("active", VALIDATION_REASK[field])
 
     async def _advance(self) -> tuple[str, str]:
         """
@@ -337,6 +532,23 @@ class ComplaintSession:
             None,
         )
 
+    @staticmethod
+    def _slice_history_for_extraction(history: list[dict]) -> list[dict]:
+        """
+        Take the last 3 user messages from history (current trigger + 2 before).
+        Skip assistant replies. Ignore the `source` tag.
+
+        This window is short enough that we won't accidentally reach into
+        a previous complaint, while still capturing the common case where
+        the user describes their problem across a few messages before
+        asking to file.
+
+        Returns a list of user-message dicts, oldest first. Empty list
+        if history has no user messages.
+        """
+        user_messages = [m for m in history if m.get("role") == "user"]
+        return user_messages[-3:]
+
     # ------------------------------------------------------------------ #
     # LLM calls
     # ------------------------------------------------------------------ #
@@ -349,15 +561,12 @@ class ComplaintSession:
         Retries up to 2 times if the response cannot be parsed as JSON.
         On total failure, all fields stay None and collection asks for everything.
 
-        Sliced to last 20 messages — covers any realistic pre-complaint
-        conversation without risking context overload.
+        The `history` argument is expected to be already sliced by
+        initialize() — typically the last 3 user messages, no assistant
+        replies. We do not slice further here.
         """
         today = date.today().isoformat()
-        recent_history = history[-20:]
-        history_text = "\n".join(
-            f"{'المستخدم' if m['role'] == 'user' else 'النظام'}: {m['content']}"
-            for m in recent_history
-        )
+        history_text = "\n".join(f"المستخدم: {m['content']}" for m in history)
 
         system = (
             "أنت مساعد متخصص في استخراج بيانات الشكاوى من المحادثات. "
@@ -365,7 +574,7 @@ class ComplaintSession:
         )
 
         base_user = f"""اليوم هو {today}.
-فيما يلي محادثة. استخرج بيانات الشكوى إن وُجدت.
+فيما يلي رسائل من المستخدم. استخرج بيانات الشكوى إن وُجدت.
 
 {history_text}
 
@@ -421,10 +630,11 @@ class ComplaintSession:
         Classify the user's intent given the current state and collected fields.
 
         Returns a dict with at minimum an "intent" key:
-            {"intent": "answer",     "value": "<value>"}
-            {"intent": "correction", "field": "<field_name>", "value": "<new_value>"}
+            {"intent": "answer",         "value": "<value>"}
+            {"intent": "correction",     "field": "<field_name>", "value": "<new_value>"}
             {"intent": "cancel"}
             {"intent": "confirm"}
+            {"intent": "legal_question"}
             {"intent": "unclear"}
 
         Retries up to 2 times if JSON cannot be parsed.
@@ -437,6 +647,10 @@ class ComplaintSession:
             4. Correcting a different field → "correction"
             5. Gulf dialect cancellation
             6. Confirmation at summary step
+            7. Long description that mentions a problem → "answer"
+            8. Pure legal question mid-complaint → "legal_question"
+            9. Description + embedded legal question → "answer"
+               (special rule: do not throw away the description)
         """
         collected = {
             FIELD_LABELS[f]: v for f, v in self.fields.items() if v is not None
@@ -501,6 +715,16 @@ class ComplaintSession:
 رسالة المستخدم: "استلمت منتجاً معطوباً ولم يرد المتجر على شكواي بعد أسبوعين"
 الناتج: {{"intent": "answer", "value": "استلمت منتجاً معطوباً ولم يرد المتجر على شكواي بعد أسبوعين"}}
 
+مثال ٨ — المستخدم يسأل سؤالاً قانونياً في منتصف الشكوى (ليس وصفاً للمشكلة):
+السؤال المطروح: ما هو تاريخ الطلب؟
+رسالة المستخدم: "بس قبل ما أكمل، هل أصلاً يحق لي أرجع المنتج؟"
+الناتج: {{"intent": "legal_question"}}
+
+مثال ٩ — السؤال المطروح هو حقل الوصف، والمستخدم يصف المشكلة ويُضمّن سؤالاً قانونياً:
+السؤال المطروح: صف المشكلة بالتفصيل — ماذا حدث بالضبط؟
+رسالة المستخدم: "اشتريت لابتوب وما يشتغل، وأبي أعرف هل يحق لي أرجعه"
+الناتج: {{"intent": "answer", "value": "اشتريت لابتوب وما يشتغل، وأبي أعرف هل يحق لي أرجعه"}}
+
 ---
 
 الآن صنّف هذه الرسالة:
@@ -508,6 +732,8 @@ class ComplaintSession:
 
 قاعدة حاسمة: إذا أعطى المستخدم قيمة للحقل الذي سُئل عنه — حتى لو استخدم عبارات مثل "في الحقيقة" أو "التصحيح هو" — فهذا دائماً "answer" وليس "correction".
 قاعدة إضافية: أي رسالة تُعدّ إجابةً مباشرةً على السؤال المطروح — بغض النظر عن طولها أو لغتها — هي دائماً "answer".
+قاعدة الأسئلة القانونية: إذا كان المستخدم يسأل سؤالاً قانونياً عن حقوقه أو نظام حماية المستهلك أو نظام التجارة الإلكترونية بدلاً من الإجابة على السؤال المطروح، صنّفه "legal_question".
+استثناء حقل الوصف: إذا كان السؤال المطروح هو وصف المشكلة، والمستخدم وصف المشكلة وأضاف سؤالاً قانونياً في نفس الرسالة، فهذا "answer" — لا تفقد وصف المشكلة.
 
 أعد JSON فقط:"""
 
@@ -564,6 +790,31 @@ class ComplaintSession:
         if not match:
             return None
         return match.group(0)
+
+    @staticmethod
+    def _clean_cr_number(raw: str) -> str | None:
+        """
+        Validate and normalize a Saudi commercial registration number.
+
+        Rules:
+            - Translate Arabic-Indic digits (٠-٩) to Western (0-9).
+            - Strip everything that isn't a digit (handles dashes,
+              spaces, surrounding text like "رقم السجل: 1010123456").
+            - Result must be exactly 10 digits.
+
+        Returns:
+            The cleaned 10-digit string if valid, otherwise None.
+        """
+        # Translate Arabic-Indic digits to Western
+        arabic_to_western = str.maketrans("٠١٢٣٤٥٦٧٨٩", "0123456789")
+        normalized = raw.translate(arabic_to_western)
+
+        # Keep only digits
+        digits_only = re.sub(r"\D", "", normalized)
+
+        if len(digits_only) == 10:
+            return digits_only
+        return None
 
     # ------------------------------------------------------------------ #
     # Response builders
